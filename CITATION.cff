@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite the Zenodo deposit via its DOI."
+doi: 10.5281/zenodo.22755472
+type: software
+title: "A regime-aware dual-porosity model of soil radon transport: blind pre-registered validation on 15 volcanic and tectonic sites and an analytical bound on permeability-driven amplification"
+authors:
+  - family-names: "De Siano"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0009-0003-5092-0112"
+version: "1.0.0"
+date-released: "2026-09-14"
+repository-code: "https://github.com/DanielDeSiano/Radon-and-Bradyseism-model"
+license: MIT
+keywords:
+  - radon transport
+  - dual porosity
+  - unsaturated zone
+  - blind validation
+  - pre-registration
+  - volcanic precursors
+  - bradyseism
+  - Campi Flegrei
+abstract: >
+  Complete model of Rn-222/Rn-220 transport in the unsaturated zone (dual
+  continuum, Richards flow, pneumatic pressure, moisture-dependent emanation,
+  activity-form decay chain, soil-building coupling), evaluated under a blind,
+  pre-registered protocol on 15 volcanic and tectonic sites. This repository
+  holds the model source; the preprint, the executable verification suite and
+  the sealed prediction manifest are in the Zenodo deposit.
