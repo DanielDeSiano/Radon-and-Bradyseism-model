@@ -1,0 +1,453 @@
+{
+  "year": 2017,
+  "top_awards": [
+    {
+      "award": "Gordon E. Moore Award",
+      "prize_usd": "75,000",
+      "names": "Zell, Ivo",
+      "title": "A Wing Is Enough: An Improved Flying Wing Based on a Bell-Shaped Lift Distribution",
+      "category": "Engineering Mechanics",
+      "school": "Internatsschule Schloss Hansenberg",
+      "location": "Lorch, Hessen, Germany",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/press-release/18-year-old-engineer-constructs-fuel-efficient-stable-flying-wing-aircraft-prototype/",
+        "https://www.intc.com/news-events/press-releases/detail/231/18-year-old-engineer-constructs-fuel-efficient-stable",
+        "https://www.snexplores.org/article/teens-garner-some-4-million-prizes-2017-intel-isef"
+      ]
+    },
+    {
+      "award": "Intel Foundation Young Scientist Award",
+      "prize_usd": "50,000",
+      "names": "Yang, Amber",
+      "title": "Multi-Orbit Space Debris Cloud Tracking Using Iterative Closest Points Registration with Machine Learning",
+      "category": "Physics and Astronomy",
+      "school": "Trinity Preparatory School (Winter Park, FL)",
+      "location": "Windermere, Florida, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/blog/intel-isef-winners-create-new-aircraft-design-track-space-debris-bring-reliable-internet-to-rural-towns/",
+        "https://www.snexplores.org/article/teens-garner-some-4-million-prizes-2017-intel-isef",
+        "https://ssefflorida.com/congratulations-florida-intel-international-science-engineering-fair-2017-grand-award-winners/"
+      ]
+    },
+    {
+      "award": "Intel Foundation Young Scientist Award",
+      "prize_usd": "50,000",
+      "names": "Pagliarino, Valerio",
+      "title": "LaserWAN - Laser Broadband Internet Connections",
+      "category": "Embedded Systems",
+      "school": "I.I.S. Nicola Pellati (Nizza Monferrato, Asti)",
+      "location": "Castelnuovo Calcea, Italy",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/blog/intel-isef-winners-create-new-aircraft-design-track-space-debris-bring-reliable-internet-to-rural-towns/",
+        "https://www.snexplores.org/article/teens-garner-some-4-million-prizes-2017-intel-isef",
+        "https://www.tecnelab.it/news/attualita/premiazioni---un-italiano-conquista-il-secondo-posto-allintel-isef"
+      ]
+    },
+    {
+      "award": "Dudley R. Herschbach SIYSS Award (trip to Stockholm International Youth Science Seminar / Nobel Prize ceremonies)",
+      "prize_usd": "all-expense-paid trip",
+      "names": "Movsesian, Karina",
+      "title": "The Role of RAD51 Mutation in Cancer Development",
+      "category": "Biochemistry",
+      "school": "Prvni Ceske Gymnazium v Karlovych Varech",
+      "location": "Karlovy Vary, Czech Republic",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/blog/teen-cancer-researchers-meet-nobel-laureates-in-stockholm/",
+        "https://www.societyforscience.org/isef/awards/herschbach_siyss_award/"
+      ]
+    },
+    {
+      "award": "Dudley R. Herschbach SIYSS Award (trip to Stockholm International Youth Science Seminar / Nobel Prize ceremonies)",
+      "prize_usd": "all-expense-paid trip",
+      "names": "Pate, Jeremiah",
+      "title": "Ameliorating Alpha-Synuclein Aggregation in Parkinson's Using Optimized Chaperones: An in silico Approach",
+      "category": "Translational Medical Science",
+      "school": "BASIS Oro Valley",
+      "location": "Oro Valley, Arizona, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/blog/teen-cancer-researchers-meet-nobel-laureates-in-stockholm/",
+        "https://sarsef.org/sarsef-student-wins-trip-nobel-prize-awards-stockholm-sweden/",
+        "https://www.tucsonlocalmedia.com/news/article_70ca82e6-5086-11e7-8433-67990ec6a758.html"
+      ]
+    },
+    {
+      "award": "Dudley R. Herschbach SIYSS Award (trip to Stockholm International Youth Science Seminar / Nobel Prize ceremonies)",
+      "prize_usd": "all-expense-paid trip",
+      "names": "Naidu, Prathik",
+      "title": "DNALoopR: A Novel High-Performance Machine Learning Predictor to Identify Genome-Wide 3D DNA Interactions in Cancer",
+      "category": "Computational Biology and Bioinformatics",
+      "school": "Thomas Jefferson High School for Science and Technology",
+      "location": "Alexandria, Virginia, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/blog/teen-cancer-researchers-meet-nobel-laureates-in-stockholm/",
+        "https://news.stanford.edu/2017/12/07/stanford-freshman-invited-present-research-nobel-prize-awards-ceremony/"
+      ]
+    },
+    {
+      "award": "European Union Contest for Young Scientists (EUCYS) Award (trip to EUCYS 2017, Tallinn, Estonia)",
+      "prize_usd": "all-expense-paid trip",
+      "names": "Zhang, Kendra",
+      "title": "A Paper-Based Microbial Fuel Cell for Glucose Monitoring in Saliva",
+      "category": "Energy: Chemical",
+      "school": "Jericho High School",
+      "location": "Jericho, New York, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/isef/awards/eu-young-scientists-award/",
+        "https://www.societyforscience.org/blog/science-research-pumps-motivation-into-my-veins-intel-isef-2017-finalists-take-on-estonia/"
+      ]
+    },
+    {
+      "award": "European Union Contest for Young Scientists (EUCYS) Award (trip to EUCYS 2017, Tallinn, Estonia)",
+      "prize_usd": "all-expense-paid trip",
+      "names": "Wojtania, Nicky",
+      "title": "Cellulose Nanocrystals for Security Applications: Embedding Non-Optical Signatures Provided by Nanoparticles into Cellulose Nanocrystal Chiral Nematic Films",
+      "category": "Materials Science",
+      "school": "Plano West Senior High School",
+      "location": "Plano, Texas, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/isef/awards/eu-young-scientists-award/",
+        "https://www.societyforscience.org/blog/science-research-pumps-motivation-into-my-veins-intel-isef-2017-finalists-take-on-estonia/"
+      ]
+    }
+  ],
+  "best_of_category": [
+    {
+      "category": "Animal Sciences",
+      "names": "Young, Jessica",
+      "title": "Synthesis of a Soy Protein Hydrogel for Invasive Snail Control in Agricultural Settings",
+      "school": "Palm Beach Central High School",
+      "location": "Wellington, Florida, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://ssefflorida.com/congratulations-florida-intel-international-science-engineering-fair-2017-grand-award-winners/"
+      ]
+    },
+    {
+      "category": "Behavioral and Social Sciences",
+      "names": "Smith, Erin",
+      "title": "A Novel, Telemedicine Diagnosing and Monitoring Tool for Parkinson's Disease: The Use of Digital Action Unit Biomarkers Generated by Spontaneous and Posed Facial Expressions",
+      "school": "Shawnee Mission West High School",
+      "location": "Overland Park, Kansas, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://en.wikipedia.org/wiki/Erin_Smith_(entrepreneur)"
+      ]
+    },
+    {
+      "category": "Biochemistry",
+      "names": "Movsesian, Karina",
+      "title": "The Role of RAD51 Mutation in Cancer Development",
+      "school": "Prvni Ceske Gymnazium v Karlovych Varech",
+      "location": "Karlovy Vary, Czech Republic",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://communities.acs.org/t5/International-Science/ISEF-2017-Chemistry-and-Biochemistry-Grand-Awards/ta-p/14063"
+      ]
+    },
+    {
+      "category": "Biomedical and Health Sciences",
+      "names": "Zhang, Daniel",
+      "title": "Genome-Based Discovery of Novel CpG Biomarkers for Early Diagnosis and Prognosis of Leukemia",
+      "school": "Westview High School",
+      "location": "San Diego, California, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://csef.usc.edu/History/2017/pictures/Portrait/43324.html"
+      ]
+    },
+    {
+      "category": "Biomedical Engineering",
+      "names": "Wagner, Clara",
+      "title": "Investigating Tuned Magneto-Rheological Reservoirs, Compression Systems, and Shear Thickening Fluids to Improve Mean Peak Acceleration as Measured by High-G Accelerometers in Hockey Headgear",
+      "school": "Saginaw Arts and Sciences Academy",
+      "location": "Saginaw, Michigan, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://flintsciencefair.org/clara-wagner-saginaw-arts-sciences-academy/"
+      ]
+    },
+    {
+      "category": "Cellular and Molecular Biology",
+      "names": "Huang, Davey",
+      "title": "A Morphokinetic and Machine Learning Model for Aneuploidy Screening of Human Preimplantation Embryos",
+      "school": "Iolani School",
+      "location": "Honolulu, Hawaii, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.hawaiiacademyofscience.org/science-fair-winners"
+      ]
+    },
+    {
+      "category": "Chemistry",
+      "names": "Fridberg, Kyle",
+      "title": "Discovery and Characterization of an Undocumented Ferric Sulfate Compound Formed by the Reaction of Gold Ore with Sulfuric Acid",
+      "school": "Fairview High School",
+      "location": "Boulder, Colorado, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://communities.acs.org/t5/International-Science/ISEF-2017-Chemistry-and-Biochemistry-Grand-Awards/ta-p/14063",
+        "https://cen.acs.org/articles/95/i22/Chemistry-projects-honored-international-chemistry.html"
+      ]
+    },
+    {
+      "category": "Computational Biology and Bioinformatics",
+      "names": "Naidu, Prathik",
+      "title": "DNALoopR: A Novel High-Performance Machine Learning Predictor to Identify Genome-Wide 3D DNA Interactions in Cancer",
+      "school": "Thomas Jefferson High School for Science and Technology",
+      "location": "Alexandria, Virginia, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=6773",
+        "https://americanbazaaronline.com/2017/05/24/indian-american-students-win-major-awards-at-intel-isef-2017425692/"
+      ]
+    },
+    {
+      "category": "Earth and Environmental Sciences",
+      "names": "Nayak, Adam",
+      "title": "Modeling the Effects of Land Use Change on Flooding in Pacific Northwest Streams to Promote Green Practices",
+      "school": "Cleveland High School",
+      "location": "Portland, Oregon, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.epa.gov/archive/epa/newsreleases/portland-students-plans-disrupt-urban-flooding-win-epa-award-worlds-largest-high-school.html",
+        "http://www.nwse.org/?q=node%2F414"
+      ]
+    },
+    {
+      "category": "Embedded Systems",
+      "names": "Pagliarino, Valerio",
+      "title": "LaserWAN - Laser Broadband Internet Connections",
+      "school": "I.I.S. Nicola Pellati (Nizza Monferrato, Asti)",
+      "location": "Castelnuovo Calcea, Italy",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/blog/intel-isef-winners-create-new-aircraft-design-track-space-debris-bring-reliable-internet-to-rural-towns/"
+      ]
+    },
+    {
+      "category": "Energy: Chemical",
+      "names": "Zhang, Kendra",
+      "title": "A Paper-Based Microbial Fuel Cell for Glucose Monitoring in Saliva",
+      "school": "Jericho High School",
+      "location": "Jericho, New York, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/isef/awards/eu-young-scientists-award/"
+      ]
+    },
+    {
+      "category": "Energy: Physical",
+      "names": "Miles, Camille",
+      "title": "Thermoelectric Generator Powered Tracking Concentrated Photovoltaic System",
+      "school": "Niceville High School",
+      "location": "Niceville, Florida, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://niceville.com/nhs-camille-miles-science-award/",
+        "https://ssefflorida.com/congratulations-florida-intel-international-science-engineering-fair-2017-grand-award-winners/"
+      ]
+    },
+    {
+      "category": "Engineering Mechanics",
+      "names": "Zell, Ivo",
+      "title": "A Wing Is Enough: An Improved Flying Wing Based on a Bell-Shaped Lift Distribution",
+      "school": "Internatsschule Schloss Hansenberg",
+      "location": "Lorch, Hessen, Germany",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any+Category&AllAbstracts=False&FairCountry=Any+Country&FairState=Any+State&ProjectId=5104"
+      ]
+    },
+    {
+      "category": "Environmental Engineering",
+      "names": "Ranganathan, Prashaant",
+      "title": "Biodegradation of Chlorpyrifos and Soil Remediation Using Native Soil Bacteria and Triton X - A Novel Approach",
+      "school": "Carmel Junior College",
+      "location": "Jamshedpur, Jharkhand, India",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://avenuemail.in/jamshedpur-boy-prashant-ranganathan-wins-top-intel-science-award-us/",
+        "https://www.examrace.com/Current-Affairs/NEWS-Indian-Boy-Wins-Intel-International-Science-Award-in-US.htm"
+      ]
+    },
+    {
+      "category": "Materials Science",
+      "names": "Wojtania, Nicky",
+      "title": "Cellulose Nanocrystals for Security Applications: Embedding Non-Optical Signatures Provided by Nanoparticles into Cellulose Nanocrystal Chiral Nematic Films",
+      "school": "Plano West Senior High School",
+      "location": "Plano, Texas, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.societyforscience.org/isef/awards/eu-young-scientists-award/"
+      ]
+    },
+    {
+      "category": "Mathematics",
+      "names": "Yegnesh, Karthik",
+      "title": "The Homotopy Theory of Parametrized Objects",
+      "school": "Methacton High School",
+      "location": "Eagleville (Montgomery County), Pennsylvania, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "http://friendsofpubliced.org/methacton-student-wins-top-math-research-project-in-the-world/",
+        "https://americanbazaaronline.com/2017/05/24/indian-american-students-win-major-awards-at-intel-isef-2017425692/"
+      ]
+    },
+    {
+      "category": "Microbiology",
+      "names": "Subramanian, Rahul",
+      "title": "An Early Warning System for Zika Virus in Mosquito Populations Based on Real-Time Field Detection of Viral RNA in Mosquito Saliva",
+      "school": "Greenwich High School",
+      "location": "Greenwich, Connecticut, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.greenwichschools.org/news/story-details/~post/ghs-junior-receives-grand-award-at-2017-intel-international-science-and-engineering-fair-20170522",
+        "https://www.greenwichtime.com/local/article/GHS-students-win-thousands-in-prize-money-at-2017-11164717.php"
+      ]
+    },
+    {
+      "category": "Physics and Astronomy",
+      "names": "Yang, Amber",
+      "title": "Multi-Orbit Space Debris Cloud Tracking Using Iterative Closest Points Registration with Machine Learning",
+      "school": "Trinity Preparatory School (Winter Park, FL)",
+      "location": "Windermere, Florida, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.snexplores.org/article/teens-garner-some-4-million-prizes-2017-intel-isef"
+      ]
+    },
+    {
+      "category": "Plant Sciences",
+      "names": "Bowland, Isabella",
+      "title": "Bad Altitude: Climate Change in the Alpine May Alter Beneficial Relationships between Plants and Their Fungal Symbionts",
+      "school": "Fairview High School",
+      "location": "Boulder, Colorado, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://alpinemicrobialobservatory.weebly.com/outreach/isabella-bowland-wins-first-place-in-plant-sciences-at-isef",
+        "https://clas.ucdenver.edu/denversciencefair/2017/06/08/2017-intel-isef-winners"
+      ]
+    },
+    {
+      "category": "Robotics and Intelligent Machines",
+      "names": "Schwarz, Tassilo",
+      "title": "Drone Defense System: Detection, Tracking, Classification and Targeting of Flight Objects in 3D and Real Time",
+      "school": "Johannes-Heidenhain-Gymnasium Traunreut",
+      "location": "Seeon, Bavaria, Germany",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=5103",
+        "https://tassilo-schwarz.com/"
+      ]
+    },
+    {
+      "category": "Systems Software",
+      "names": "Lee, Michael",
+      "title": "MFT: Improving Convolutional Object Tracking with Feed Separated Learning",
+      "school": "Manhasset High School",
+      "location": "Manhasset, New York, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://www.nyssef.org/awards"
+      ]
+    },
+    {
+      "category": "Translational Medical Science",
+      "names": "Pate, Jeremiah",
+      "title": "Ameliorating Alpha-Synuclein Aggregation in Parkinson's Using Optimized Chaperones: An in silico Approach",
+      "school": "BASIS Oro Valley",
+      "location": "Oro Valley, Arizona, USA",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+        "https://sarsef.org/sarsef-student-wins-trip-nobel-prize-awards-stockholm-sweden/",
+        "https://news.azpm.org/p/news-articles/2017/5/22/111000-oro-valley-student-wins-big-at-international-science-fair/"
+      ]
+    }
+  ],
+  "first_awards": [
+    {
+      "category": "Chemistry",
+      "names": "Das, Arnob",
+      "title": "Solution Grown and Tunable Plastic Magnets: Room Temperature Ferromagnetism in Mesoscopic Conjugated Polymer Rings",
+      "school": "Jesuit High School",
+      "location": "Portland, Oregon, USA",
+      "source_urls": [
+        "https://communities.acs.org/t5/International-Science/ISEF-2017-Chemistry-and-Biochemistry-Grand-Awards/ta-p/14063"
+      ]
+    },
+    {
+      "category": "Biomedical and Health Sciences",
+      "names": "Quryshi, Nabeel",
+      "title": "Crucial Role of Telomerase Activity in Mitigation of Chemotherapeutic/Cardiovascular Disease Induced Reactive Oxygen Species Mediated Oxidative Stress and Reconstitution of Microvascular (Endothelial) Function",
+      "school": "University School of Milwaukee",
+      "location": "Milwaukee, Wisconsin, USA",
+      "source_urls": [
+        "https://www.usm.org/about/usm-today/post/~board/2016-17-spring-summer/post/usms-top-scientists-compete-at-intel-international-science-and-engineering-fair",
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/"
+      ]
+    }
+  ],
+  "second_awards": [
+    {
+      "category": "Chemistry",
+      "names": "Kannan, Suganth",
+      "title": "Development of an Algorithm to Filter and Assign Signals in Protein NMR Spectroscopy to Accelerate Drug Discovery",
+      "source_urls": [
+        "https://communities.acs.org/t5/International-Science/ISEF-2017-Chemistry-and-Biochemistry-Grand-Awards/ta-p/14063"
+      ]
+    },
+    {
+      "category": "Robotics and Intelligent Machines",
+      "names": "Cheerla, Anika; Cheerla, Nikhil",
+      "title": "(title not captured in search content)",
+      "source_urls": [
+        "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/"
+      ]
+    }
+  ],
+  "notes": "EVENT: Intel ISEF 2017, Los Angeles Convention Center, Los Angeles, California, May 14-19, 2017 (awards ceremony Friday May 19). Society for Science & the Public press materials say 'nearly 2,000' / 'approximately 1,778' finalists from 78 countries, regions and territories; the USC Viterbi blog says 'over 1,775 students from 78 countries'; the Society program book says 'more than 1,750'. Keep 1,778 / 78 as the headline figures. Approximately 600 finalists received awards; ~US$4 million total awarded. TOP AWARDS: Gordon E. Moore Award $75,000 to Ivo Zell (18, Lorch/Hessen, Germany, Engineering Mechanics); two Intel Foundation Young Scientist Awards $50,000 each to Amber Yang (18, Windermere FL, Physics and Astronomy) and Valerio Pagliarino (17, Castelnuovo Calcea, Italy, Embedded Systems); together $175,000. The three top winners were also Best of Category winners in their own categories. No Craig R. Barrett, Horvitz, Peggy Scripps, Yancopoulos or Mary Sue Coleman awards existed in 2017 (those were introduced 2019+). BEST OF CATEGORY: the official press release says 22 Best of Category winners, each US$5,000 plus a US$1,000 Intel Foundation grant to the winner's school and to the affiliated fair; one search summary rendered this as '20' -- that is a summarization error, 22 categories/22 winners were in use in 2017 (Energy was still split into Energy: Chemical and Energy: Physical; Embedded Systems; Engineering Mechanics; no Technology Enhances the Arts yet). All 22 categories are filled above; none missing. Every Best of Category winner also received the First Award of $3,000 in their category. SIYSS: three Dudley R. Herschbach SIYSS Award winners in 2017 (Karina Movsesian, Jeremiah Pate, Prathik Naidu) per the Society blog 'Teen cancer researchers meet Nobel Laureates in Stockholm'; one search summary listed only two (Movsesian, Pate). EUCYS: two EU Contest for Young Scientists Award winners (Kendra Zhang, Nicky Wojtania) travelled to EUCYS 2017 in Tallinn, Estonia; Zhang won the Danone special award there. Also noted: Intel Foundation Cultural and Scientific Visit to China Award (CASTIC) went to five finalists including Erin Smith, Karthik Yegnesh and Tassilo Schwarz (other two not captured). DISAGREEMENTS/CAVEATS: (1) Prashaant Ranganathan's title appears in two forms -- short 'Biodegradation of Chlorpyrifos using native bacteria' (Indian press) vs. the official project code ENEV074 'Biodegradation of Chlorpyrifos and Soil Remediation Using Native Soil Bacteria and Triton X - A Novel Approach'; the long form is kept as the ISEF title. Indian press spells his name 'Prashant'; Society spelling 'Prashaant' kept. (2) Arnob Das: ACS community grand-awards page lists him as 2017 Chemistry First Award ($3,000); other web bios mention a Materials Science second award and a 2015 Chemistry third award -- likely different years, both noted. (3) Some search summaries mixed in other years' winners (e.g., Ethan Levy and Tanishka Aglave are 2018 winners; Michelle Marquez, Abhishek Verma/Daksh Dua, Garyk Brixi are 2018/2019; Michael Shao is 2015) -- these were excluded. (4) Karthik Yegnesh's city not confirmed from an ISEF source; Methacton High School is in Eagleville (Lower Providence Township), PA. (5) Karina Movsesian's school name is rendered without diacritics as in the Society press release ('Prvni Ceske Gymnazium v Karlovych Varech' = Prvni ceske gymnazium v Karlovych Varech). first_awards and second_awards are intentionally partial (only entries seen explicitly in search content); the full category-by-category grand-award list (First $3,000 / Second $1,500 / Third $1,000 / Fourth $500) is in the Society's 2017 Grand Award press release, which could not be fetched directly (WebFetch blocked).",
+  "sources_used": [
+    "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/",
+    "https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-special-award-winners/",
+    "https://www.societyforscience.org/press-release/18-year-old-engineer-constructs-fuel-efficient-stable-flying-wing-aircraft-prototype/",
+    "https://www.intc.com/news-events/press-releases/detail/231/18-year-old-engineer-constructs-fuel-efficient-stable",
+    "https://www.societyforscience.org/isef/intel-isef-2017/",
+    "https://www.societyforscience.org/blog/intel-isef-winners-create-new-aircraft-design-track-space-debris-bring-reliable-internet-to-rural-towns/",
+    "https://www.societyforscience.org/blog/teen-cancer-researchers-meet-nobel-laureates-in-stockholm/",
+    "https://www.societyforscience.org/blog/science-research-pumps-motivation-into-my-veins-intel-isef-2017-finalists-take-on-estonia/",
+    "https://www.societyforscience.org/blog/embracing-your-inner-nerd-intel-isef-2017-finalists-take-on-china/",
+    "https://www.societyforscience.org/isef/awards/herschbach_siyss_award/",
+    "https://www.societyforscience.org/isef/awards/eu-young-scientists-award/",
+    "https://www.snexplores.org/article/teens-garner-some-4-million-prizes-2017-intel-isef",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair",
+    "https://science-fair.org/2017-intel-isef-winners/",
+    "https://ssefflorida.com/congratulations-florida-intel-international-science-engineering-fair-2017-grand-award-winners/",
+    "https://communities.acs.org/t5/International-Science/ISEF-2017-Chemistry-and-Biochemistry-Grand-Awards/ta-p/14063",
+    "https://americanbazaaronline.com/2017/05/24/indian-american-students-win-major-awards-at-intel-isef-2017425692/",
+    "https://viterbigradadmission.usc.edu/2017/05/intel-isef-2017/",
+    "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2017/Attendees/Programs/Book.pdf",
+    "https://sarsef.org/sarsef-student-wins-trip-nobel-prize-awards-stockholm-sweden/",
+    "https://www.epa.gov/archive/epa/newsreleases/portland-students-plans-disrupt-urban-flooding-win-epa-award-worlds-largest-high-school.html",
+    "https://avenuemail.in/jamshedpur-boy-prashant-ranganathan-wins-top-intel-science-award-us/",
+    "https://www.greenwichschools.org/news/story-details/~post/ghs-junior-receives-grand-award-at-2017-intel-international-science-and-engineering-fair-20170522",
+    "http://friendsofpubliced.org/methacton-student-wins-top-math-research-project-in-the-world/",
+    "https://niceville.com/nhs-camille-miles-science-award/",
+    "https://alpinemicrobialobservatory.weebly.com/outreach/isabella-bowland-wins-first-place-in-plant-sciences-at-isef",
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=5103",
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=6773",
+    "https://tassilo-schwarz.com/",
+    "https://flintsciencefair.org/clara-wagner-saginaw-arts-sciences-academy/",
+    "https://csef.usc.edu/History/2017/pictures/Portrait/43324.html",
+    "https://www.usm.org/about/usm-today/post/~board/2016-17-spring-summer/post/usms-top-scientists-compete-at-intel-international-science-and-engineering-fair",
+    "https://news.stanford.edu/2017/12/07/stanford-freshman-invited-present-research-nobel-prize-awards-ceremony/",
+    "https://www.tecnelab.it/news/attualita/premiazioni---un-italiano-conquista-il-secondo-posto-allintel-isef"
+  ]
+}

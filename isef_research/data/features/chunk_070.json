@@ -1,0 +1,2211 @@
+[
+ {
+  "pid": "2023-8565",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "carbon sequestration",
+   "electrolysis",
+   "dawsonite",
+   "ocean acidification"
+  ],
+  "problem_one_line_it": "Sequestrare CO2 dall'acqua marina tramite elettrolisi producendo dawsonite, ottimizzando tempo, distanza e voltaggio.",
+  "method_steps": [
+   "Preparare 100 mL acqua distillata con 0,2 mol CO2 e 0,05 mol NaCl",
+   "Variare tempo (5-15 min), distanza elettrodi (1-2 in) e voltaggio (1-3 batterie 9V)",
+   "Eseguire 54 prove con tutte le combinazioni",
+   "Misurare produzione di dawsonite e variazione di pH",
+   "Analizzare con correlazioni, t-test a due code e modelli predittivi",
+   "Ripetere l'esperimento migliore scalato x0,5, x2, x3"
+  ],
+  "techniques": [
+   "electrolysis",
+   "carbon sequestration",
+   "pH measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "9V batteries",
+   "aluminum electrodes"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "54 trials, 100 mL per trial; scale-up 0.5x/2x/3x",
+  "statistics_used": [
+   "two-tailed t-test",
+   "correlation coefficient",
+   "prediction models"
+  ],
+  "key_quant_results": [
+   "trial 16 (1 in, 1 battery, 10 min) most efficient",
+   "t value 0.11 vs trial 18",
+   "correlation coefficient 0.03 for battery count",
+   "yield scaled proportionally at 0.5x/2x/3x"
+  ],
+  "novelty_claim": "tested a lesser known method of carbon sequestration known as electrolysis to recover dawsonite from saltwater",
+  "application": "carbon sequestration from seawater; dawsonite as fire retardant",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Further experiments to find point of maximal efficiency and best aluminum type",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8579",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "third",
+  "research_type": "computational",
+  "domain_tags": [
+   "PM2.5",
+   "air quality",
+   "remote sensing",
+   "machine learning",
+   "Mexico"
+  ],
+  "problem_one_line_it": "Stimare la distribuzione continua di PM2.5 in Messico dove le stazioni di monitoraggio a terra sono scarse.",
+  "method_steps": [
+   "Raccogliere dati satellitari, monitoraggio storico a terra e variabili di uso del suolo",
+   "Costruire un modello nazionale di stima PM2.5",
+   "Confrontare con stime orarie MERRA-2 NASA per il 2018",
+   "Addestrare un modello ML con dati a terra, meteo e simulazioni fisiche",
+   "Validare con cross-validation"
+  ],
+  "techniques": [
+   "remote sensing",
+   "land-use regression",
+   "machine learning"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "machine-learning model (unspecified)"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "NASA MERRA-2",
+   "satellite data",
+   "ground pollutant monitoring stations"
+  ],
+  "sample_size_or_scale": "all of Mexico, year 2018",
+  "statistics_used": [
+   "cross-validation",
+   "R score"
+  ],
+  "key_quant_results": [
+   "cross-validated R up to 0.88",
+   "first continuous PM2.5 map over Mexico"
+  ],
+  "novelty_claim": "the first continuous map of fine particulate matter (PM2.5) over Mexico",
+  "application": "air-quality monitoring in developing nations; baseline for regional studies",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Methods meant to be applied to other regions as baseline",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2023-8507",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "primate behavior",
+   "climate change",
+   "Macaca mulatta",
+   "thermoregulation"
+  ],
+  "problem_one_line_it": "Spiegare l'alta frequenza di tuffi dei macachi a Hong Kong, non riconducibile al solo gioco.",
+  "method_steps": [
+   "Osservare in loco i macachi al Kam Shan Country Park",
+   "Registrare temperatura e umidità con termometri e igrometri",
+   "Integrare dati dell'Osservatorio di Hong Kong (stazione Sha Tin)",
+   "Correlare frequenza dei tuffi con temperatura (Welch t-test)"
+  ],
+  "techniques": [
+   "field behavioral observation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "thermometer",
+   "hygrometer"
+  ],
+  "data_sources": [
+   "Hong Kong Observatory (Sha Tin station)"
+  ],
+  "sample_size_or_scale": "up to 169 dives/hour observed; site Kam Shan Country Park",
+  "statistics_used": [
+   "Welch two-sample t-test",
+   "p=0.005"
+  ],
+  "key_quant_results": [
+   "dive frequency correlated with air temperature p=0.005",
+   "high-frequency dives at 30-31 C in summer"
+  ],
+  "novelty_claim": "high frequency dives and their temperature never documented in Hong Kong; attributed to climate change",
+  "application": "primate ecology and climate-change impact assessment",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "statistics reported",
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2023-8509",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "hurricane",
+   "rapid intensification",
+   "CNN",
+   "satellite rainfall",
+   "deep learning"
+  ],
+  "problem_one_line_it": "Prevedere la rapida intensificazione dei cicloni tropicali, lacuna dei modelli operativi SHIPS RII.",
+  "method_steps": [
+   "Ottenere 20 anni di dati pioggia IMERG (GPM NASA) per cicloni atlantici",
+   "Progettare HRICNN per rilevare strutture di pioggia (simmetria) più predittori SHIPS",
+   "Testare 4 raggi di dati IMERG, scelto 300 km",
+   "Addestrare su TC 2000-2017, testare su 2018-2019",
+   "Confrontare con SHIPS RII tramite skill score"
+  ],
+  "techniques": [
+   "convolutional neural network",
+   "satellite image analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "CNN (HRICNN)"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "NASA GPM IMERG",
+   "SHIPS predictors",
+   "National Hurricane Center"
+  ],
+  "sample_size_or_scale": "20 years of Atlantic TCs (train 2000-2017, test 2018-2019)",
+  "statistics_used": [
+   "Peirce Skill Score",
+   "Brier Skill Score",
+   "probability of detection",
+   "false alarm ratio"
+  ],
+  "key_quant_results": [
+   "Peirce Skill Score +73% vs SHIPS RII",
+   "Brier Skill Score +13%",
+   "POD +7%",
+   "FAR -3%"
+  ],
+  "novelty_claim": "novel Hurricane Rapid Intensification CNN using satellite rainfall images plus SHIPS predictors",
+  "application": "operational hurricane forecasting (NHC)",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8514",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "flood forecasting",
+   "IoT",
+   "LSTM",
+   "nowcasting",
+   "low-cost"
+  ],
+  "problem_one_line_it": "Fornire previsioni di alluvione in tempo reale a basso costo per paesi in via di sviluppo privi di radar.",
+  "method_steps": [
+   "Sviluppare modello statistico (serie temporali + regressione) per alluvioni da pioggia prolungata",
+   "Costruire modello deep learning di nowcasting: LSTM per feature + segmentazione semantica delle nuvole",
+   "Assemblare struttura in legno con sensori e microcontrollori",
+   "Testare il modello statistico in condizioni meteo reali"
+  ],
+  "techniques": [
+   "time-series regression",
+   "precipitation nowcasting",
+   "semantic segmentation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "LSTM",
+   "semantic segmentation model"
+  ],
+  "hardware_instruments": [
+   "sensors",
+   "microcontrollers",
+   "wooden housing"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "time series regression"
+  ],
+  "key_quant_results": [
+   "gadget deemed reliable and affordable (no numbers)"
+  ],
+  "novelty_claim": "AI last-minute flood warning gadget combining IoT, robotics and deep learning affordable for rural communities",
+  "application": "flood warning in developing and rural communities",
+  "has_field_work": true,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8540",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "denitrification",
+   "cover crops",
+   "bioreactor",
+   "agricultural runoff"
+  ],
+  "problem_one_line_it": "Ridurre i nitrati nelle acque di scolo agricole prima che raggiungano il Golfo del Messico.",
+  "method_steps": [
+   "Piantare 12 vassoi per ciascuna cover crop (avena, grano, segale)",
+   "Raccogliere acqua di scolo dalla fattoria e acqua di pozzo ad alto nitrato",
+   "Nebulizzare l'acqua sulle piante e raccoglierla sotto per il test",
+   "Attivare bioreattore con 600 g di cippato in acqua per 24 h",
+   "Far percolare ogni acqua nel cippato per 6 h e testare"
+  ],
+  "techniques": [
+   "woodchip bioreactor",
+   "nitrate testing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "woodchip bioreactor",
+   "planter trays"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "36 planter trays (12 x 3 crops), 2 wells + farm runoff, 600 g woodchips",
+  "statistics_used": [],
+  "key_quant_results": [
+   "oats removed the greatest amount of nitrates"
+  ],
+  "novelty_claim": "comparison of bioreactor and three cover crops for nitrate removal",
+  "application": "farm runoff treatment; Gulf of Mexico hypoxia",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Hypothesis (rye best) not supported",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2023-8548",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "soil organic carbon",
+   "Landsat 8",
+   "LightGBM",
+   "regenerative agriculture",
+   "remote sensing"
+  ],
+  "problem_one_line_it": "Quantificare a basso costo il carbonio organico del suolo con satelliti invece di campionamenti manuali costosi.",
+  "method_steps": [
+   "Collegare Harmonized World Soil Database a immagini Landsat 8",
+   "Applicare pan-sharpening e correzione topografica",
+   "Estrarre 151 indici spettrali",
+   "Addestrare modelli ML (LightGBM migliore)",
+   "Usare dataset AgEvidence per prevedere impatto pratiche agricole",
+   "Sviluppare due nuovi indici spettrali e una app mobile"
+  ],
+  "techniques": [
+   "panchromatic image sharpening",
+   "topographic correction",
+   "spectral index extraction",
+   "machine learning regression"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "LightGBM"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "Harmonized World Soil Database",
+   "NASA/USGS Landsat 8",
+   "AgEvidence"
+  ],
+  "sample_size_or_scale": "151 spectral indices; global soil database",
+  "statistics_used": [
+   "RMSE"
+  ],
+  "key_quant_results": [
+   "LightGBM RMSE 0.97 for SOC",
+   "RMSE <5 for each practice-impact category",
+   "two novel spectral indices"
+  ],
+  "novelty_claim": "two novel spectral indices to quantify topsoil and subsoil SOC plus a farmer-facing mobile app",
+  "application": "farmers adopting regenerative agriculture; carbon monitoring",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8549",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "harmful algal blooms",
+   "Daphnia magna",
+   "biomanipulation",
+   "microplastics"
+  ],
+  "problem_one_line_it": "Trovare il genotipo di Daphnia magna più efficace per prevenire fioriture algali in condizioni ambientali diverse.",
+  "method_steps": [
+   "Confrontare genotipi di D. magna per consumo di alghe",
+   "Testare il genotipo migliore con fango di stagno, nutrienti, microplastiche e carbonato di calcio",
+   "Analisi statistica dei risultati"
+  ],
+  "techniques": [
+   "biomanipulation",
+   "zooplankton culture"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "statistical analysis (unspecified)"
+  ],
+  "key_quant_results": [
+   "genotype 4 ideal",
+   "effective in nutrient- and plastic-polluted water",
+   "CaCO3 and microbes improve success"
+  ],
+  "novelty_claim": "first comparison of D. magna genotypes for algae-bloom biomanipulation (continuation of 2021 work)",
+  "application": "treatment and prevention of harmful algal blooms",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8551",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "mangroves",
+   "IoT",
+   "ESP32",
+   "environmental sensors",
+   "open source"
+  ],
+  "problem_one_line_it": "Monitorare in tempo reale e a basso costo i parametri fisici che influenzano la crescita delle mangrovie.",
+  "method_steps": [
+   "Selezionare parametri: livello acqua, ossigeno disciolto, temperatura, luce, umidità fogliare",
+   "Costruire nodo con ESP32 Wi-Fi e sensori sommersi e fogliari",
+   "Trasmettere dati ogni minuto via MQTT",
+   "Sviluppare sistema cloud open-source, sito web e app mobile"
+  ],
+  "techniques": [
+   "IoT sensing",
+   "MQTT protocol"
+  ],
+  "software_tools": [
+   "MQTT",
+   "cloud platform (unspecified)"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "ESP32",
+   "dissolved oxygen sensor",
+   "water level sensor",
+   "temperature sensor",
+   "light sensor",
+   "humidity sensor"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "data every minute",
+  "statistics_used": [],
+  "key_quant_results": [
+   "first scalable low-cost replicable mangrove monitoring system (no numbers)"
+  ],
+  "novelty_claim": "first scalable, low-cost, replicable open-source mangrove monitoring system",
+  "application": "mangrove conservation; rapid response to threats",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "open source / code released",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8577",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "crop yield forecasting",
+   "MODIS",
+   "vegetation indices",
+   "Google Earth Engine"
+  ],
+  "problem_one_line_it": "Prevedere la resa agricola a livello di contea senza i costosi sondaggi USDA, che forniscono solo dati statali.",
+  "method_steps": [
+   "Scaricare indici di vegetazione MODIS su Google Earth Engine",
+   "Correlare VI mensili con rese finali di contea",
+   "Formulare regressione pesata con trend polinomiale di lungo periodo",
+   "Riaddestrare annualmente e prevedere l'anno successivo",
+   "Validare su mais in Illinois e Iowa 2013-2021 vs USDA NASS"
+  ],
+  "techniques": [
+   "weighted regression",
+   "polynomial trend",
+   "vegetation index analysis"
+  ],
+  "software_tools": [
+   "Google Earth Engine"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "MODIS",
+   "USDA NASS"
+  ],
+  "sample_size_or_scale": "all counties of Illinois and Iowa, 2013-2021 (8 years)",
+  "statistics_used": [
+   "correlation",
+   "weighted regression",
+   "median absolute percent error",
+   "MAPE"
+  ],
+  "key_quant_results": [
+   "max VI vs yield correlation 0.9177",
+   "county median APE 6.03% (IL) and 5.9% (IA)",
+   "state MAPE 3.69% vs USDA 4.31%"
+  ],
+  "novelty_claim": "simple county-level yield forecasting at no cost that beats USDA state forecasts",
+  "application": "food security; farmers and policymakers",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art",
+   "statistics reported",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2023-8580",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "seaweed",
+   "ZnO sunscreen",
+   "fertilizer",
+   "invasive species",
+   "Hawaii"
+  ],
+  "problem_one_line_it": "Valutare l'effetto delle creme solari ZnO su alghe hawaiane e riutilizzare l'invasiva G. salicornia come fertilizzante.",
+  "method_steps": [
+   "Esporre G. coronopifolia (endemica) e G. salicornia (invasiva) a creme ZnO per 3 mesi",
+   "Misurare lunghezza e apici due volte a settimana",
+   "Produrre 4 fertilizzanti (fermentati 10%/25%, essiccati 1%/2,5%)",
+   "Testare germinazione e radichetta su mais, fagiolo, lattuga",
+   "Testare crescita di broccoli, lattuga, peperone (altezza, foglie, area fogliare)"
+  ],
+  "techniques": [
+   "fermentation",
+   "desiccation",
+   "germination assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "3 months, measurements twice weekly; multiple crop species",
+  "statistics_used": [
+   "significance tests (unspecified)"
+  ],
+  "key_quant_results": [
+   "high-ZnO sunscreen significantly reduced endemic seaweed length",
+   "10% liquid fertilizer significantly increased radicle length in all seeds",
+   "2.5% dry fertilizer detrimental"
+  ],
+  "novelty_claim": "first study of ZnO sunscreen on Hawaiian Gracilaria and conversion of invasive seaweed into fertilizer",
+  "application": "Hawaiian ecosystems and agriculture",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Future research on biochemical basis of liquid vs dry fertilizer differences",
+  "quality_flags": [
+   "controls described",
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8502",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "redox flow battery",
+   "anthraquinone",
+   "energy storage",
+   "membrane-free"
+  ],
+  "problem_one_line_it": "Sviluppare una batteria a flusso redox economica a ioni organici senza membrana ionica costosa.",
+  "method_steps": [
+   "Progettare cella con fasi immiscibili diclorometano/acqua",
+   "Sciogliere NaBr e NaCl in acqua e antrachinone in diclorometano",
+   "Sfruttare la differenza di potenziale tra antrachinone e ione trialogenuro BrCl2"
+  ],
+  "techniques": [
+   "electrochemistry",
+   "biphasic redox flow cell"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "no quantitative results reported"
+  ],
+  "novelty_claim": "membrane-free redox flow battery based on inexpensive organic ions in immiscible solvents",
+  "application": "grid-scale energy storage",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "ABSTRACT MISMATCH: title is about microplastics/organophosphates but abstract describes redox flow battery; abstract is design-stage only",
+  "quality_flags": []
+ },
+ {
+  "pid": "2023-8503",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "microplastics",
+   "ferrofluid",
+   "water remediation",
+   "ImageJ"
+  ],
+  "problem_one_line_it": "Rimuovere microplastiche dall'acqua con ferrofluidi a base di oli vegetali.",
+  "method_steps": [
+   "Preparare ferrofluidi con olio di senape, colza e vegetale",
+   "Sospendere le 6 plastiche più comuni in acqua (controlli)",
+   "Trattare ogni sospensione con ciascun ferrofluido e campo magnetico",
+   "Microscopia e analisi ImageJ dei tassi di estrazione",
+   "Test statistici vs controlli"
+  ],
+  "techniques": [
+   "ferrofluid magnetic extraction",
+   "microscopy"
+  ],
+  "software_tools": [
+   "ImageJ"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "microscope",
+   "magnet"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "6 plastic types x 3 oils plus controls",
+  "statistics_used": [
+   "statistical significance test (unspecified)"
+  ],
+  "key_quant_results": [
+   "significant increase in extraction over control",
+   "canola oil ferrofluid most effective overall"
+  ],
+  "novelty_claim": "oil-based ferrofluids of intermediate toxicity/viscosity/oleic-acid content best extract microplastics",
+  "application": "microplastic removal from water",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8512",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "phytoremediation",
+   "nitrates",
+   "phosphates",
+   "aquatic plants"
+  ],
+  "problem_one_line_it": "Verificare se Lemna minor, Elodea e Pistia stratiotes riducono nitrati e fosfati in acque inquinate.",
+  "method_steps": [
+   "Acquistare le tre piante acquatiche",
+   "Preparare ciotole con miscela nitrato-fosfato e misurare i livelli iniziali",
+   "Inserire ogni pianta in due ciotole",
+   "Rimisurare nitrati e fosfati e confrontare"
+  ],
+  "techniques": [
+   "water nutrient testing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "3 species x 2 bowls",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Lemna minor lowered nitrates but raised phosphates",
+   "Elodea and Pistia lowered both"
+  ],
+  "novelty_claim": "",
+  "application": "water quality management",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2023-8524",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "fertilizer runoff",
+   "eutrophication",
+   "nitrates",
+   "phosphates"
+  ],
+  "problem_one_line_it": "Trovare alternative ai fertilizzanti chimici che riducano N e P nel deflusso superficiale.",
+  "method_steps": [
+   "Quattro contenitori di microgreens con terriccio + (terriccio, letame, compost o DAP)",
+   "Annaffiare per 8 giorni con acqua distillata e raccogliere il deflusso",
+   "Testare nitrati, nitriti e fosfati con kit",
+   "Confrontare anche la crescita delle piante"
+  ],
+  "techniques": [
+   "runoff nutrient testing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "water testing kits"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "4 treatments, 8 days",
+  "statistics_used": [],
+  "key_quant_results": [
+   "DAP runoff lowest in N and P compounds but no growth gain",
+   "manure improved growth but high P"
+  ],
+  "novelty_claim": "",
+  "application": "farm fertilizer practices; eutrophication reduction",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Hypothesis (manure lowest runoff nutrients) not supported; DAP concentration to be explored",
+  "quality_flags": [
+   "clear hypothesis",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2023-8525",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "microplastics",
+   "Nile Red",
+   "fluorescence microscopy",
+   "FTIR",
+   "Long Island"
+  ],
+  "problem_one_line_it": "Quantificare e caratterizzare le microplastiche nelle acque superficiali dolci e salate di Long Island.",
+  "method_steps": [
+   "Raccogliere acqua superficiale da siti dolci e salati",
+   "Colorare con Nile Red e filtrare con sistema a vuoto Millipore",
+   "Illuminare con luce blu 440-460 nm e filtro passa-lungo 500 nm",
+   "Contare con microscopio digitale Celestron",
+   "Analizzare composizione con microscopia infrarossa"
+  ],
+  "techniques": [
+   "Nile Red staining",
+   "vacuum filtration",
+   "fluorescence microscopy",
+   "infrared microscopy"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "Millipore vacuum filtration system",
+   "Night Sea SFA beam light",
+   "Celestron digital microscope",
+   "infrared microscope"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "six 500 mL samples, 229 MPs",
+  "statistics_used": [],
+  "key_quant_results": [
+   "229 MPs in six samples",
+   "avg 7.8 MPs per 100 mL",
+   "PET found at Robert Moses State Park, cellophane in Argyle Lake"
+  ],
+  "novelty_claim": "",
+  "application": "local water resource protection",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Future work on heavy metals (cadmium, arsenic) in MPs; IR analysis ongoing",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2023-8530",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "Acod1",
+   "itaconate",
+   "scRNA-seq",
+   "tumor immunology",
+   "MDSC"
+  ],
+  "problem_one_line_it": "Identificare quali cellule del microambiente tumorale esprimono Acod1/IRG1 e producono itaconato immunosoppressivo.",
+  "method_steps": [
+   "Raccogliere dati scRNA-seq pubblici di 7 tumori murini",
+   "Analizzare l'espressione di Acod1 per cluster cellulare",
+   "Identificare popolazioni MDSC (PMN e M) tramite marcatori",
+   "Correlazione di Spearman tra IRG1 e un set di 22 geni"
+  ],
+  "techniques": [
+   "single-cell RNA-seq analysis",
+   "clustering",
+   "marker-based cell typing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "public scRNA-seq datasets (7 murine tumors)"
+  ],
+  "sample_size_or_scale": "7 murine tumors",
+  "statistics_used": [
+   "Spearman correlation"
+  ],
+  "key_quant_results": [
+   "highest Acod1 in PMN-MDSC-like clusters",
+   "IRG1 concordant with 22-gene neutrophil signature"
+  ],
+  "novelty_claim": "comprehensive scRNA-seq mapping of Acod1 expression within the tumor immune microenvironment",
+  "application": "cancer immunotherapy targets",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "ABSTRACT MISMATCH: title is about Ulva lactuca/ocean acidification but abstract is a cancer scRNA-seq study; further characterization of populations needed",
+  "quality_flags": [
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8531",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "microplastics",
+   "algae",
+   "bioremediation"
+  ],
+  "problem_one_line_it": "Determinare quale specie di alga cattura meglio le microplastiche.",
+  "method_steps": [
+   "Coltivare 6 specie di alghe per una settimana",
+   "Aggiungere 50 microsfere da scrub viso a ogni beuta",
+   "Selezionare le 4 specie che catturano; nuove colture in 3 piastre con 125 microplastiche",
+   "Analizzare a 1 e 2 settimane"
+  ],
+  "techniques": [
+   "algal culture"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "6 species; 4 species x 3 petri dishes x 125 beads; 2 weeks",
+  "statistics_used": [],
+  "key_quant_results": [
+   "4 of 6 species caught microplastics",
+   "Oscillatoria caught all microplastics"
+  ],
+  "novelty_claim": "",
+  "application": "microplastic removal from environment",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2023-8560",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "submarine groundwater discharge",
+   "karst",
+   "coral",
+   "salinity",
+   "Guam"
+  ],
+  "problem_one_line_it": "Mappare le sorgenti sommerse di acqua dolce invisibili nella baia di Tumon e il loro effetto sui coralli.",
+  "method_steps": [
+   "Rilevare salinità e pH lungo la baia con salinometro",
+   "Identificare due aree di scarico concentrato più minori",
+   "Osservare in loco le comunità coralline adiacenti (Acropora, Porites)",
+   "Collegare energia d'onda e pH alla tipologia di corallo"
+  ],
+  "techniques": [
+   "salinity survey",
+   "pH measurement",
+   "coral community observation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "salinity meter",
+   "pH meter"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "Tumon Bay, Guam; 2 major seeps",
+  "statistics_used": [],
+  "key_quant_results": [
+   "two concentrated freshwater discharge areas found",
+   "distinct coral communities (Acropora vs Porites) tied to seeps"
+  ],
+  "novelty_claim": "first study to document presence, location and consequences of invisible freshwater discharges across Tumon Bay",
+  "application": "coral planting strategy, protected areas, tourism",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8561",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "carbon sequestration",
+   "CFD",
+   "fractured reservoirs",
+   "capillary trapping",
+   "HPC"
+  ],
+  "problem_one_line_it": "Valutare il rischio di fuga di CO2 iniettata in formazioni geologiche attraverso fratture rugose.",
+  "method_steps": [
+   "Impostare simulazioni CFD di trasporto CO2-acqua in fratture a pareti rugose",
+   "Variare apertura, rugosità e bagnabilità",
+   "Variare tasso di iniezione",
+   "Analizzare regimi di spostamento e intrappolamento capillare"
+  ],
+  "techniques": [
+   "computational fluid dynamics",
+   "high-performance computing",
+   "two-phase flow simulation"
+  ],
+  "software_tools": [
+   "HPC cluster (unspecified)"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "tight aperture: CO2 bypasses high-capillary-pressure water",
+   "less water-wet: more capillary trapping",
+   "higher injection rate: fingering instability"
+  ],
+  "novelty_claim": "novel insight of CO2 behavior in rough-walled fractures for GCS leakage risk",
+  "application": "geologic carbon sequestration leakage risk assessment",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2023-8567",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "Alzheimer",
+   "PARP-1",
+   "drug repurposing",
+   "random forest",
+   "molecular docking"
+  ],
+  "problem_one_line_it": "Individuare farmaci FDA approvati che inibiscano PARP-1 come terapia per l'Alzheimer.",
+  "method_steps": [
+   "Generare descrittori molecolari multimodali",
+   "Addestrare random forest di regressione per IC50 su PARP-1",
+   "Screening in silico di >1000 composti",
+   "Docking molecolare di Topotecan e Irinotecan",
+   "Analisi dell'espressione genica differenziale cerebrale con Topotecan"
+  ],
+  "techniques": [
+   "QSAR regression",
+   "virtual screening",
+   "molecular docking",
+   "differential gene expression analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "random forest regression"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "FDA-approved drug library",
+   "gene expression data (unspecified)"
+  ],
+  "sample_size_or_scale": ">1000 compounds screened",
+  "statistics_used": [],
+  "key_quant_results": [
+   "top 3 predicted inhibitors: Bryamycin, Topotecan, Irinotecan",
+   "Topotecan more potent than Irinotecan in docking"
+  ],
+  "novelty_claim": "ML-driven repurposing of FDA drugs as PARP-1 inhibitors for AD",
+  "application": "Alzheimer's therapeutics",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "ABSTRACT MISMATCH: title is FloodCast flood mapping but abstract is PARP-1/Alzheimer ML study; needs biochemical and animal validation",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2023-8575",
+  "year": 2023,
+  "category": "Earth and Environmental Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "coastal erosion",
+   "sea walls",
+   "wave simulator",
+   "Hawaii"
+  ],
+  "problem_one_line_it": "Determinare quale barriera costiera riduce meglio l'erosione.",
+  "method_steps": [
+   "Costruire simulatore d'onda",
+   "Testare nessuna barriera, rocce, muro marino, reef e dune",
+   "Confrontare erosione e durata"
+  ],
+  "techniques": [
+   "wave tank simulation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "wave simulator"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "5 barrier types",
+  "statistics_used": [],
+  "key_quant_results": [
+   "sea walls showed least erosion and lasted longest"
+  ],
+  "novelty_claim": "",
+  "application": "coastal protection in Hawaii",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2023-8587",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "first",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "modular robotics",
+   "swarm robotics",
+   "self-assembly",
+   "computer vision",
+   "AprilTags"
+  ],
+  "problem_one_line_it": "Costruire un sistema di robot modulari che si autoassemblano per adattarsi a compiti e carichi variabili.",
+  "method_steps": [
+   "Progettare modulo con 4 DoF, ruote, Bluetooth/Wi-Fi e connettore elettromagnetico",
+   "Costruire 4 moduli",
+   "Implementare localizzazione con AprilTags e OpenCV e controllo PID",
+   "Testare velocità in diverse configurazioni, con carico, e forza di connessione",
+   "Costruire ambienti di test per validare l'autoassemblaggio"
+  ],
+  "techniques": [
+   "PID control",
+   "fiducial-marker localization",
+   "electromagnetic coupling"
+  ],
+  "software_tools": [
+   "OpenCV",
+   "AprilTags"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "electromagnets",
+   "wheels/motors",
+   "Bluetooth module",
+   "Wi-Fi module"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "4 modules built",
+  "statistics_used": [],
+  "key_quant_results": [
+   "4 modules built with 4 DoF each (no numeric performance given)"
+  ],
+  "novelty_claim": "fully automatic self-assembling modular robot system with electromagnet connections and vision control",
+  "application": "search and rescue, infrastructure monitoring, logistics",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8585",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "assistive technology",
+   "visual impairment",
+   "object detection",
+   "navigation",
+   "smart glasses"
+  ],
+  "problem_one_line_it": "Dare mobilità sicura e indipendente ai non vedenti a costo molto inferiore ai dispositivi esistenti.",
+  "method_steps": [
+   "Progettare occhiali con PCB custom",
+   "Sviluppare algoritmi di mappatura e navigazione automatica",
+   "Addestrare modello di object detection e algoritmi di evitamento",
+   "Costruire infrastruttura audio e app smartphone",
+   "Misurare errore posizionale/orientamento e accuratezza indoor/outdoor"
+  ],
+  "techniques": [
+   "object detection",
+   "localization",
+   "PCB design",
+   "audio navigation feedback"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "object detection model"
+  ],
+  "hardware_instruments": [
+   "custom PCB",
+   "eyeglasses",
+   "smartphone"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "IoU"
+  ],
+  "key_quant_results": [
+   "total cost <$300 vs up to $6000",
+   "position error 0.35 ft indoor / 1.6 ft outdoor, orientation 5.4 deg",
+   "detection 100%, classification 88-95.5%, IoU 84.9-90.8%"
+  ],
+  "novelty_claim": "integrated low-cost vision system (IVY) combining mapping, detection, audio and app",
+  "application": "people with visual impairment",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2023-8626",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "sign language",
+   "wearable",
+   "Velostat",
+   "accelerometer",
+   "machine learning"
+  ],
+  "problem_one_line_it": "Tradurre la lingua dei segni in parlato con guanti economici e affidabili.",
+  "method_steps": [
+   "Costruire sensori di flessione delle dita in Velostat",
+   "Aggiungere accelerometro ADXL345 per il movimento della mano",
+   "Migliorare l'estrazione dei dati dall'accelerometro",
+   "Addestrare modello ML di classificazione dei segni",
+   "Valutare riconoscimento di segni statici e in movimento"
+  ],
+  "techniques": [
+   "piezoresistive sensing",
+   "gesture classification"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "ML classification model (unspecified)"
+  ],
+  "hardware_instruments": [
+   "Velostat sensors",
+   "ADXL345 accelerometer",
+   "gloves"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "accuracy improved markedly after accelerometer feature change (no numbers)"
+  ],
+  "novelty_claim": "cheap Velostat-based gloves with ML translating both static and motion signs",
+  "application": "deaf and mute community communication",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2023-8598",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "distance sensor",
+   "infrared",
+   "UAV obstacle avoidance",
+   "low-cost"
+  ],
+  "problem_one_line_it": "Creare un sensore di distanza multidirezionale economico e leggero per dispositivi smart come droni.",
+  "method_steps": [
+   "Modulare a gradini la potenza dell'IR LED via microcontrollore per misura quantizzata",
+   "Integrare 9 coppie IR LED/IRM per 9 direzioni",
+   "Progettare schermo ottico stampato in 3D",
+   "Sviluppare app di test",
+   "Montare su UAV e dimostrare volo autonomo con evitamento ostacoli"
+  ],
+  "techniques": [
+   "stepped IR emission power modulation",
+   "3D printing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "infrared receiver module",
+   "IR LED",
+   "microcontroller",
+   "3D printed shield",
+   "UAV"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "range 0.2-3.0 m",
+   "cost ~$3.70, 95% lower than IR TOF sensor",
+   "9 directions simultaneously"
+  ],
+  "novelty_claim": "quantized multi-direction distance sensing from cheap IRM by stepping IR LED power",
+  "application": "UAVs, robot vacuums, security alarms, smart home",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "cost stated",
+   "quantified results",
+   "compares to state of the art",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8601",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "assistive keyboard",
+   "magnetic switch",
+   "limb paresis",
+   "design for assembly"
+  ],
+  "problem_one_line_it": "Permettere a persone con paresi degli arti di usare una tastiera tramite tasti attivati magneticamente senza contatto.",
+  "method_steps": [
+   "Progettare switch a chiave attivato da magnete",
+   "Progettare secondo DFA per ridurre tempo e costo di assemblaggio",
+   "Produrre e assemblare una gamma di tastiere ZHELTA (USB)",
+   "Testare con puntatore magnetico su cappello digitando frasi"
+  ],
+  "techniques": [
+   "Design for Assembly",
+   "magnetic key switching"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "magnet pointer",
+   "USB keyboard PCB"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "all typing tests successful (no numbers)"
+  ],
+  "novelty_claim": "unique magnetically activated programmable key switch keyboard for disabilities",
+  "application": "people with limb paresis",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8618",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "drone detection",
+   "radio interferometry",
+   "software-defined radio",
+   "DBSCAN",
+   "Ukraine"
+  ],
+  "problem_one_line_it": "Rilevare e geolocalizzare droni a basso costo con interferometria radio invece di tracciamento costoso.",
+  "method_steps": [
+   "Costruire circuito di commutazione antenne con RF switch IC per array a 4 antenne",
+   "Collegare a SDR open-source su Linux",
+   "Scrivere algoritmi Python: conteggio fase, k-means, DBSCAN",
+   "Addestrare reti neurali regressive per array non standard",
+   "Stimare rilevamento, distanza e altitudine; test in campo con droni reali"
+  ],
+  "techniques": [
+   "radio interferometry",
+   "phase analysis",
+   "k-means clustering",
+   "DBSCAN"
+  ],
+  "software_tools": [
+   "Linux",
+   "open-source SDR software"
+  ],
+  "programming_languages": [
+   "Python"
+  ],
+  "ml_models": [
+   "regressive neural network",
+   "k-means",
+   "DBSCAN"
+  ],
+  "hardware_instruments": [
+   "software-defined radio",
+   "RF switch IC",
+   "4-antenna array",
+   "drones"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "estimates bearing, range and altitude (no numbers)"
+  ],
+  "novelty_claim": "ML-learned interferometry enabling arbitrary non-standard antenna arrays for drone geolocation",
+  "application": "military and civil counter-drone tracking",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2023-8624",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "LoRa",
+   "mesh network",
+   "ESP32",
+   "orienteering",
+   "IoT"
+  ],
+  "problem_one_line_it": "Trasmettere in tempo reale i tempi intermedi delle gare di orienteering in foreste senza rete mobile.",
+  "method_steps": [
+   "Costruire O-Node con ESP32, LoRa, OLED e gestione energia",
+   "Sviluppare protocollo mesh leggero su LoRa",
+   "Integrare con timekeeping SPORTident",
+   "Gateway carica dati su server API, database e dashboard",
+   "App Android di configurazione; misure antenne e test in gara"
+  ],
+  "techniques": [
+   "LoRa mesh networking",
+   "custom protocol design",
+   "antenna measurement"
+  ],
+  "software_tools": [
+   "Android app",
+   "server API",
+   "database",
+   "dashboard"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "ESP32",
+   "LoRa transceiver",
+   "OLED display",
+   "SPORTident"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "deployed and tested at orienteering competitions (no numbers)"
+  ],
+  "novelty_claim": "LoRa mesh independent of mobile networks for split times",
+  "application": "orienteering race organizers",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8592",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "soft robotics",
+   "series elastic actuation",
+   "rehabilitation glove",
+   "3D printing"
+  ],
+  "problem_one_line_it": "Riabilitare la funzione della mano dopo lesione neurologica con un guanto robotico morbido a pressione.",
+  "method_steps": [
+   "Stampare PLA e PLA flessibile stratificati e cuciti",
+   "Posizionare resistori sensibili alla forza sotto le punte delle dita",
+   "Collegare bracci servo a ogni dito",
+   "3 prove di presa/trascinamento/rilascio di una palla da 5 cm",
+   "Analisi linearità, stress-strain e t-test"
+  ],
+  "techniques": [
+   "series elastic actuation",
+   "3D printing",
+   "stress-strain analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "force-sensitive resistors",
+   "servo motors",
+   "PLA",
+   "flexible PLA",
+   "stress-strain analyzer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "n=17 measurements, 3 trials",
+  "statistics_used": [
+   "one-sample t-test",
+   "linear fit",
+   "p<10^-5"
+  ],
+  "key_quant_results": [
+   "mean slope 0.8983, SD 0.0033 pressure/degree",
+   "finger angles 7-86 degrees",
+   "p<10^-5"
+  ],
+  "novelty_claim": "novel SEA with FSR pressure input rotating servo-controlled fingers using non-casted composites",
+  "application": "neurorehabilitation patients",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Effectiveness on patients still to be tested",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8605",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "visual impairment",
+   "autonomous navigation",
+   "bird's eye view",
+   "walking aid"
+  ],
+  "problem_one_line_it": "Ridurre collisioni e tempi di percorrenza dei non vedenti applicando la guida autonoma agli ausili per la camminata.",
+  "method_steps": [
+   "Sviluppare algoritmo di guida autonoma basato su Bird's Eye View",
+   "Costruire hardware di Active Intervention per controllo diretto",
+   "50 prove indoor, 10 outdoor, 10 situazioni speciali",
+   "Confrontare con feedback audio/vibrazione tradizionale"
+  ],
+  "techniques": [
+   "bird's eye view perception",
+   "autonomous driving algorithm",
+   "active intervention control"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "70 trials",
+  "statistics_used": [],
+  "key_quant_results": [
+   "cost <$120",
+   "collision risk reduced 10x, time to goal cut 4x",
+   "80% of sighted performance",
+   "50% fewer collisions vs audio/vibration aids"
+  ],
+  "novelty_claim": "active intervention hardware making direct walking control possible",
+  "application": "visually impaired pedestrians",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2023-8607",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "microplastics",
+   "polyethylene degradation",
+   "UV weathering",
+   "ANOVA"
+  ],
+  "problem_one_line_it": "Capire come fattori abiotici (UV, calore, abrasione, tipo d'acqua) degradano la schiuma di polietilene in microplastiche.",
+  "method_steps": [
+   "12 gruppi di trattamento e 6 controlli",
+   "Esporre campioni a lampada UV o termica",
+   "3 tipi di acqua, con e senza abrasione meccanica",
+   "Contare manualmente le microplastiche ogni 2 settimane",
+   "ANOVA multiple"
+  ],
+  "techniques": [
+   "accelerated weathering",
+   "manual microplastic counting"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "UV lamp",
+   "heat lamp"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "12 treatment groups + 6 controls, sampling every 2 weeks",
+  "statistics_used": [
+   "ANOVA",
+   "p=0.006"
+  ],
+  "key_quant_results": [
+   "UV + mechanical abrasion produced most microplastics",
+   "only one ANOVA significant p=0.006"
+  ],
+  "novelty_claim": "",
+  "application": "microplastic source understanding",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "ABSTRACT MISMATCH: title is lensless holographic microscopy but abstract is polyethylene microplastic degradation",
+  "quality_flags": [
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8617",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "chronic pain",
+   "wearable",
+   "ECG",
+   "EMG",
+   "random forest"
+  ],
+  "problem_one_line_it": "Rilevare in tempo reale episodi di dolore cronico tramite stress (ECG) e tensione muscolare (EMG) con un wearable economico.",
+  "method_steps": [
+   "Costruire wearable ~$70 con ECG ed EMG",
+   "Estrarre feature ECG e addestrare random forest su >60.000 campioni",
+   "Soglie EMG per stati rilassato/contratto/teso",
+   "Testare su 10 persone con dolore",
+   "t-test appaiati tra episodi di dolore e normale"
+  ],
+  "techniques": [
+   "ECG feature extraction",
+   "EMG thresholding"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "random forest"
+  ],
+  "hardware_instruments": [
+   "ECG sensor",
+   "EMG sensor"
+  ],
+  "data_sources": [
+   "stress dataset >60,000 samples (unspecified)"
+  ],
+  "sample_size_or_scale": "60,000 samples; 200 simulated trials; 10 subjects",
+  "statistics_used": [
+   "two-tailed paired t-test",
+   "p<0.05",
+   "false positive/negative rates"
+  ],
+  "key_quant_results": [
+   "stress classification 95%",
+   "tension 93% of 200 trials",
+   "pain detection 91%, FP 8%, FN 5%",
+   "cost ~$70"
+  ],
+  "novelty_claim": "dynamic multimodal (ECG+EMG) wearable for pain detection",
+  "application": "chronic pain patients",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2023-8625",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "fluorometer",
+   "IoT",
+   "ESP32",
+   "GFP biosensor",
+   "low-cost lab equipment"
+  ],
+  "problem_one_line_it": "Rendere accessibile la misura di fluorescenza con un fluorimetro portatile sotto i 20 $ al posto di strumenti da 10.000 $.",
+  "method_steps": [
+   "Eccitare campione in tubo PCR con laser 405 nm",
+   "Misurare con fotoresistenza e filtro di emissione",
+   "ESP32 invia dati a Google Firestore",
+   "Regressione cloud per convertire in RFU; app mobile",
+   "Validare con fluoresceina e E. coli GFP vs lettore di piastre"
+  ],
+  "techniques": [
+   "fluorescence spectroscopy",
+   "regression calibration"
+  ],
+  "software_tools": [
+   "Google Firestore",
+   "mobile app"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "405 nm laser",
+   "photoresistor",
+   "emission filter",
+   "ESP32",
+   "PCR tube",
+   "plate reader"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "multiple fluorescein concentrations; BL21 and DH5-alpha E. coli",
+  "statistics_used": [
+   "regression",
+   "statistical significance (unspecified)"
+  ],
+  "key_quant_results": [
+   "98.058% accuracy vs commercial plate reader",
+   "cost <$20 vs $10,000+"
+  ],
+  "novelty_claim": "IoT fluorometer under $20 matching plate reader accuracy",
+  "application": "researchers and classrooms",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated",
+   "compares to state of the art",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2023-8586",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "landslide monitoring",
+   "IoT sensors",
+   "optical fiber",
+   "Brazil"
+  ],
+  "problem_one_line_it": "Monitorare a basso costo i fattori scatenanti delle frane nelle colline urbane brasiliane.",
+  "method_steps": [
+   "Selezionare sensori per pioggia, umidità del suolo e vibrazioni",
+   "Sviluppare sistema ottico originale a fibra correlato all'imminenza di frana",
+   "Inviare dati a piattaforma online con grafici in tempo reale pubblici"
+  ],
+  "techniques": [
+   "optical fiber sensing",
+   "IoT monitoring"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "rain sensor",
+   "soil humidity sensor",
+   "vibration sensor",
+   "optical fiber"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "no quantitative results"
+  ],
+  "novelty_claim": "original optical-fiber system correlating light intensity with landslide imminence",
+  "application": "communities and rescue authorities in landslide risk areas",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2023-8588",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "emergency communications",
+   "10 GHz",
+   "amateur radio",
+   "broadband network"
+  ],
+  "problem_one_line_it": "Fornire una rete broadband dispiegabile per soccorritori quando reti cellulari e WiFi sono distrutte.",
+  "method_steps": [
+   "Modificare router commerciali per operare a 10 GHz (FCC Part 97)",
+   "Costruire dispositivo/circuiteria esterna",
+   "Testare throughput TCP/UDP a 1 km e 15 km vs 5 GHz"
+  ],
+  "techniques": [
+   "RF frequency conversion",
+   "network throughput testing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "commercial routers",
+   "10 GHz transverter circuitry",
+   "high-gain antennas"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "tests at 1 km and 15 km effective distance",
+  "statistics_used": [
+   "mean throughput comparison"
+  ],
+  "key_quant_results": [
+   "10 GHz 26.9% (TCP) / 28.7% (UDP) slower at 1 km",
+   "26.9% / 28.1% slower at 15 km"
+  ],
+  "novelty_claim": "emergency network on 10 GHz Part 97 band free of crowding and obsolescence",
+  "application": "first responders",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2023-8590",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "thrust vector control",
+   "model rocket",
+   "Kalman filter",
+   "PID",
+   "avionics"
+  ],
+  "problem_one_line_it": "Stabilizzare un razzomodello senza alette tramite controllo vettoriale della spinta e avionica custom.",
+  "method_steps": [
+   "Progettare avionica di volo custom",
+   "Stampare in 3D il gimbal",
+   "Implementare algoritmo con filtro di Kalman, PID, quaternioni e sicurezze",
+   "Test di volo"
+  ],
+  "techniques": [
+   "Kalman filter",
+   "PID control",
+   "quaternion attitude",
+   "3D printing",
+   "state machine"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "custom flight computer",
+   "servo gimbal",
+   "SD card"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "self-stabilization achievable; SD card disconnected mid-flight due to vibration"
+  ],
+  "novelty_claim": "finless TVC model rocket with custom avionics",
+  "application": "model rocketry clubs",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "SD card failure halted control mid-flight; vibration robustness needed",
+  "quality_flags": []
+ },
+ {
+  "pid": "2023-8591",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "driver drowsiness",
+   "data fusion",
+   "PPG",
+   "computer vision",
+   "embedded ML"
+  ],
+  "problem_one_line_it": "Rilevare in tempo reale sonnolenza e distrazione del guidatore fondendo visione e segnali fisiologici.",
+  "method_steps": [
+   "Modulo visione con camera IR e pipeline di feature facciali",
+   "Modulo sensore remoto: PRV da PPG in dominio tempo/frequenza",
+   "Fusione dati e ML",
+   "Valutazione in 3 fasi: file, laboratorio, simulatore"
+  ],
+  "techniques": [
+   "data fusion",
+   "pulse rate variability analysis",
+   "facial feature extraction",
+   "signal processing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "machine learning (unspecified)"
+  ],
+  "hardware_instruments": [
+   "camera",
+   "IR LEDs",
+   "PPG sensor",
+   "driving simulator"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "drowsiness 93%, distraction 95%",
+   "PPG-only drowsiness 91%"
+  ],
+  "novelty_claim": "fusion of physiological PPG and vision for attentiveness (Year 2)",
+  "application": "road safety",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2023-8602",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "LiDAR",
+   "haptic feedback",
+   "visual impairment",
+   "Arduino"
+  ],
+  "problem_one_line_it": "Offrire un'alternativa al bastone bianco con navigazione LiDAR e feedback aptico.",
+  "method_steps": [
+   "Progettare in AutoCAD e assemblare prototipo con Arduino Mega, 12 sensori, motori ERM, Neopixel, PCB, Bluetooth",
+   "App Android collegata",
+   "16 volontari bendati: 8 con dispositivo, 8 senza, 15 percorsi di labirinto",
+   "Misurare tempi di navigazione"
+  ],
+  "techniques": [
+   "LiDAR obstacle detection",
+   "haptic feedback",
+   "PCB design"
+  ],
+  "software_tools": [
+   "AutoCAD",
+   "Android app"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "Arduino Mega",
+   "LiDAR sensors (12)",
+   "ERM motors",
+   "Neopixels",
+   "PCB",
+   "Bluetooth module"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "16 participants x 15 maze runs",
+  "statistics_used": [],
+  "key_quant_results": [
+   "progressive navigation time improvement with device"
+  ],
+  "novelty_claim": "Bluetooth LiDAR haptic navigation with app integration (Year II)",
+  "application": "visually impaired users",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "controls described",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2023-8606",
+  "year": 2023,
+  "category": "Embedded Systems",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "Parkinson",
+   "haptic mouse",
+   "ESP32",
+   "PID",
+   "accessibility"
+  ],
+  "problem_one_line_it": "Aiutare persone con Parkinson a controllare il cursore con un mouse aptico autostabilizzante a basso costo.",
+  "method_steps": [
+   "Confrontare >20 componenti elettronici",
+   "Integrare optical flow, sensori Hall MLX, ESP32 e PID",
+   "Sviluppare framework per valutare stabilità sotto spasmi",
+   "Misurare accuratezza/efficienza vs accomodamenti esistenti"
+  ],
+  "techniques": [
+   "PID control",
+   "optical flow tracking",
+   "Hall-effect sensing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "ESP32",
+   "MLX Hall effect sensors",
+   "optical flow sensor"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": ">20 components compared",
+  "statistics_used": [],
+  "key_quant_results": [
+   "cursor navigation accuracy/efficiency improved up to 81%"
+  ],
+  "novelty_claim": "unprecedented application of haptic guiding forces as Parkinson's accommodation",
+  "application": "people with Parkinson's and movement disorders",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Further research on broader haptic healthcare applications",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art",
+   "cost stated"
+  ]
+ }
+]

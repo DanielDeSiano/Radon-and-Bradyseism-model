@@ -1,0 +1,2173 @@
+[
+  {
+    "pid": "2023-8485",
+    "year": 2023,
+    "category": "Chemistry",
+    "tier": "special_only",
+    "research_type": "engineering-design",
+    "domain_tags": [
+      "stroke rehabilitation",
+      "assistive robotics",
+      "UWB positioning",
+      "fall detection"
+    ],
+    "problem_one_line_it": "Pazienti post-ictus perdono fiducia nel camminare autonomamente e dipendono da ausili esterni.",
+    "method_steps": [
+      "Progettato un robot-stampella (SRCR) con chassis omnidirezionale e maniglia di supporto",
+      "Implementata modalita Auto-Follow con posizionamento UWB e modalita Manual Control",
+      "Aggiunto sistema di allarme caduta basato su sensore MPU6050",
+      "Test di accuratezza in linea retta e circolare dell'Auto-Follow",
+      "Test di velocita e test di accuratezza del rilevamento caduta"
+    ],
+    "techniques": [
+      "ultra-wideband positioning",
+      "omnidirectional chassis",
+      "IMU-based fall detection"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "UWB positioning system",
+      "MPU6050 IMU",
+      "omnidirectional chassis"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "straight-line and circle track tests, fall detection trials",
+    "statistics_used": [],
+    "key_quant_results": [
+      "manual mode speed 0.4827 m/s",
+      "straight-line success 91.7% (<50 cm offset)",
+      "circle success 87.5%",
+      "fall detection accuracy 97.5%"
+    ],
+    "novelty_claim": "A novel crutch robot supporting stroke patients with Auto-Follow and Manual Control modes",
+    "application": "Stroke patients in rehabilitation and caregiving",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": true,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Needs testing with actual stroke patients in clinical settings; positioning system to be refined to detect people behind the robot",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8495",
+    "year": 2023,
+    "category": "Chemistry",
+    "tier": "special_only",
+    "research_type": "engineering-design",
+    "domain_tags": [
+      "assistive technology",
+      "visual impairment",
+      "ultrasonic echolocation",
+      "haptic feedback"
+    ],
+    "problem_one_line_it": "Le persone non vedenti necessitano di un ausilio di navigazione economico oltre a bastone e cane guida.",
+    "method_steps": [
+      "Replicata l'ecolocalizzazione ultrasonica con Raspberry Pi",
+      "Sensore ultrasonico di distanza rileva gli echi degli oggetti frontali",
+      "Echi convertiti in vibrazioni haptic con intensita proporzionale alla vicinanza",
+      "Test con 5 partecipanti vedenti bendati su 4 compiti di navigazione"
+    ],
+    "techniques": [
+      "ultrasonic echolocation",
+      "haptic feedback"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "Raspberry Pi",
+      "ultrasonic distance sensor",
+      "vibration motor"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "5 blindfolded sighted participants, 4 navigation tasks",
+    "statistics_used": [],
+    "key_quant_results": [
+      "5/5 participants completed 4 navigation tasks"
+    ],
+    "novelty_claim": "Human ultrasonic echolocation device replicating bat echolocation using Raspberry Pi",
+    "application": "Visually impaired individuals (low-cost mobility aid)",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": true,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8500",
+    "year": 2023,
+    "category": "Chemistry",
+    "tier": "special_only",
+    "research_type": "experimental",
+    "domain_tags": [
+      "oxygenation",
+      "biogel membranes",
+      "cellulose fibers",
+      "oxygen permeability"
+    ],
+    "problem_one_line_it": "Pazienti troppo deboli per ECMO necessitano di metodi di ossigenazione interna sicuri.",
+    "method_steps": [
+      "Estensione di uno studio precedente su vasi in biogel di cellulosa permeabili all'ossigeno",
+      "Ipotesi: fibre piu lunghe riducono il restringimento da assorbimento chimico e migliorano la diffusione",
+      "Testate fibre di lunghezza, spessore e texture diversi",
+      "Valutata facilita di formazione del tubo e stabilita strutturale"
+    ],
+    "techniques": [
+      "cellulose biogel membrane fabrication",
+      "oxygen diffusion testing"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "Biogel vessels capable of oxygenating water, as a path toward internal human oxygenation",
+    "application": "Patients needing alternatives to ECMO; aquatic oxygenation",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": true,
+    "has_code_component": false,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "clear hypothesis"
+    ]
+  },
+  {
+    "pid": "2023-8501",
+    "year": 2023,
+    "category": "Chemistry",
+    "tier": "special_only",
+    "research_type": "experimental",
+    "domain_tags": [
+      "antimicrobial resistance",
+      "thiosemicarbazones",
+      "Cu(II) complexes",
+      "organic synthesis"
+    ],
+    "problem_one_line_it": "La resistenza batterica agli antibiotici richiede nuove sostanze antimicrobiche/antifungine.",
+    "method_steps": [
+      "Sintesi di 2-acetilpiridina N4-(biciclo[2.2.1]ept-2-il)tiosemicarbazone (HL) con frammento da canfora",
+      "Sviluppato metodo di condensazione in due step (HCl 1:1:1, 30 min) invece di 5-8 h",
+      "Struttura di HL confermata via NMR",
+      "Sintetizzati tre nuovi complessi di Cu(II)",
+      "Screening biologico presso Moldova State University of Medicine"
+    ],
+    "techniques": [
+      "thiosemicarbazone condensation",
+      "NMR spectroscopy",
+      "coordination complex synthesis",
+      "antimicrobial screening"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "NMR spectrometer"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "3 new Cu(II) complexes; tested on B. cereus, A. baumannii, C. albicans",
+    "statistics_used": [],
+    "key_quant_results": [
+      "synthesis time reduced from 5-8 h to 30 min",
+      "activity surpassed Tetracycline and Fluconazole"
+    ],
+    "novelty_claim": "Modified two-step condensation and camphor-derived bicyclic thiosemicarbazone Cu(II) complexes with high activity",
+    "application": "New antibacterial/antifungal agents",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": true,
+    "limitations_or_future_work": "Modified method can be used in similar syntheses",
+    "quality_flags": [
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8325",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "top",
+    "research_type": "mixed",
+    "domain_tags": [
+      "cancer genomics",
+      "short tandem repeats",
+      "liquid biopsy",
+      "HCC biomarker"
+    ],
+    "problem_one_line_it": "Le micro-variazioni di STR (mcSTR) non sono state esaminate sistematicamente come mutazioni tumorali.",
+    "method_steps": [
+      "Usato catalogo ActiveSTRs (174,323 STR) e ExpansionHunter su 2,622 genomi di 37 tipi di cancro",
+      "Identificati 182 mcSTR in 10 tipi di cancro, 98% sottotipo-specifici",
+      "Analisi di burden mcSTR vs espressione TOP1/MSH2 e confronto con repeat patogenici noti",
+      "Associazioni con sopravvivenza, annotazioni gene-malattia ed espressione",
+      "Validazione sperimentale in campioni tumorali HCC e regressione su 8 mcSTR",
+      "Ricerca di mcSTR1 in cfDNA plasmatico da HCC"
+    ],
+    "techniques": [
+      "ExpansionHunter STR genotyping",
+      "whole-genome analysis",
+      "cfDNA analysis",
+      "regression classification"
+    ],
+    "software_tools": [
+      "ExpansionHunter"
+    ],
+    "programming_languages": [],
+    "ml_models": [
+      "regression model"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "ActiveSTRs catalog (unpublished)",
+      "2,622 cancer genomes"
+    ],
+    "sample_size_or_scale": "2,622 genomes, 37 cancer types, 182 mcSTRs, 4 HCC plasma samples",
+    "statistics_used": [
+      "p<0.05",
+      "p<0.005",
+      "p<0.01",
+      "regression analysis",
+      "survival association"
+    ],
+    "key_quant_results": [
+      "182 mcSTRs across 10 cancer types, 98% subtype-specific",
+      "97.8% accuracy tumor-vs-normal (8 HCC mcSTRs)",
+      "mcSTR1 found in 4 HCC plasma DNA samples"
+    ],
+    "novelty_claim": "mcSTRs are a novel cancer mutation class usable as an HCC early diagnostic panel",
+    "application": "Early cancer diagnostics via cell-free DNA",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": true,
+    "limitations_or_future_work": "Future work on causal mechanisms of mcSTRs for therapeutics",
+    "quality_flags": [
+      "clear hypothesis",
+      "quantified results",
+      "statistics reported"
+    ]
+  },
+  {
+    "pid": "2023-8378",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "top",
+    "research_type": "computational",
+    "domain_tags": [
+      "Mpox",
+      "protein structure prediction",
+      "deep learning",
+      "mutation profiling"
+    ],
+    "problem_one_line_it": "La riemergenza del Mpox del 2022 richiede strutture 3D del complesso di replicazione per spiegare l'aumento di infettivita.",
+    "method_steps": [
+      "Sviluppata pipeline biocomputazionale BIO-PLEX con deep learning e homology modeling (lego-brick)",
+      "Predetta struttura del complesso di replicazione del Mpox",
+      "Identificate mutazioni del virus comparse nell'outbreak via Python mutation profiling",
+      "Individuati fattori causali di maggiore trasmissibilita e resistenza ai farmaci"
+    ],
+    "techniques": [
+      "deep-learning structure prediction",
+      "homology modeling",
+      "mutation profiling",
+      "binding affinity analysis"
+    ],
+    "software_tools": [
+      "Python"
+    ],
+    "programming_languages": [
+      "Python"
+    ],
+    "ml_models": [
+      "deep learning model"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "5 replication-complex components, 10 mutations analyzed",
+    "statistics_used": [],
+    "key_quant_results": [
+      "10 mutations observed",
+      "L108F and W411L in DNA polymerase critical",
+      "L108F increases protein-DNA binding affinity"
+    ],
+    "novelty_claim": "BIO-PLEX pipeline decoding multi-protein complex structures and mutations to predict infectivity drivers",
+    "application": "Outbreak analysis and antiviral/vaccine design across viruses",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Mpox is a case study; applicable to future outbreaks and viruses",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8319",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "second",
+    "research_type": "experimental",
+    "domain_tags": [
+      "Type-2 diabetes",
+      "microRNA",
+      "microneedle patch",
+      "lipid nanoparticles"
+    ],
+    "problem_one_line_it": "Il diabete di tipo 2 richiede un trattamento economico e accessibile per attivare le vie di segnalazione inibite.",
+    "method_steps": [
+      "Sviluppato cerotto a microaghi di acido ialuronico caricato con miR-23 in LNP (DiaMiR)",
+      "Caratterizzazione via SEM e imaging a fluorescenza",
+      "Test in-vitro su cellule epatiche HepG2, adipose 3T3-L1 e muscolari L6 (via AKT/PTEN, glucosio)",
+      "Test in-vivo su topi diabetici con IVIS per profilo di degradazione"
+    ],
+    "techniques": [
+      "microRNA-LNP loading",
+      "microneedle fabrication",
+      "SEM",
+      "fluorescence imaging",
+      "in-vitro assays",
+      "in-vivo mouse studies"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "scanning electron microscope (SEM)",
+      "IVIS In-Vivo Imaging System"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "3 cell lines (HepG2, 3T3-L1, L6); diabetic mice",
+    "statistics_used": [
+      "p<0.0001"
+    ],
+    "key_quant_results": [
+      "miR-23b decreased glucose output in HepG2 (p<0.0001)",
+      "increased glucose uptake in L6 and 3T3-L1 (p<0.0001)",
+      "lowered blood glucose in mice 3-4 days",
+      "no toxicity/inflammation"
+    ],
+    "novelty_claim": "miR-loaded wearable microneedle patch (DiaMiR) activating T2D-inhibited signaling pathways",
+    "application": "Cost-effective wearable T2D control",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": true,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": true,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "controls described",
+      "statistics reported"
+    ]
+  },
+  {
+    "pid": "2023-8340",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "second",
+    "research_type": "computational",
+    "domain_tags": [
+      "neural networks",
+      "generalization",
+      "genetic algorithm",
+      "bio-inspired networks"
+    ],
+    "problem_one_line_it": "Le reti neurali richiedono enormi dataset e generalizzano male su piccoli dataset e outlier.",
+    "method_steps": [
+      "Creata una nuova classe di rete, mesh neural network (MNN), ispirata alla corteccia visiva",
+      "Introdotti meccanismi ricorsivi di feedback tra neuroni di qualsiasi layer",
+      "Addestramento con algoritmo genetico che evolve parametri e connessioni",
+      "Testata generalizzazione su MNIST con solo 100 cifre di training, usando 3 seed (DNN, C. elegans, Bernoulli)"
+    ],
+    "techniques": [
+      "genetic algorithm",
+      "recurrent feedback architecture",
+      "evolutionary modeling"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "mesh neural network (MNN)",
+      "feedforward DNN",
+      "C. elegans-inspired network",
+      "genetic algorithm"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "MNIST"
+    ],
+    "sample_size_or_scale": "training set of 100 MNIST digits",
+    "statistics_used": [
+      "F1 score",
+      "AUROC",
+      "AUPRC",
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "91% test accuracy with C. elegans seed",
+      "+29% accuracy vs SOTA",
+      "+11% F1, +8% AUROC, +14% AUPRC"
+    ],
+    "novelty_claim": "Mesh neural network with recursive feedback trained by a genetic algorithm for small-data generalization",
+    "application": "Small-data ML (social media classification, genome sequence analysis)",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Proof of concept on MNIST; future small-data applications",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8358",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "second",
+    "research_type": "computational",
+    "domain_tags": [
+      "ribosome profiling",
+      "translation elongation",
+      "signal denoising",
+      "random forest"
+    ],
+    "problem_one_line_it": "I metodi esistenti non identificano determinanti della velocita ribosomiale a livello di singolo trascritto.",
+    "method_steps": [
+      "Sviluppato il software RandomRibo per determinanti di velocita a risoluzione di singolo codone",
+      "Denoising dei dati Ribo-seq con thresholding wavelet bayesiano e prior doppio-esponenziale",
+      "Modellate interazioni col tunnel di uscita del ribosoma (propensione alfa-elica, forze elettrostatiche)",
+      "Regressione Random Forest per relazioni non lineari velocita-determinanti",
+      "Applicato a diverse linee e stati cellulari (incl. SARS-CoV-2 Nsp1)"
+    ],
+    "techniques": [
+      "Bayesian wavelet thresholding",
+      "ribosome profiling (Ribo-seq) analysis",
+      "electrostatic force modeling",
+      "Random Forest regression"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "Random Forest regression"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "Ribo-seq data"
+    ],
+    "sample_size_or_scale": "multiple cell lines and cellular states",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "First computational tool to identify translation velocity determinants for individual transcripts",
+    "application": "Insight into disease states affecting translation of specific genes",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8370",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "second",
+    "research_type": "computational",
+    "domain_tags": [
+      "triple-negative breast cancer",
+      "IL-6",
+      "ODE model",
+      "drug-target screening"
+    ],
+    "problem_one_line_it": "Il ruolo di IL-6 nel cancro al seno triplo negativo e poco compreso e mancano modelli.",
+    "method_steps": [
+      "Sviluppato modello matematico della via di trasduzione del segnale di IL-6 nel TNBC",
+      "Modello come sistema di 48 equazioni differenziali ordinarie",
+      "Analisi di sensibilita per identificare bersagli farmacologici",
+      "Screening virtuale drug-target sulla secrezione di IL-6"
+    ],
+    "techniques": [
+      "ordinary differential equation modeling",
+      "sensitivity analysis",
+      "virtual drug-target screening"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "48 ODEs",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "First complete mathematical model of IL-6 signaling in breast cancer",
+    "application": "Predicting TNBC cell behavior and anti-tumorigenic drug effects",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "clear hypothesis"
+    ]
+  },
+  {
+    "pid": "2023-8320",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "third",
+    "research_type": "computational",
+    "domain_tags": [
+      "pediatric neuroblastoma",
+      "EZH2",
+      "de novo drug design",
+      "graph neural network"
+    ],
+    "problem_one_line_it": "Non esistono farmaci approvati per il neuroblastoma ad alto rischio; il CADD esistente e incompleto.",
+    "method_steps": [
+      "Sviluppata pipeline in silico di deep learning Monco per drug design de novo",
+      "Identificazione di cofattori via graph neural network e algoritmo di Kruskal",
+      "Generazione/ottimizzazione di composti con variational autoencoder dopo scoperta di tasche criptiche",
+      "Validazione dei composti via simulazioni molecolari e similarita di Tanimoto"
+    ],
+    "techniques": [
+      "graph neural network",
+      "Kruskal's algorithm",
+      "variational autoencoder",
+      "molecular simulation",
+      "Tanimoto similarity",
+      "cryptic pocket discovery"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "graph neural network",
+      "variational autoencoder"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "Production-ready in silico deep learning pipeline for de novo drug design targeting EZH2 cofactors",
+    "application": "Oncological therapeutic discovery for neuroblastoma",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8323",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "third",
+    "research_type": "computational",
+    "domain_tags": [
+      "aortic aneurysm",
+      "computational fluid dynamics",
+      "targeted drug delivery",
+      "molecular docking"
+    ],
+    "problem_one_line_it": "Manca un trasporto efficiente di farmaci all'aorta e non esistono farmaci per gli aneurismi aortici.",
+    "method_steps": [
+      "Creato sistema di drug delivery con microbolle e nanoparticelle usando il modello Carreau-Yasuda",
+      "Geometrie CAD per valutare l'accumulo di nanoparticelle alla parete dell'aneurisma",
+      "Analisi con equazioni di lift, drag e moto browniano per selezionare la microbolla ottimale",
+      "Analisi di Gene Ontology e KEGG e molecular docking dei principi attivi di Artemisia annua"
+    ],
+    "techniques": [
+      "computational fluid dynamics",
+      "Carreau-Yasuda model",
+      "molecular docking",
+      "CAD modeling"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [
+      "Gene Ontology database",
+      "KEGG"
+    ],
+    "sample_size_or_scale": "",
+    "statistics_used": [],
+    "key_quant_results": [
+      "Definity microbubble most efficient",
+      "Quercetin best therapeutic by binding efficiency"
+    ],
+    "novelty_claim": "CFD-optimized microbubble/nanoparticle targeted drug delivery for aortic aneurysms",
+    "application": "Treatment of aortic aneurysms",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8337",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "third",
+    "research_type": "computational",
+    "domain_tags": [
+      "medical microbots",
+      "deep reinforcement learning",
+      "autonomous navigation",
+      "lab-on-a-chip"
+    ],
+    "problem_one_line_it": "La navigazione di microbot medici nel corpo umano resta la sfida principale per vie complesse e difficili da modellare.",
+    "method_steps": [
+      "Proposta soluzione di deep reinforcement learning per navigazione autonoma di microbot",
+      "Sviluppato framework in-silico con microbot magnetico in ambiente simile al sistema vascolare",
+      "Validazione in-vitro con microbot elicoidali in idrogel pilotati magneticamente",
+      "Ambiente biomimetico lab-on-a-chip in polidimetilsilossano (PDMS)"
+    ],
+    "techniques": [
+      "deep reinforcement learning",
+      "magnetic actuation",
+      "lab-on-a-chip",
+      "in-silico simulation"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "deep reinforcement learning agent"
+    ],
+    "hardware_instruments": [
+      "magnetic helical hydrogel microbots",
+      "PDMS lab-on-a-chip"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "Deep reinforcement learning for autonomous microbot navigation in uncharacterized environments",
+    "application": "Targeted drug delivery, blood clot removal, brain tumor treatment",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": true,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8365",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "third",
+    "research_type": "computational",
+    "domain_tags": [
+      "cancer microbiome",
+      "early detection",
+      "machine learning",
+      "biomarkers"
+    ],
+    "problem_one_line_it": "Le funzioni microbiche non sono state studiate come biomarker per la diagnosi precoce del cancro.",
+    "method_steps": [
+      "Analizzate informazioni microbiche tassonomiche e funzionali da >2000 campioni di tessuto e sangue",
+      "Addestrati e valutati 75 modelli ML per discriminare 10 tipi di tumore e 7 tipi vs sani",
+      "Confronto delle prestazioni predittive di dati funzionali vs tassonomici e loro combinazione",
+      "Analisi di abbondanza differenziale per identificare biomarker"
+    ],
+    "techniques": [
+      "machine learning classification",
+      "differential abundance analysis",
+      "microbial taxonomic/functional profiling"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "machine learning classifiers (75 models)"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": ">2000 cancer tissue and blood samples, 10 cancer types",
+    "statistics_used": [
+      "balanced accuracy",
+      "AUROC",
+      "p<0.05"
+    ],
+    "key_quant_results": [
+      "+18.04% balanced accuracy from synergy (tissue)",
+      "accuracy 82.10%, AUROC 0.9249",
+      "190 taxonomic + 118 functional biomarkers (p<0.05)"
+    ],
+    "novelty_claim": "Combining microbial functional with taxonomic information improves multi-cancer early detection",
+    "application": "Early detection of multiple cancer types",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Synergy weaker in blood/plasma due to fragmented cell-free DNA",
+    "quality_flags": [
+      "quantified results",
+      "statistics reported"
+    ]
+  },
+  {
+    "pid": "2023-8368",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "third",
+    "research_type": "computational",
+    "domain_tags": [
+      "breast cancer recurrence",
+      "multi-omics",
+      "autoencoder",
+      "random forest"
+    ],
+    "problem_one_line_it": "La predizione del rischio di recidiva del cancro al seno usa dati clinici che non spiegano le cause genetiche.",
+    "method_steps": [
+      "Integrati dati multi-omici (espressione genica, CNV, mutazione, microRNA)",
+      "Usato autoencoder modificato AIME per embedding integrato aggiustato per lo stato del recettore estrogeni",
+      "Applicato Random Forest per classificare disease-free vs tumor-regressed",
+      "Identificati i 25 geni piu significativi per la recidiva"
+    ],
+    "techniques": [
+      "autoencoder (AIME) multi-omics integration",
+      "confounder adjustment",
+      "Random Forest classification"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "autoencoder (AIME)",
+      "Random Forest"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "multi-omics breast cancer dataset",
+    "statistics_used": [],
+    "key_quant_results": [
+      "list of 25 most significant recurrence genes identified"
+    ],
+    "novelty_claim": "Deep learning multi-omics integration framework (AIME) for breast cancer recurrence risk prediction",
+    "application": "Improved recurrence diagnostics and targeted therapy",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Can be expanded to other cancer types",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8376",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "third",
+    "research_type": "mixed",
+    "domain_tags": [
+      "network pharmacology",
+      "essential oils",
+      "Litsea cubeba",
+      "CNS disorders"
+    ],
+    "problem_one_line_it": "L'effetto neurofarmacologico dell'olio essenziale di foglie di Litsea cubeba non e stato valutato.",
+    "method_steps": [
+      "Composizione chimica di LEO e FEO determinata via GC-MS",
+      "Molecular docking (<-6 kcal/mol) per bersagli potenziali",
+      "Network pharmacology con Gene Ontology, pathway e indice di Jaccard",
+      "Test in vitro di inibizione dell'acetilcolinesterasi e MAO-B"
+    ],
+    "techniques": [
+      "GC-MS",
+      "molecular docking",
+      "network pharmacology",
+      "Jaccard index",
+      "enzyme inhibition assay"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [
+      "Gene Ontology",
+      "KEGG"
+    ],
+    "sample_size_or_scale": "LEO vs FEO; 11 shared compounds; 58 shared targets",
+    "statistics_used": [],
+    "key_quant_results": [
+      "gene-target JIV=0.926",
+      "AChE IC50 37.941 vs 0.491 ug/ml (LEO vs FEO)",
+      "MAO-B MIC 4.0 vs 4.0 ul"
+    ],
+    "novelty_claim": "Interchangeability of leaf and fruit essential oils of L. cubeba for CNS disorder treatment via network pharmacology",
+    "application": "Traditional CNS remedy / ethnopharmacology",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": true,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8328",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "liver cancer",
+      "histopathology",
+      "CNN",
+      "deep learning diagnosis"
+    ],
+    "problem_one_line_it": "La diagnosi istopatologica manuale della variante aggressiva MTM-HCC del cancro al fegato e laboriosa.",
+    "method_steps": [
+      "Usate 4400 immagini di istopatologia HCC, divise in training/validation/test",
+      "Creato modello CNN in Python con TensorFlow e Keras per rilevare pattern macrotrabecolare",
+      "Testate architetture (InceptionV3, MobileNetV2, ConvNet, VGG); scelte InceptionV3, RMSProp, BinaryCrossentropy",
+      "Valutazione con confusion matrix e AUROC, data augmentation",
+      "Creata app mobile in Flutter per rilevamento in tempo reale"
+    ],
+    "techniques": [
+      "convolutional neural network",
+      "transfer learning",
+      "data augmentation",
+      "confusion matrix",
+      "AUROC"
+    ],
+    "software_tools": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Flutter"
+    ],
+    "programming_languages": [
+      "Python",
+      "Dart"
+    ],
+    "ml_models": [
+      "InceptionV3 CNN",
+      "MobileNetV2",
+      "ConvNet",
+      "VGG"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "4400 HCC resection histopathology images"
+    ],
+    "sample_size_or_scale": "4400 images (1600 train, 400 val, 400 test per model)",
+    "statistics_used": [
+      "AUROC",
+      "accuracy",
+      "confusion matrix"
+    ],
+    "key_quant_results": [
+      "accuracy 96-98%",
+      "AUROC 0.97-0.99",
+      "data augmentation +25% accuracy"
+    ],
+    "novelty_claim": "First ML model to assist pathologists in detecting the aggressive MTM-HCC liver cancer variant",
+    "application": "Assisting pathologists in liver cancer diagnosis via mobile app",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": true,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "real-world deployment"
+    ]
+  },
+  {
+    "pid": "2023-8344",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "West Nile virus",
+      "land cover",
+      "neural networks",
+      "disease forecasting"
+    ],
+    "problem_one_line_it": "Serve prevenzione contro il West Nile virus; i modelli climatici hanno limiti nelle previsioni a lungo termine.",
+    "method_steps": [
+      "Esteso un modello land cover-based dal Gulf Coast all'intero territorio continentale USA",
+      "Riformulazione probabilistica del modello deterministico del 2022",
+      "Addestrate 6 reti neurali con percentuali di land cover per contea come input",
+      "Output come funzioni di densita di probabilita Bernoulli-Gamma; training regionalizzato per habitat di Culex"
+    ],
+    "techniques": [
+      "neural networks",
+      "probabilistic modeling",
+      "Bernoulli-Gamma distributions"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "neural networks (6 sub-models)"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "county land cover data",
+      "WNV case incidence data"
+    ],
+    "sample_size_or_scale": "contiguous US, 6 regional sub-models",
+    "statistics_used": [
+      "90% prediction interval",
+      "prediction interval coverage"
+    ],
+    "key_quant_results": [
+      "97-99% of test incidences captured within 90% PI",
+      "projected +14% median incidence 2023-2100"
+    ],
+    "novelty_claim": "Probabilistic land cover-based neural network model for nationwide WNV forecasting",
+    "application": "Early warning system to inform land-use policy and resource allocation",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8352",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "mixed",
+    "domain_tags": [
+      "chemotherapy",
+      "Warburg effect",
+      "metabolic modeling",
+      "cisplatin"
+    ],
+    "problem_one_line_it": "La chemioterapia convenzionale (cisplatino) e tossica e colpisce cellule sane e tumorali.",
+    "method_steps": [
+      "Sviluppato modello computazionale in R per 4 linee cellulari (2 sensibili, 2 resistenti al cisplatino)",
+      "Implementata equazione differenziale alle derivate parziali per diffusione dose-dipendente del cisplatino",
+      "Previsto che basse dosi invertono l'effetto Warburg (meno lattato, piu O2, ATP da OxPhos)",
+      "Validazione in-vitro con saggi CellTiter Promega Luminescent e SeaHorse XF Pro"
+    ],
+    "techniques": [
+      "partial differential equation modeling",
+      "metabolic flux modeling",
+      "SeaHorse XF assay",
+      "luminescent ATP assay"
+    ],
+    "software_tools": [
+      "R"
+    ],
+    "programming_languages": [
+      "R"
+    ],
+    "ml_models": [],
+    "hardware_instruments": [
+      "SeaHorse XF Pro Analyzer"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "4 cancer cell lines (HT-29, HeLa and others)",
+    "statistics_used": [],
+    "key_quant_results": [
+      "low-dose cisplatin decreased lactate, increased O2 consumption and OxPhos ATP"
+    ],
+    "novelty_claim": "Dose-dependent computational model showing reversal of the Warburg effect by low-dose cisplatin",
+    "application": "Less invasive, more effective cancer treatment dosing",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": true,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "clear hypothesis"
+    ]
+  },
+  {
+    "pid": "2023-8354",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "C. elegans",
+      "neuron identification",
+      "neural network",
+      "fluorescence imaging"
+    ],
+    "problem_one_line_it": "L'identificazione manuale dei neuroni in C. elegans e laboriosa e le posizioni non sono stereotipate.",
+    "method_steps": [
+      "Proposta tecnica di identificazione con sole immagini a fluorescenza monocromatiche",
+      "Progettato classificatore ML ispirato all'annotazione manuale umana",
+      "Architettura iterativa multi-stadio con feature di posizione e aspetto",
+      "Etichettatura dei neuroni sensoriali IFT-20"
+    ],
+    "techniques": [
+      "iterative multi-stage neural network",
+      "position/appearance feature engineering"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "iterative multi-stage neural network classifier"
+    ],
+    "hardware_instruments": [
+      "fluorescence microscope"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "IFT-20 sensory neurons in C. elegans",
+    "statistics_used": [
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "over 90% accuracy vs under 65% for SOTA"
+    ],
+    "novelty_claim": "Iterative neural network identifying IFT-20 neurons from single-color fluorescent images at >90% accuracy",
+    "application": "Automated neuron identification for neuroscience research",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8355",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "thrombosis",
+      "lattice Boltzmann",
+      "deep learning acceleration",
+      "multiscale modeling"
+    ],
+    "problem_one_line_it": "Le simulazioni multiscala della trombosi sprecano oltre il 90% delle risorse per il flusso sanguigno.",
+    "method_steps": [
+      "Usato modello lattice-Boltzmann accelerato da deep learning (DL-LBM) per il flusso",
+      "Rete ConvLSTM per ricreare la dinamica delle particelle di fluido",
+      "Progettata architettura per integrare il DL-LBM nel framework multiscala (MSM)",
+      "Simulati 250 piastrine e flusso con oltre 30 milioni di particelle"
+    ],
+    "techniques": [
+      "lattice-Boltzmann method",
+      "multiscale modeling",
+      "convolutional LSTM"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "ConvLSTM"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "250 platelets, >30 million simulated particles",
+    "statistics_used": [
+      "flow/stress accuracy"
+    ],
+    "key_quant_results": [
+      "569x acceleration of blood clot modeling",
+      "96% flow accuracy, 97% stress accuracy"
+    ],
+    "novelty_claim": "Deep-learning accelerated lattice-Boltzmann model integrated into multiscale thrombosis modeling",
+    "application": "Testing thrombosis therapeutics and understanding clot formation",
+    "has_field_work": false,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8360",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "cancer drug combinations",
+      "graph neural network",
+      "protein expression",
+      "synergy prediction"
+    ],
+    "problem_one_line_it": "I modelli di deep learning per combinazioni di farmaci trascurano l'impatto dell'espressione proteica.",
+    "method_steps": [
+      "Sviluppato modello spiegabile PROSynMOGN per effetti sinergici di combinazioni di farmaci",
+      "GNN per la struttura molecolare dei farmaci e DNN per espressione genica e proteica",
+      "Integrati grafo molecolare e fingerprint via graph attention network + DNN (PROSynMOGN-GATFP)",
+      "Valutato su studi ONEIL, FRIEDMAN, ASTRAZENECA e dataset multi-tessuto"
+    ],
+    "techniques": [
+      "graph neural network",
+      "graph attention network",
+      "molecular fingerprints",
+      "deep neural network"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "graph attention network",
+      "deep neural network",
+      "GNN"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "O'NEIL dataset",
+      "FRIEDMAN dataset",
+      "ASTRAZENECA dataset"
+    ],
+    "sample_size_or_scale": "",
+    "statistics_used": [
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "+1.2-6.0% accuracy vs SOTA",
+      "+0.5-4.4% accuracy adding protein expression"
+    ],
+    "novelty_claim": "Explainable GNN+DNN model predicting drug synergy driven by protein expression",
+    "application": "Discovering synergistic cancer drug combinations and drug design",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8366",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "drug-target interaction",
+      "heterogeneous graph neural network",
+      "large language models",
+      "knowledge graph"
+    ],
+    "problem_one_line_it": "I modelli esistenti di predizione dell'affinita drug-target hanno limiti.",
+    "method_steps": [
+      "Sviluppato modello end-to-end HeLU-DTI",
+      "LLM pre-addestrati non supervisionati generano rappresentazioni di farmaci e proteine",
+      "Knowledge graph calcola embedding per malattie, fenotipi ed effetti dei farmaci",
+      "Aggregazione in una rete neurale a grafo eterogeneo + perceptron multistrato per predire affinita"
+    ],
+    "techniques": [
+      "heterogeneous graph neural network",
+      "large language models",
+      "knowledge graph embedding",
+      "multi-layer perceptron"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "large language model",
+      "heterogeneous graph neural network",
+      "multi-layer perceptron"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "BindingDB",
+      "BioSNAP",
+      "NR dataset"
+    ],
+    "sample_size_or_scale": "",
+    "statistics_used": [
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "outperforms four baseline models",
+      "high accuracy on unseen NR dataset"
+    ],
+    "novelty_claim": "HeLU-DTI combining LLM representations and heterogeneous GNN for drug-target interaction prediction",
+    "application": "More efficient and accurate drug development",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8372",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "fourth",
+    "research_type": "computational",
+    "domain_tags": [
+      "phosphoproteomics",
+      "mass spectrometry",
+      "temporal convolutional network",
+      "phosphosite localization"
+    ],
+    "problem_one_line_it": "L'identificazione dei siti di fosforilazione con i metodi attuali e lenta o imprecisa.",
+    "method_steps": [
+      "Nuovo approccio usando spettri di frammentazione tandem di peptidi invece della sequenza",
+      "Creata rete convoluzionale temporale (TCN) per identificare l'amminoacido fosforilato",
+      "Rappresentazione a due vettori degli spettri di massa per analisi efficiente",
+      "Gestione delle perdite neutre via identificazione indipendente di pattern spettrali"
+    ],
+    "techniques": [
+      "temporal convolutional network",
+      "tandem mass spectrometry",
+      "spectral pattern recognition"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "temporal convolutional network (TCN)"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "phosphoprotein tandem mass spectra",
+    "statistics_used": [
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "average accuracy 95% vs 76-78% for sequence-based models"
+    ],
+    "novelty_claim": "Phosphosite localization using tandem mass spectra and temporal dilated networks",
+    "application": "Drug design and understanding of phosphorylation in cancer, Parkinson's, Alzheimer's",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Future work to predict neutral losses",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8313",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "special_only",
+    "research_type": "computational",
+    "domain_tags": [
+      "venom toxins",
+      "molecular function prediction",
+      "neural network",
+      "venomics"
+    ],
+    "problem_one_line_it": "L'abbondanza di proteine tossiche non revisionate rallenta la ricerca in venomica.",
+    "method_steps": [
+      "Raccolti dati da vari database di tossine",
+      "Costruiti piu algoritmi di ML per classificare la funzione molecolare da sequenza amminoacidica",
+      "Dopo test, scelta una rete neurale artificiale come migliore",
+      "Rete addestrata su classificazione multi-label di 86 classi di funzione con dati di sequenza e struttura"
+    ],
+    "techniques": [
+      "machine learning classification",
+      "multi-label classification",
+      "protein sequence/structure features"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "artificial neural network"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "toxin databases"
+    ],
+    "sample_size_or_scale": "86 molecular function classes",
+    "statistics_used": [
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "prediction accuracy 95.584%"
+    ],
+    "novelty_claim": "Machine learning predicting molecular function of venom peptides from sequence and structure",
+    "application": "Identifying pharmaceutical applications of venom peptides",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8331",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "special_only",
+    "research_type": "computational",
+    "domain_tags": [
+      "coral bleaching",
+      "machine learning",
+      "object detection",
+      "YOLO"
+    ],
+    "problem_one_line_it": "L'espulsione di zooxantelle (sbiancamento dei coralli) minaccia biodiversita ed economia.",
+    "method_steps": [
+      "Valutati algoritmi: classificazione CSV, classificazione immagini e object detection",
+      "Modello ibrido KNN+LGBM per anomaly detection su dati CSV",
+      "MobileNet per classificazione immagini con EDA",
+      "YOLOv7 per object detection con hyperparameter tuning del batch size"
+    ],
+    "techniques": [
+      "CSV classification",
+      "image classification",
+      "object detection",
+      "hyperparameter tuning",
+      "exploratory data analysis"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "KNN",
+      "LightGBM",
+      "MobileNet",
+      "YOLOv7"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "",
+    "statistics_used": [
+      "AUC",
+      "mean average precision (mAP)",
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "+30% AUC with LGBM hybrid",
+      "image classification accuracy 100%",
+      "YOLOv7 mAP 0.72"
+    ],
+    "novelty_claim": "Comparative ML approach (CSV/image/object detection) for detecting coral bleaching",
+    "application": "Coral reef conservation monitoring",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Prior region-based studies lacked validation; broader approach taken",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8361",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "special_only",
+    "research_type": "computational",
+    "domain_tags": [
+      "cognitive disorders",
+      "dementia risk",
+      "systems biology",
+      "environmental pollution"
+    ],
+    "problem_one_line_it": "L'invecchiamento della popolazione aumenta i disturbi cognitivi da fattori genetici e ambientali.",
+    "method_steps": [
+      "Sviluppato algoritmo CAPCODRE con approccio duale ML + systems biology",
+      "Usati dati di inquinamento (aria, acqua, rumore) e rete di interazione gene-proteina",
+      "Rete interattiva inserita in algoritmo di ottimizzazione a selezione casuale",
+      "Training via k-nearest neighbors, random forest regression e decision tree",
+      "Integrato in un'app per predizioni personalizzate"
+    ],
+    "techniques": [
+      "systems biology network",
+      "random selection optimization",
+      "gene-protein interaction network"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "k-nearest neighbors",
+      "random forest regression",
+      "decision tree"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "air/water/noise pollution data",
+      "gene-protein interaction network",
+      "US cognitive impairment hospitalizations"
+    ],
+    "sample_size_or_scale": "",
+    "statistics_used": [
+      "specificity",
+      "sensitivity",
+      "accuracy"
+    ],
+    "key_quant_results": [
+      "specificity/sensitivity/accuracy >85%"
+    ],
+    "novelty_claim": "Dual ML and systems-biology approach (CAPCODRE) predicting cognitive disorder risk from environment and genes",
+    "application": "Personalized dementia risk prediction app; environmental health policy",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Potential to address racial disparities in diagnosis",
+    "quality_flags": [
+      "quantified results",
+      "real-world deployment"
+    ]
+  },
+  {
+    "pid": "2023-8362",
+    "year": 2023,
+    "category": "Computational Biology and Bioinformatics",
+    "tier": "special_only",
+    "research_type": "computational",
+    "domain_tags": [
+      "flood mapping",
+      "SAR imagery",
+      "neural networks",
+      "remote sensing"
+    ],
+    "problem_one_line_it": "Le inondazioni sono pericolose nel Sud-est asiatico e le misure a terra sono limitate e costose.",
+    "method_steps": [
+      "Usata imagery radar ad apertura sintetica (SAR) ad alta risoluzione per il flood mapping",
+      "Rete neurale determina pixel per pixel i pixel allagati",
+      "Modello addestrato su dati topologici, idrologici e umidita del suolo, validato in Iowa",
+      "Modello FloodCast applicato al Sud-est asiatico"
+    ],
+    "techniques": [
+      "semantic segmentation",
+      "synthetic-aperture radar analysis",
+      "neural networks"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "neural network (segmentation)"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "SAR imagery",
+      "hydrological data",
+      "soil moisture data"
+    ],
+    "sample_size_or_scale": "",
+    "statistics_used": [
+      "IoU",
+      "error rate",
+      "accuracy"
+    ],
+    "key_quant_results": [
+      ">0.80 IoU",
+      "<5% error vs actual SEA floods",
+      ">90% real-time accuracy"
+    ],
+    "novelty_claim": "FloodCast neural network for real-time flood mapping from SAR, correlating flood risk with soil moisture",
+    "application": "Real-time flood prediction for Southeast Asia",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Model lacked tuning and subnational ground truth for SEA",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8532",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "first",
+    "research_type": "observational/field",
+    "domain_tags": [
+      "Arctic rivers",
+      "climate change",
+      "spring thaw",
+      "satellite imagery"
+    ],
+    "problem_one_line_it": "L'Artico si riscalda tre volte piu velocemente, alterando il disgelo primaverile dei fiumi.",
+    "method_steps": [
+      "Sviluppato metodo per calcolare le date chiave del disgelo primaverile dei fiumi artici",
+      "Ottenuti dataset osservativi giornalieri di temperatura, portata fluviale e copertura di ghiaccio marino per 6 fiumi",
+      "Usate immagini satellitari per calcolare la copertura frazionaria di ghiaccio marino alle foci",
+      "Calcolate le date di disgelo dal 1978 al 2022 e i loro trend"
+    ],
+    "techniques": [
+      "satellite image analysis",
+      "time-series trend analysis"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [
+      "daily air temperature datasets",
+      "river discharge data",
+      "sea ice cover satellite imagery"
+    ],
+    "sample_size_or_scale": "6 major Arctic rivers, 1978-2022",
+    "statistics_used": [
+      "trend rate (days/year)"
+    ],
+    "key_quant_results": [
+      "sea ice up to 0.94 days earlier/year (Yenisei)",
+      "other variables 0.1-0.4 days earlier/year",
+      "melt dates progressively earlier since 1978 for all 6 rivers"
+    ],
+    "novelty_claim": "Method to compute and track Arctic rivers' spring thaw key dates from observational and satellite data",
+    "application": "Monitoring sensitive Arctic regions for a warming climate",
+    "has_field_work": true,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Need for continued monitoring of Arctic regions",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8537",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "first",
+    "research_type": "experimental",
+    "domain_tags": [
+      "radon",
+      "groundwater",
+      "radioactivity",
+      "mitigation",
+      "public health"
+    ],
+    "problem_one_line_it": "Il radon disciolto nell'acqua dei pozzi domestici in Pennsylvania e un rischio sanitario sottovalutato.",
+    "method_steps": [
+      "Misurati i livelli di radon nell'acqua potabile domestica",
+      "Applicata modellazione matematica ai processi di diffusione e decadimento radioattivo",
+      "Misurata l'efficacia delle opzioni di mitigazione nella rimozione del radon dall'acqua"
+    ],
+    "techniques": [
+      "radon measurement in water",
+      "mathematical modeling of diffusion and radioactive decay",
+      "mitigation testing"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "radon detector"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "household water samples (eastern Pennsylvania / Berks County)",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "Measuring radon in household water and quantifying effectiveness of mitigation options",
+    "application": "Public health; homeowner radon mitigation guidance",
+    "has_field_work": true,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "real-world deployment"
+    ]
+  },
+  {
+    "pid": "2023-8516",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "second",
+    "research_type": "observational/field",
+    "domain_tags": [
+      "cyanobacteria blooms",
+      "microcystin",
+      "river ecology",
+      "microorganisms"
+    ],
+    "problem_one_line_it": "Le fioriture di cianobatteri nei fiumi rilasciano tossine (microcistine) dannose per gli ecosistemi e l'uomo.",
+    "method_steps": [
+      "Studiati per 2 anni due siti sul fiume Willamette (controllo a monte, interessato a valle)",
+      "Testata qualita dell'acqua e prelevati campioni di plancton",
+      "Catalogate le popolazioni di microorganismi via analisi al microscopio",
+      "Misurate densita di clorofilla e contenuto di microcistina"
+    ],
+    "techniques": [
+      "water quality testing",
+      "plankton sampling",
+      "microscopy",
+      "chlorophyll and microcystin measurement"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "microscope"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "2 river sites, 2 years (blooms monitored late July-August 2022)",
+    "statistics_used": [],
+    "key_quant_results": [
+      "diatom genus melosira correlated with cyanobacteria levels",
+      "microcystin peaked 2 weeks after cyanobacteria",
+      "microcystin peak at lowest temperatures"
+    ],
+    "novelty_claim": "Melosira as a potential indicator of cyanobacteria blooms; toxin release linked to cell death and low temperature",
+    "application": "River ecosystem health monitoring and environmental practice",
+    "has_field_work": true,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Continued study needed for toxicity modeling and ecological effects",
+    "quality_flags": [
+      "controls described"
+    ]
+  },
+  {
+    "pid": "2023-8528",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "second",
+    "research_type": "engineering-design",
+    "domain_tags": [
+      "forest restoration",
+      "biomimicry",
+      "drone reforestation",
+      "seed delivery"
+    ],
+    "problem_one_line_it": "Gli incendi distruggono le foreste e i metodi tradizionali di trasporto dei germogli sono difficili.",
+    "method_steps": [
+      "Prodotto materiale di piantumazione con argilla, scaglie di cocco e cenere di lolla di riso",
+      "Configurazione ispirata alla struttura del frutto Kadsura coccinea (24 carpelli per unita)",
+      "Ottimizzati i rapporti della miscela per stampaggio e durabilita",
+      "Testato il rilascio aereo da drone a diverse altezze",
+      "Verificati dissoluzione nel suolo e tasso di sopravvivenza delle piante"
+    ],
+    "techniques": [
+      "biomimetic design",
+      "material formulation optimization",
+      "drone aerial seeding"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "drone"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "24 carpels per unit; drop heights tested up to 40 m; 30-day growth trials",
+    "statistics_used": [],
+    "key_quant_results": [
+      "C3R1 formula best (10.37+/-0.11 g per carpel)",
+      "40 m optimal (89.17+/-2.28% dispersion)",
+      ">90% survival after 40 m release",
+      ">70% dispersion on inclined ground (simulation)"
+    ],
+    "novelty_claim": "Kadsura coccinea-inspired nutrient-enriched planting material for drone-based burnt forest restoration",
+    "application": "Reforestation of remote burnt forest areas",
+    "has_field_work": true,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": true,
+    "has_code_component": false,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8534",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "second",
+    "research_type": "experimental",
+    "domain_tags": [
+      "bioremediation",
+      "soil amendment",
+      "cyclic remediation"
+    ],
+    "problem_one_line_it": "Studio su unita di bioremediation arricchite di nutrienti come ammendante del suolo in un sistema ciclico.",
+    "method_steps": [
+      "Studio pluriennale (quinto anno) su unita di bioremediation biologicamente attivate",
+      "Arricchimento con nutrienti usato come ammendante del suolo",
+      "Sistema di remediation ciclico"
+    ],
+    "techniques": [
+      "bioremediation",
+      "soil amendment"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "fifth-year study",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "Nutrient-enriched biologically activated bioremediation units as a cyclic soil amendment",
+    "application": "Soil remediation",
+    "has_field_work": true,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": false,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8550",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "second",
+    "research_type": "experimental",
+    "domain_tags": [
+      "radiative cooling",
+      "BaSO4",
+      "light scattering coating",
+      "energy conservation"
+    ],
+    "problem_one_line_it": "I materiali per raffreddamento radiativo passivo (PDRC) hanno costi alti e bassa riflettivita solare.",
+    "method_steps": [
+      "Ottimizzata una vernice per raffreddamento radiativo con particelle di BaSO4 di dimensioni diverse",
+      "BaSO4 macinato a sfere per 0-48 h a 400 RPM per variare la dimensione",
+      "Caratterizzazione via DLS, XRD e FESEM",
+      "BaSO4 e legante polimerico in rapporto 3:1:2; misurate riflettanza (spettrofotometro) e temperatura sotto simulatore solare"
+    ],
+    "techniques": [
+      "ball milling",
+      "dynamic light scattering (DLS)",
+      "X-ray diffraction (XRD)",
+      "FESEM",
+      "spectrophotometry",
+      "Turbiscan"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "ball mill",
+      "spectrophotometer",
+      "FESEM",
+      "XRD",
+      "solar simulator",
+      "Turbiscan"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "8 milling times (0-48 h); samples S2-S6",
+    "statistics_used": [],
+    "key_quant_results": [
+      "particle size 1.82 um to 50 nm",
+      "99% solar reflectance (sample 3)",
+      "8 degC drop vs commercial paint",
+      "BaSO4 $0.4/kg, half the cost of TiO2"
+    ],
+    "novelty_claim": "Optimizing a BaSO4 radiative-cooling coating with mixed particle sizes for maximum light scattering at low cost",
+    "application": "Building cooling, urban heat island and CO2 footprint reduction",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": true,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "cost stated",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8564",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "second",
+    "research_type": "computational",
+    "domain_tags": [
+      "wildfire spread",
+      "CNN-LSTM",
+      "remote sensing",
+      "meteorological dataset"
+    ],
+    "problem_one_line_it": "Mancano dataset meteorologici di qualita e i modelli di diffusione degli incendi sono imprecisi.",
+    "method_steps": [
+      "Granularizzati e aggregati anni di dati in un dataset completo per la previsione di diffusione incendi",
+      "Usata risoluzione spaziale piu alta: area base 375 m^2 dal dataset VIIRS (invece di 1 km^2)",
+      "Incluse feature meteorologiche da DAYMET",
+      "Costruito modello CNN-LSTM per la previsione a un giorno"
+    ],
+    "techniques": [
+      "data aggregation/granularization",
+      "convolutional LSTM"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "CNN-LSTM"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "VIIRS fire mask",
+      "DAYMET meteorological data"
+    ],
+    "sample_size_or_scale": "375 m^2 base area, multi-year dataset",
+    "statistics_used": [],
+    "key_quant_results": [],
+    "novelty_claim": "Higher-granularity meteorological+topographical dataset with CNN-LSTM for next-day wildfire spread prediction",
+    "application": "Governments, protection agencies and insurers evaluating wildfire impact",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": []
+  },
+  {
+    "pid": "2023-8522",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "third",
+    "research_type": "experimental",
+    "domain_tags": [
+      "dog skin allergies",
+      "Aloe vera",
+      "antibacterial",
+      "animal health"
+    ],
+    "problem_one_line_it": "Le allergie cutanee nei cani causano disagio e i farmaci sono costosi e poco efficaci.",
+    "method_steps": [
+      "Testato spray di Aloe vera su Staphylococcus epidermidis in piastra Petri",
+      "Studio su 8 cani con allergie, prurito valutato su scala 0-10",
+      "Piastre a contatto, pHmetro e corneometro elettrico su inguine/ascella",
+      "Confronto lato trattato (aloe 6 giorni ogni 12 h) vs non trattato, conta colonie batteriche"
+    ],
+    "techniques": [
+      "bacterial culture",
+      "pH measurement",
+      "corneometry",
+      "contact plate sampling"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "pH meter",
+      "electric corneometer",
+      "contact plates"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "8 dogs; petri dish assay",
+    "statistics_used": [],
+    "key_quant_results": [
+      "80% reduction in bacterial growth (petri)",
+      "itchiness 5 untreated vs 2.8 treated",
+      "groin hydration 26.45 to 32.80 um",
+      "bacteria count increased despite aloe"
+    ],
+    "novelty_claim": "Aloe vera spray as a low-cost treatment for dog skin allergies",
+    "application": "Veterinary dermatology (dog skin allergies)",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "Hypothesis only partially supported; aloe did not reduce bacteria count",
+    "quality_flags": [
+      "clear hypothesis",
+      "quantified results",
+      "controls described"
+    ]
+  },
+  {
+    "pid": "2023-8527",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "third",
+    "research_type": "experimental",
+    "domain_tags": [
+      "biodegradation",
+      "polyurethane",
+      "superworms",
+      "gut bacteria"
+    ],
+    "problem_one_line_it": "La plastica poliuretanica (PU) e difficile da smaltire; i superworm potrebbero biodegradarla.",
+    "method_steps": [
+      "Testata biodegradazione del PU da parte dei superworm (Zophobas atratus) via batteri intestinali Pseudomonas",
+      "Variati umidita ambientale e densita della schiuma PU; monitorati massa e sopravvivenza per 10 giorni",
+      "Confrontati frass e schiuma PU via ATR-FTIR e DSC-TGA",
+      "Verificata via SEM la biodegradazione del film PU da Pseudomonas"
+    ],
+    "techniques": [
+      "ATR-FTIR spectroscopy",
+      "DSC-TGA thermal analysis",
+      "SEM",
+      "microbial degradation assay"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [
+      "ATR-FTIR spectrometer",
+      "DSC-TGA analyzer",
+      "scanning electron microscope (SEM)"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "10-day trials at varying humidity and PU densities",
+    "statistics_used": [],
+    "key_quant_results": [
+      "superworms consumed PU efficiently at 30% humidity",
+      "biodegradation confirmed by ATR-FTIR, DSC-TGA, SEM"
+    ],
+    "novelty_claim": "Demonstrating PU biodegradation by Zophobas atratus larvae via gut Pseudomonas under varying conditions",
+    "application": "Plastic waste biodegradation",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "controls described"
+    ]
+  },
+  {
+    "pid": "2023-8529",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "third",
+    "research_type": "observational/field",
+    "domain_tags": [
+      "submarine canyons",
+      "benthic ecology",
+      "community structure",
+      "sediment"
+    ],
+    "problem_one_line_it": "I canyon sottomarini sono considerati hotspot di biodiversita, ma i fattori che strutturano le comunita restano poco chiari.",
+    "method_steps": [
+      "Campionamento sul campo nei canyon Gaoping e Fangliao (SW Taiwan)",
+      "Confronto di caratteristiche dei sedimenti e intensita di disturbo fisico",
+      "Analisi di densita macrofaunale bentonica e composizione tassonomica",
+      "Modello di equazioni strutturali per identificare i fattori guida"
+    ],
+    "techniques": [
+      "field sampling",
+      "structural equation modeling",
+      "benthic community analysis"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [],
+    "hardware_instruments": [],
+    "data_sources": [],
+    "sample_size_or_scale": "2 canyons (Gaoping and Fangliao), SW Taiwan",
+    "statistics_used": [],
+    "key_quant_results": [
+      "physical disturbance more influential than food abundance",
+      "neither canyon is an ecological hotspot"
+    ],
+    "novelty_claim": "Physical disturbance, not food, primarily shapes benthic community structure in submarine canyons",
+    "application": "Understanding submarine canyon habitats and ecological roles",
+    "has_field_work": true,
+    "has_simulation_or_model": true,
+    "has_physical_prototype": false,
+    "has_code_component": false,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results"
+    ]
+  },
+  {
+    "pid": "2023-8541",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "third",
+    "research_type": "computational",
+    "domain_tags": [
+      "wildfires",
+      "machine learning",
+      "remote sensing",
+      "environmental justice"
+    ],
+    "problem_one_line_it": "Prevedere i grandi incendi e cruciale ma i modelli attuali sono localizzati e computazionalmente onerosi.",
+    "method_steps": [
+      "Usati dati USDA (20 anni, >35 milioni di acri) e dati di remote sensing NASA MODIS",
+      "Identificate 6 variabili ambientali chiave con medie annuali su 3 anni precedenti",
+      "Testati 6 modelli ML (Logistic Regression, Decision Tree, Random Forest, XGBoost, KNN, SVM)",
+      "Validazione e analisi di permutation feature importance",
+      "Analisi per identificare comunita svantaggiate vulnerabili (Justice40)"
+    ],
+    "techniques": [
+      "machine learning classification",
+      "permutation feature importance",
+      "remote sensing analysis"
+    ],
+    "software_tools": [],
+    "programming_languages": [],
+    "ml_models": [
+      "Logistic Regression",
+      "Decision Tree",
+      "Random Forest",
+      "XGBoost",
+      "KNN",
+      "SVM"
+    ],
+    "hardware_instruments": [],
+    "data_sources": [
+      "USDA wildfire data",
+      "NASA MODIS (925 million observations)"
+    ],
+    "sample_size_or_scale": "20 years, >35 million acres, 925 million satellite observations",
+    "statistics_used": [
+      "accuracy",
+      "permutation feature importance"
+    ],
+    "key_quant_results": [
+      "XGBoost best, accuracy over 85%"
+    ],
+    "novelty_claim": "Scalable ML model predicting large US wildfires from easily available environmental data, toward environmental justice",
+    "application": "Prioritizing federal resource and aid allocation (Justice40)",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": false,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "compares to state of the art"
+    ]
+  },
+  {
+    "pid": "2023-8545",
+    "year": 2023,
+    "category": "Earth and Environmental Sciences",
+    "tier": "third",
+    "research_type": "engineering-design",
+    "domain_tags": [
+      "lensless microscopy",
+      "digital holography",
+      "biomedical imaging",
+      "low-cost device"
+    ],
+    "problem_one_line_it": "I microscopi ottici convenzionali usano lenti che limitano l'ispezione 3D di grandi volumi di cellule.",
+    "method_steps": [
+      "Implementato un sistema di imaging microscopico lensless 3D (DLHM)",
+      "Costruito microscopio olografico con sola sorgente luminosa, campione e chip di imaging ($500-600)",
+      "Progettati algoritmi MATLAB per ricostruire informazione di fase dall'ologramma",
+      "Funzioni di phase unwrapping e alta risoluzione per immagini 3D di cellule"
+    ],
+    "techniques": [
+      "digital lensless holographic microscopy",
+      "phase unwrapping",
+      "holographic reconstruction"
+    ],
+    "software_tools": [
+      "MATLAB"
+    ],
+    "programming_languages": [
+      "MATLAB"
+    ],
+    "ml_models": [],
+    "hardware_instruments": [
+      "light source",
+      "imaging chip (sensor)"
+    ],
+    "data_sources": [],
+    "sample_size_or_scale": "field of view 36.2 mm^2 (20-30x larger than conventional)",
+    "statistics_used": [],
+    "key_quant_results": [
+      "setup cost $500-600",
+      "FOV 36.2 mm^2, 20-30x larger",
+      "resolution comparable to conventional microscopes"
+    ],
+    "novelty_claim": "Compact, low-cost 3-D lensless holographic microscope with wide field of view",
+    "application": "Point-of-care testing in regions with limited medical facilities",
+    "has_field_work": false,
+    "has_simulation_or_model": false,
+    "has_physical_prototype": true,
+    "has_code_component": true,
+    "has_validation_against_real_data": true,
+    "mentor_or_lab_signal": false,
+    "limitations_or_future_work": "",
+    "quality_flags": [
+      "quantified results",
+      "cost stated"
+    ]
+  }
+]

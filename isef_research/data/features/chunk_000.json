@@ -1,0 +1,2126 @@
+[
+ {
+  "pid": "2017-0027",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "best_of_category",
+  "research_type": "experimental",
+  "domain_tags": [
+   "invasive species",
+   "biocontrol",
+   "hydrogel",
+   "papain",
+   "agriculture"
+  ],
+  "problem_one_line_it": "Le lumache invasive Pomacea maculata danneggiano le colture di riso e taro; la papaina si degrada in campo.",
+  "method_steps": [
+   "Preparazione di idrogel di proteina di soia 20% w/v con 0, 0.5, 1.0, 2.5, 5.0 g di papaina",
+   "Riscaldamento degli idrogel a 60°C per 90 min",
+   "Esposizione di gruppi di lumache agli idrogel per 120 h e conteggio della mortalita'",
+   "One-way ANOVA vs controllo",
+   "Test di non-target su gruppi di 20 gamberetti fantasma per 72 h"
+  ],
+  "techniques": [
+   "soy protein hydrogel synthesis",
+   "enzyme encapsulation",
+   "mortality bioassay",
+   "non-target toxicity test"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "5 dosaggi di papaina; gruppi di 20 gamberetti; 120 h esposizione",
+  "statistics_used": [
+   "one-way ANOVA"
+  ],
+  "key_quant_results": [
+   "100% mortalita' lumache con >=2.5 g papaina",
+   "75% mortalita' con 1.0 g",
+   "55% mortalita' con 0.5 g",
+   "0% mortalita' gamberetti dopo 72 h"
+  ],
+  "novelty_claim": "Idrogel di soia biodegradabile che stabilizza la papaina per il controllo delle lumache invasive in campo",
+  "application": "Agricoltura (risaie, taro); controllo ecologico ed economico di lumache invasive",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Framework per ulteriore raffinamento e uso finale in ambienti naturali",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0048",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "first",
+  "research_type": "experimental",
+  "domain_tags": [
+   "mosquito control",
+   "Aedes aegypti",
+   "acoustic trap",
+   "Zika",
+   "vector control"
+  ],
+  "problem_one_line_it": "Ridurre la trasmissione di Zika/dengue catturando maschi di Aedes aegypti con trappole economiche senza prodotti chimici.",
+  "method_steps": [
+   "Modifica di una trappola luminosa CDC con altoparlante a sweep 350-500 Hz (stimolo acustico)",
+   "Aggiunta di semicilindro nero in cartoncino come stimolo visivo",
+   "Confronto di 3 trattamenti (acustico+visivo, solo visivo, nessuno) in arena di laboratorio di giorno",
+   "Misura della proporzione di maschi catturati in posizioni con diversa illuminazione"
+  ],
+  "techniques": [
+   "acoustic frequency-sweep stimulus",
+   "visual stimulus",
+   "CDC light trap modification",
+   "laboratory arena trapping assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "CDC light trap",
+   "speaker",
+   "black poster-board half-cylinder"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Trappola acustica+visiva cattura una proporzione di maschi significativamente maggiore",
+   "Piu' catture in posizioni piu' scure dell'arena"
+  ],
+  "novelty_claim": "Nuove informazioni sull'attrazione dei maschi a stimoli acustici e visivi a diversi livelli di luce; trappola economica migliorata",
+  "application": "Programmi di trappolaggio di zanzare in ambienti peridomestici per ridurre malattie trasmesse",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "controls described",
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0013",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "second",
+  "research_type": "experimental",
+  "domain_tags": [
+   "Drosophila",
+   "fertility",
+   "diet",
+   "transgenerational",
+   "RNA-seq"
+  ],
+  "problem_one_line_it": "Capire se l'assunzione di latticini ad alto/basso/zero contenuto di grassi influenza la fertilita' e gli effetti transgenerazionali.",
+  "method_steps": [
+   "Aggiunta di integratore di latte in polvere (alto, basso, non grasso) al medium delle mosche, controllo con pasta di lievito",
+   "Conteggio di uova, pupe e adulti sfarfallati in maschi e femmine",
+   "Test transgenerazionale su 3 generazioni successive",
+   "Dissezione e valutazione ovario/germario",
+   "RNA-sequencing per espressione genica alterata"
+  ],
+  "techniques": [
+   "RNA-sequencing",
+   "dissection",
+   "egg/pupae/adult counts",
+   "transgenerational assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "3 concentrazioni di latticini, 3 generazioni successive",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Alto contenuto di grassi aumenta significativamente la fertilita' in maschi e femmine",
+   "3 generazioni mostrano trend riproduttivi quasi identici ai genitori"
+  ],
+  "novelty_claim": "Effetto transgenerazionale dei latticini ad alto contenuto di grassi sulla fertilita' in D. melanogaster",
+  "application": "Comprensione di fattori dietetici nell'infertilita' umana",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "RNA-seq in corso per isolare un meccanismo causativo",
+  "quality_flags": [
+   "controls described",
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0039",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "second",
+  "research_type": "experimental",
+  "domain_tags": [
+   "silkworm",
+   "silk dyeing",
+   "artificial diet",
+   "rhodamine B",
+   "methylene blue"
+  ],
+  "problem_one_line_it": "Le tinture chimiche della seta sbiadiscono; ottenere fili di seta colorati intrinsecamente senza manipolazione genetica.",
+  "method_steps": [
+   "Preparazione di diete artificiali senza foglie di gelso usando latice di Sonchus oleraceus",
+   "Somministrazione orale di pigmenti chimici (rodamina B, blu di metilene) ai bachi",
+   "Raccolta di bozzoli colorati",
+   "Produzione di fili di seta rossi e blu"
+  ],
+  "techniques": [
+   "artificial diet formulation",
+   "oral pigment feeding",
+   "cocoon coloration"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Bozzoli rossi costantemente da rodamina B",
+   "Bozzoli blu da rodamina B + blu di metilene"
+  ],
+  "novelty_claim": "Fili di seta rossi e blu non sbiadenti ottenuti senza manipolazione genetica tramite dieta artificiale",
+  "application": "Industria serica locale",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0047",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "second",
+  "research_type": "experimental",
+  "domain_tags": [
+   "tick repellent",
+   "essential oils",
+   "Dermacentor",
+   "Haemaphysalis",
+   "vector-borne disease"
+  ],
+  "problem_one_line_it": "Trovare repellenti naturali contro le zecche Dermacentor reticulatus e Haemaphysalis inermis, vettori di babesiosi, tularemia ed encefalite.",
+  "method_steps": [
+   "Diluizione di 13 oli essenziali in etanolo 96% e in etanolo/glicerolo 85% 1:1",
+   "Misura della volatilita' dopo 3 h",
+   "Test di repellenza su zecche vs repellente commerciale",
+   "Test di combinazioni di oli selezionati",
+   "Misura dell'efficacia a 30 min, 3, 6 e 12 h"
+  ],
+  "techniques": [
+   "essential oil dilution",
+   "volatility measurement",
+   "repellency bioassay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "13 oli essenziali, 2 generi di zecche, fino a 12 h",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Patchouli 11.02x piu' repellente del commerciale",
+   "Patchouli 1342.5% efficacia vs commerciale in glicerolo/etanolo",
+   "Combinazione patchouli+finocchio+noce moscata 388.8% su Dermacentor",
+   "Patchouli 105.1% dopo 12 h"
+  ],
+  "novelty_claim": "Oli essenziali naturali (patchouli) superano il repellente commerciale contro le zecche",
+  "application": "Prevenzione di malattie trasmesse da zecche in cani e umani",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0012",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "third",
+  "research_type": "computational",
+  "domain_tags": [
+   "great white shark",
+   "home range",
+   "telemetry",
+   "marine ecology",
+   "R"
+  ],
+  "problem_one_line_it": "Nessuno studio ha quantificato gli home range e le abitudini migratorie degli squali bianchi nell'Atlantico.",
+  "method_steps": [
+   "Formulazione di 3 ipotesi (temperatura, produttivita' primaria, margine della piattaforma continentale)",
+   "Scrittura di >3350 righe di codice R",
+   "Analisi di 45 mesi di dati di 27 squali tracciati (gen 2013 - set 2016)",
+   "Calcolo degli home range e clustering",
+   "Correlazione con temperatura oceanica, clorofilla-a e piattaforma continentale"
+  ],
+  "techniques": [
+   "home-range analysis",
+   "satellite tracking data analysis",
+   "spatial clustering"
+  ],
+  "software_tools": [
+   "R"
+  ],
+  "programming_languages": [
+   "R"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "tracked-shark telemetry data (27 sharks, 2013-2016)",
+   "ocean temperature data",
+   "chlorophyll-a data"
+  ],
+  "sample_size_or_scale": "27 squali, 45 mesi di dati",
+  "statistics_used": [
+   "significance testing of shark length vs home-range size"
+  ],
+  "key_quant_results": [
+   "Home range da migliaia di km2 a 20 milioni di km2",
+   "95% del tempo entro l'home range, 5% in grandi spostamenti",
+   "Seguono il margine della piattaforma entro 5 gradi decimali",
+   "2 cluster: costa nordamericana e sudafricana"
+  ],
+  "novelty_claim": "Primo studio che rivela dimensioni di home range, pattern di movimento e condizioni ambientali preferite degli squali bianchi atlantici",
+  "application": "Conservazione e gestione degli squali bianchi",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0024",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "assistive technology",
+   "white cane",
+   "distance sensors",
+   "haptic feedback",
+   "visual impairment"
+  ],
+  "problem_one_line_it": "Il bastone bianco non da' percezione laterale; aggiungere sensori di distanza con feedback a vibrazione a basso costo.",
+  "method_steps": [
+   "Aggiunta di sensori di distanza a un bastone bianco standard ad angoli sinistra/destra",
+   "Feedback all'utente tramite vibrazione",
+   "Test muovendo oggetti verso l'utente a diverse velocita' e angoli",
+   "Registrazione della distanza alla quale avviene la reazione dell'utente"
+  ],
+  "techniques": [
+   "proximity sensing",
+   "vibrotactile feedback"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "distance sensors",
+   "vibration motors",
+   "white cane"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Percezione periferica aumentata con vibrazione proporzionale alla prossimita'"
+  ],
+  "novelty_claim": "Bastone bianco con percezione laterale che emula la visione periferica a prezzo accessibile",
+  "application": "Persone non vedenti o ipovedenti",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2017-0029",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "invasive weevil",
+   "repellent",
+   "response surface methodology",
+   "olfactometer",
+   "pest management"
+  ],
+  "problem_one_line_it": "Trovare una miscela ottimale di composti come repellente del curculionide invasivo dello Sri Lanka (>150 piante ospiti).",
+  "method_steps": [
+   "Selezione con RSM di 14 miscele di (Z)-ocimene, (Z)-3-esen-1-olo e 2-etilesanolo",
+   "Test comportamentale con olfattometro a Y",
+   "Conteggio dei curculionidi nel braccio trattamento/controllo a 1, 5, 10 min",
+   "Fitting del modello in Design Expert",
+   "One-way ANOVA"
+  ],
+  "techniques": [
+   "Response Surface Methodology",
+   "Y-tube olfactometer bioassay"
+  ],
+  "software_tools": [
+   "Design Expert"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "Y-tube olfactometer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "14 miscele di componenti",
+  "statistics_used": [
+   "one-way ANOVA",
+   "response surface model",
+   "p=0.0047"
+  ],
+  "key_quant_results": [
+   "Modello per % nel braccio controllo a 10 min significativo (p=0.0047)",
+   "Miscele 1 e 10 (50% ocimene / 50% esenolo) repellenti ottimali"
+  ],
+  "novelty_claim": "Miscela repellente ottimizzata via RSM, alternativa ecologica ai pesticidi",
+  "application": "Industria agricola, gestione del curculionide invasivo",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0036",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "Daphnia",
+   "telomere",
+   "oxidative stress",
+   "antioxidant",
+   "gel electrophoresis"
+  ],
+  "problem_one_line_it": "Verificare se gli antiossidanti riducono il danno ai telomeri causato da stress ossidativo in Daphnia pulex.",
+  "method_steps": [
+   "Esposizione di 4 colture a H2O2 1.25 e 2.50 mg/L",
+   "4 colture a H2O2 + antiossidante (te' verde), 4 di controllo",
+   "Elettroforesi su gel del DNA",
+   "Calcolo dei valori RF rispetto al colorante",
+   "Confronto statistico delle lunghezze telomeriche"
+  ],
+  "techniques": [
+   "gel electrophoresis",
+   "RF value calculation",
+   "oxidative stress induction"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "gel electrophoresis apparatus"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "12 colture (4 per condizione)",
+  "statistics_used": [
+   "p<0.0001",
+   "mean ± SD"
+  ],
+  "key_quant_results": [
+   "RF 0.90±0.006 con antiossidante vs 0.83±0.003 senza (1.25 mg/L)",
+   "RF 0.86±0.004 vs 0.82±0.004 (2.50 mg/L), p<0.0001",
+   "Ipotesi rifiutata: antiossidante + stress -> maggiore accorciamento"
+  ],
+  "novelty_claim": "",
+  "application": "Invecchiamento cellulare e stile di vita",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Il te' verde ha anche proprieta' ossidanti; usare un altro antiossidante o gel piu' spesso per frammenti piccoli",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0051",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "coral bleaching",
+   "Symbiodinium",
+   "ammonium transporter",
+   "qPCR",
+   "eutrophication"
+  ],
+  "problem_one_line_it": "Capire a livello molecolare come l'arricchimento di nutrienti influenza i dinoflagellati simbionti e lo sbiancamento dei coralli.",
+  "method_steps": [
+   "Coltura di S. microadriaticum e SSB01 a 20 µM e 440 µM di ammonio",
+   "Campionamento al giorno 2 e 8, anche in hospite",
+   "Estrazione di RNA",
+   "qPCR su 4 geni AMT per specie",
+   "Confronto dell'espressione tra condizioni"
+  ],
+  "techniques": [
+   "qPCR",
+   "RNA extraction",
+   "gene expression analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "qPCR instrument"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "2 specie, 2 concentrazioni, 2 time-point, 4 geni",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Smic-18076 aumenta linearmente con ammonio (trasportatore a bassa affinita')",
+   "SSB01-77 aumenta solo in condizioni povere in hospite (alta affinita')"
+  ],
+  "novelty_claim": "Trasportatori AMT a bassa affinita' spiegano la proliferazione dei simbionti in condizioni eutrofiche",
+  "application": "Gestione dell'azoto disciolto per la conservazione delle barriere coralline",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0000",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "blue light",
+   "Drosophila",
+   "cognition",
+   "sex ratio",
+   "stress"
+  ],
+  "problem_one_line_it": "Quantificare l'effetto della sovraesposizione a luce blu su funzioni cognitive e rapporto tra sessi in Drosophila.",
+  "method_steps": [
+   "Allevamento di Drosophila in regime luce blu/buio vs luce diurna/buio per piu' generazioni",
+   "Test cognitivo in labirinto (quanti su 10 completano, tempo)",
+   "Conteggio prole e rapporto sessi a ogni generazione",
+   "Test chi quadro sul rapporto sessi"
+  ],
+  "techniques": [
+   "maze behavioral assay",
+   "multigenerational rearing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "piu' generazioni (almeno 6), 10 individui per test",
+  "statistics_used": [
+   "chi-square test (p<0.01)",
+   "mean ± SD"
+  ],
+  "key_quant_results": [
+   "Gen 6: 2.5 (SD 0.57) completano il labirinto sotto luce blu vs 7.25 (SD 0.5) sotto luce diurna",
+   "Dalla 3a generazione rapporto sessi sbilanciato verso femmine (chi quadro, 0.01)"
+  ],
+  "novelty_claim": "",
+  "application": "Salute legata all'esposizione a schermi/luce blu",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0006",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "web application",
+   "Elo rating",
+   "crowdsourced ranking",
+   "AJAX",
+   "Bootstrap"
+  ],
+  "problem_one_line_it": "Quantificare preferenze globali tramite un sistema di ranking democratico basato su confronti a coppie.",
+  "method_steps": [
+   "Rappresentazione degli oggetti con immagini e categorie con hashtag",
+   "Selezione casuale di 2 immagini della stessa categoria",
+   "L'utente sceglie la preferita",
+   "Aggiornamento del punteggio con la formula Elo (vittoria, punteggi precedenti, numero di match)",
+   "Implementazione web con AJAX e Bootstrap"
+  ],
+  "techniques": [
+   "Elo rating formula",
+   "pairwise comparison tournament"
+  ],
+  "software_tools": [
+   "AJAX",
+   "Bootstrap"
+  ],
+  "programming_languages": [
+   "JavaScript",
+   "HTML"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [],
+  "novelty_claim": "Applicazione web a torneo con punteggio Elo per classificare preferenze globali",
+  "application": "Misura di preferenze e tendenze globali",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0007",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "mixed",
+  "domain_tags": [
+   "blindsnake",
+   "neuroanatomy",
+   "brain atlas",
+   "phototaxis",
+   "evolution"
+  ],
+  "problem_one_line_it": "Comprendere l'architettura fondamentale del cervello dei vertebrati studiando il serpente cieco R. braminus e il suo comportamento alla luce.",
+  "method_steps": [
+   "Microscopia ottica per produrre un atlante completo del cervello di R. braminus",
+   "Confronto di densita' e numero di cellule con specie piu' grandi",
+   "Studi comportamentali su specie normalmente vedenti come baseline",
+   "Esposizione prolungata alla luce dei serpenti ciechi e misura dell'accelerazione"
+  ],
+  "techniques": [
+   "light microscopy",
+   "histology",
+   "behavioral phototaxis assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "light microscope"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "studio triennale (Year Three)",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Cervello miniaturizzato con maggiore densita' cellulare ma meno cellule totali",
+   "Serpenti ciechi aumentano significativamente l'accelerazione sotto luce prolungata (fototassi negativa)"
+  ],
+  "novelty_claim": "Piattaforma nuova per comprendere l'architettura fondamentale del sistema nervoso dei vertebrati",
+  "application": "Neuroscienze evolutive; ecologia di specie invasiva diffusa",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2017-0022",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "mixed",
+  "domain_tags": [
+   "fireweed",
+   "pyrrolizidine alkaloids",
+   "sheep grazing",
+   "food safety",
+   "weed spread"
+  ],
+  "problem_one_line_it": "Verificare se le pecore diffondono la fireweed tossica, se gli alcaloidi danneggiano la loro salute ed entrano nella catena alimentare.",
+  "method_steps": [
+   "2 metodi di raccolta del letame e conteggio delle germinazioni di fireweed",
+   "Esami del sangue su 50 pecore esposte dalla nascita (funzione epatica)",
+   "Valutazione visiva, istopatologia epatica e analisi del rame nelle 10 peggiori e 2 migliori",
+   "Test di accumulo di PA in fegato e tessuti di 12 pecore"
+  ],
+  "techniques": [
+   "germination test",
+   "blood liver-function tests",
+   "liver histopathology",
+   "copper level analysis",
+   "pyrrolizidine alkaloid assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "50 pecore testate, 12 analizzate; 213 germinazioni",
+  "statistics_used": [],
+  "key_quant_results": [
+   "213 germinazioni di fireweed dal letame",
+   "Florosenina tossica in 3 campioni fino a 0.5 µg/kg",
+   "Pecore sane a ~9.25 piante/m2 per 6 anni"
+  ],
+  "novelty_claim": "Le pecore diffondono la fireweed e le tossine entrano nella catena alimentare umana",
+  "application": "Gestione del pascolo e sicurezza alimentare globale",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Necessarie indagini a densita' maggiori (fino a 5000 piante/m2) e accumulo di PA",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0043",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "honeybee",
+   "Varroa",
+   "oxalic acid",
+   "formic acid",
+   "learning and memory"
+  ],
+  "problem_one_line_it": "I trattamenti anti-Varroa (acido ossalico, formico) potrebbero danneggiare memoria e apprendimento delle api.",
+  "method_steps": [
+   "Condizionamento positivo delle api con test PER",
+   "Assegnazione casuale a 3 gruppi: controllo (vapore acqueo), OA (sublimazione acido ossalico), MAQS (strisce acido formico)",
+   "Misura delle risposte PER a intervalli di 1 h per 3 h",
+   "T-test a una coda tra gruppi"
+  ],
+  "techniques": [
+   "Proboscis Extension Response (PER) assay",
+   "oxalic acid sublimation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "one-tailed t-test",
+   "p<0.000491",
+   "p<0.00001"
+  ],
+  "key_quant_results": [
+   "Controllo vs MAQS p<0.000491",
+   "Controllo vs OA p<0.00001",
+   "OA e' il trattamento con punteggio piu' basso"
+  ],
+  "novelty_claim": "",
+  "application": "Apicoltura, IPM e salute delle colonie",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0055",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "PEM fuel cell",
+   "non-precious catalyst",
+   "solution plasma",
+   "waste vegetable oil",
+   "nanoparticles"
+  ],
+  "problem_one_line_it": "I catalizzatori al platino delle celle a combustibile PEM sono costosi; produrre un catalizzatore Fe/carbonio economico da olio esausto.",
+  "method_steps": [
+   "Solution plasma process con elettrodi di Fe immersi in olio esausto per 90 min con generatore a impulsi bipolari",
+   "Trattamento termico per migliorare la conducibilita'",
+   "Caratterizzazione con SEM, EDS, XRD",
+   "Misura dell'attivita' ORR con voltammetria ciclica",
+   "Costruzione e test di un prototipo di PEMFC"
+  ],
+  "techniques": [
+   "solution plasma process",
+   "heat treatment",
+   "SEM",
+   "EDS",
+   "XRD",
+   "cyclic voltammetry",
+   "oxygen reduction reaction testing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "bipolar-pulsed power generator",
+   "SEM",
+   "EDS",
+   "XRD",
+   "potentiostat",
+   "PEMFC prototype"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [],
+  "novelty_claim": "Nanoparticelle di Fe in carbonio da olio vegetale esausto via solution plasma come catalizzatore economico per PEMFC",
+  "application": "Energia alternativa, riduzione di consumo di combustibili fossili",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0056",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "cloud chamber",
+   "radioactivity",
+   "alpha/beta particles",
+   "soil contamination",
+   "mine spill"
+  ],
+  "problem_one_line_it": "Costruire un dispositivo domestico per rilevare visivamente raggi alfa e beta e confrontare la radioattivita' di campioni locali.",
+  "method_steps": [
+   "Costruzione di una camera a nebbia: vasca, feltro imbevuto di alcol, sorgente di calore sopra, ghiaccio secco sotto",
+   "Introduzione di campioni: suoli, campione della miniera di Silverton, banana, trinitite",
+   "Osservazione delle tracce e confronto qualitativo"
+  ],
+  "techniques": [
+   "diffusion cloud chamber"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "cloud chamber",
+   "dry ice"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "campioni di suolo, miniera, banana, trinitite",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Suolo del letto del fiume Animas piu' radioattivo, poi banana",
+   "Ipotesi (trinitite e miniera piu' radioattive) non supportata"
+  ],
+  "novelty_claim": "",
+  "application": "Monitoraggio della contaminazione da sversamento della Gold King Mine",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2017-0014",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "high fructose corn syrup",
+   "sucrose",
+   "obesity",
+   "mice",
+   "blood glucose"
+  ],
+  "problem_one_line_it": "Verificare se lo sciroppo di mais ad alto fruttosio causa piu' aumento di massa, glicemia e grasso corporeo rispetto al saccarosio nei topi.",
+  "method_steps": [
+   "Preparazione di 2 miscele isocaloriche (HFCS vs saccarosio)",
+   "10 topi in gabbie individuali, 5 per gruppo, alimentati con pari calorie per 20 settimane",
+   "Misura settimanale della massa, ogni 5 settimane della circonferenza, glicemia iniziale e finale",
+   "Analisi statistica delle differenze"
+  ],
+  "techniques": [
+   "controlled feeding trial",
+   "blood glucose measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "n=10 topi, 20 settimane",
+  "statistics_used": [
+   "statistical significance tests (unspecified)"
+  ],
+  "key_quant_results": [
+   "HFCS -> aumento significativamente maggiore di grasso corporeo",
+   "Saccarosio -> aumento significativamente maggiore di glicemia",
+   "Nessuna differenza significativa di massa"
+  ],
+  "novelty_claim": "",
+  "application": "Dibattito su HFCS e obesita'",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0017",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "water strider",
+   "surface vibration",
+   "animal communication",
+   "courtship",
+   "biotope tank"
+  ],
+  "problem_one_line_it": "Chiarire come il gerride gigante Aquarius elongatus usa le vibrazioni superficiali per localizzare prede e partner.",
+  "method_steps": [
+   "Allestimento di una vasca biotopo per osservazioni di 6 mesi",
+   "Costruzione di un generatore di onde con ventilatore elettrico",
+   "Vasca acrilica per misurare l'ampiezza delle onde",
+   "Modello maschio in filo di ferro per generare vibrazioni e indurre corteggiamento",
+   "Osservazione delle risposte predatorie e di corteggiamento"
+  ],
+  "techniques": [
+   "biotope simulation",
+   "surface wave generation",
+   "behavioral observation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "electric fan wave generator",
+   "acrylic water tank",
+   "iron-wire male model"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "6 mesi di osservazione",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Risposta predatoria a vibrazioni di ampiezza <=2.5 mm",
+   "Femmine rispondono a vibrazioni di 13 Hz prodotte dai maschi"
+  ],
+  "novelty_claim": "Tre strumenti nuovi e dimostrazione dell'uso selettivo delle vibrazioni superficiali",
+  "application": "Comprensione dei sistemi di comunicazione intraspecifica",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0038",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "honeybee",
+   "Nosema",
+   "pollen nutrition",
+   "memory",
+   "brain amino acids"
+  ],
+  "problem_one_line_it": "Capire l'effetto del parassita fungino Nosema su apprendimento, comportamento e chimica cerebrale delle api e se il polline aumenta la resistenza.",
+  "method_steps": [
+   "Divisione delle api in 4 gruppi: controllo ± polline, Nosema ± polline",
+   "Conteggio delle spore nel tratto intestinale",
+   "Test di risposta mnemonica",
+   "Dissezione del cervello e misura degli amminoacidi"
+  ],
+  "techniques": [
+   "spore counting",
+   "memory response assay",
+   "brain dissection",
+   "amino acid analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "4 gruppi",
+  "statistics_used": [],
+  "key_quant_results": [
+   "69.95 spore (Nosema senza polline) vs 123.9 (Nosema con polline)",
+   "Memoria: 62.07% Nosema+polline vs 18.92% controllo",
+   "72.59% meno amminoacidi nel cervello delle api Nosema+polline"
+  ],
+  "novelty_claim": "",
+  "application": "Lotta al declino delle colonie di api",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Usare serina, treonina e triptofano in una dieta migliorata per verificare la produzione di proteine",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0053",
+  "year": 2017,
+  "category": "Animal Sciences",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "3D printing",
+   "veterinary splint",
+   "wildlife rehabilitation",
+   "bird fracture",
+   "magnets"
+  ],
+  "problem_one_line_it": "Il pinning delle ali fratturate di uccelli e' invasivo e costoso; progettare una stecca 3D stampata non invasiva ed economica.",
+  "method_steps": [
+   "Progettazione e stampa 3D di 3 prototipi di stecca per radio e ulna",
+   "Prototipo 1 con viti passanti, 2 con C-clamp esterna, 3 con magneti",
+   "Test su 4 gufi reali morti: facilita', comfort, peso, tensione, spostamento dopo movimento rapido",
+   "Confronto e scelta della migliore"
+  ],
+  "techniques": [
+   "3D printing",
+   "CAD design",
+   "mechanical displacement test"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "3D printer",
+   "magnets",
+   "C-clamp"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "3 prototipi, 4 gufi",
+  "statistics_used": [],
+  "key_quant_results": [
+   "La stecca con magneti ha funzionato meglio; ipotesi accettata",
+   "Pinning riduce la resistenza ossea ~25% per foro (riferimento)"
+  ],
+  "novelty_claim": "Stecca 3D stampata non invasiva con magneti applicabile anche da non veterinari",
+  "application": "Centri di recupero fauna selvatica",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0158",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "best_of_category",
+  "research_type": "computational",
+  "domain_tags": [
+   "Parkinson's disease",
+   "facial action units",
+   "telemedicine",
+   "random forest",
+   "biomarkers"
+  ],
+  "problem_one_line_it": "Mancano biomarcatori oggettivi e a basso costo per la diagnosi precoce del Parkinson.",
+  "method_steps": [
+   "265 pazienti PD e non-PD guardano spot del Super Bowl e replicano emoticon registrati da webcam",
+   "Raccolta di 1325 video ed estrazione di 33 Action Units con software di riconoscimento facciale",
+   "Data mining in R; selezione AU per impurita' di Gini e cost-complexity > 0.01",
+   "Costruzione di algoritmi diagnostici e random forest per ogni test video",
+   "Test cieco per sensibilita' e specificita'"
+  ],
+  "techniques": [
+   "Facial Action Coding (Action Units)",
+   "feature selection via Gini impurity",
+   "cost-complexity pruning",
+   "blind testing"
+  ],
+  "software_tools": [
+   "R",
+   "facial recognition software"
+  ],
+  "programming_languages": [
+   "R"
+  ],
+  "ml_models": [
+   "random forest",
+   "decision tree"
+  ],
+  "hardware_instruments": [
+   "webcam"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "265 partecipanti, 1325 video, 33 AU",
+  "statistics_used": [
+   "Gini impurity",
+   "sensitivity/specificity",
+   "cross-validation (blind testing)"
+  ],
+  "key_quant_results": [
+   "Accuratezza 87% con AU spontanee",
+   "Patologia dell'amigdala fino a 10 anni prima dei segni diagnostici attuali"
+  ],
+  "novelty_claim": "Strumento di telemedicina a basso costo con biomarcatori digitali di espressione facciale per il Parkinson",
+  "application": "Diagnosi e monitoraggio del Parkinson senza infrastrutture costose",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2017-0131",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "first",
+  "research_type": "experimental",
+  "domain_tags": [
+   "adolescent risk-taking",
+   "EEG",
+   "habituation",
+   "BART",
+   "cognitive control"
+  ],
+  "problem_one_line_it": "Capire come esposizioni ripetute a rischi modificano le risposte emotive e l'autocontrollo negli adolescenti.",
+  "method_steps": [
+   "Reclutamento di 86 adolescenti",
+   "Registrazione EEG durante 12 prove del Balloon Analogue Risk Task",
+   "Misure soggettive con PANAS e STAI-S",
+   "Test di Stroop per l'inibizione della risposta",
+   "Modellazione sequenziale dei cambiamenti di elaborazione dell'esito per prova"
+  ],
+  "techniques": [
+   "EEG",
+   "Balloon Analogue Risk Task",
+   "Stroop task",
+   "PANAS",
+   "STAI-S",
+   "sequential trial modeling"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "EEG system"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "n=86 adolescenti, 12 prove BART",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Esposizioni ripetute desensibilizzano le risposte emotive negative aumentando il rischio"
+  ],
+  "novelty_claim": "Approccio nuovo combinando metodi comportamentali ed EEG per studiare l'abituazione al rischio",
+  "application": "Salute comportamentale degli adolescenti",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0118",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "second",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "maternal behavior",
+   "rat pups",
+   "early life adversity",
+   "c-Fos",
+   "video scoring"
+  ],
+  "problem_one_line_it": "Identificare comportamenti materni di abuso/negligenza nei ratti e i loro effetti neurali e comportamentali sui cuccioli.",
+  "method_steps": [
+   "Scoring di 36 video di madri ratto (dentro/fuori nido, mangiare, bere) in gabbie con/senza lettiera",
+   "Osservazione di 2 cuccioli abusati in interazione sociale piu' tardi",
+   "Analisi di scansioni cerebrali di 16 cuccioli colorati per c-Fos",
+   "Quantificazione dell'espressione di c-Fos"
+  ],
+  "techniques": [
+   "behavioral video scoring",
+   "c-Fos immunostaining",
+   "image quantification"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "36 video, 2 cuccioli, 16 cervelli",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Madri con poca lettiera piu' abusive/negligenti",
+   "Cuccioli abusati con comportamento sociale inadeguato",
+   "Nessuna grande differenza nei livelli di c-Fos"
+  ],
+  "novelty_claim": "",
+  "application": "Comprensione del maltrattamento infantile",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0124",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "second",
+  "research_type": "experimental",
+  "domain_tags": [
+   "lucid dreaming",
+   "polysomnography",
+   "EEG",
+   "sleep",
+   "consciousness"
+  ],
+  "problem_one_line_it": "Il sogno lucido e' raro; verificare se risvegli multipli inducono il sogno lucido e quali correlati EEG ha.",
+  "method_steps": [
+   "Monitoraggio polisonnografico di 19 partecipanti",
+   "36 risvegli nella transizione ipnagogica",
+   "2 ore di sonno ininterrotto poi tentativo di lucidita' con segnali oculari",
+   "Confronto EEG corticale tra sognatori lucidi e non",
+   "Analisi della potenza alfa"
+  ],
+  "techniques": [
+   "polysomnography",
+   "EEG",
+   "eye-signal verification",
+   "alpha power analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "polysomnography system",
+   "EEG"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "n=19 partecipanti, 36 risvegli",
+  "statistics_used": [],
+  "key_quant_results": [
+   "9/19 riportano lucidita' (47%)",
+   "7/19 verificati con segnali oculari (37%)",
+   "Alfa in sogno lucido inferiore alla veglia ma superiore al sonno"
+  ],
+  "novelty_claim": "Nuovo metodo di induzione tramite risvegli multipli e modello di spettro di coscienza basato su potenza alfa",
+  "application": "Ricerca sul sogno lucido e sulla coscienza",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0160",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "second",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "compassion fade",
+   "survey",
+   "donation behavior",
+   "age cohorts",
+   "social science methodology"
+  ],
+  "problem_one_line_it": "Capire quali fattori influenzano la compassion fade (minore generosita' con piu' vittime) oltre i campioni studenteschi.",
+  "method_steps": [
+   "Progettazione di sondaggi con richiesta di donazione per 1 vittima vs gruppo",
+   "Somministrazione a oltre 4200 adulti",
+   "Analisi della relazione tra eta' e compassion fade"
+  ],
+  "techniques": [
+   "survey experiment"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "n>4200 adulti (10-20x gli studi tipici)",
+  "statistics_used": [
+   "significance test (p<0.024)"
+  ],
+  "key_quant_results": [
+   "Relazione significativa eta'-compassion fade (p<0.024)",
+   "Coorti giovani mostrano compassion fade, anziane no"
+  ],
+  "novelty_claim": "La compassion fade non e' un fenomeno generale; i campioni di studenti universitari non sono generalizzabili",
+  "application": "Ricerca sociale, campagne umanitarie",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0101",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "third",
+  "research_type": "computational",
+  "domain_tags": [
+   "keystroke dynamics",
+   "deception detection",
+   "typing patterns",
+   "predictive model",
+   "text analysis"
+  ],
+  "problem_one_line_it": "Rilevare il grado di convinzione/veridicita' di chi scrive dai pattern di digitazione.",
+  "method_steps": [
+   "Registrazione di timestamp e tasto per ogni battuta",
+   "Derivazione di misure: battute al secondo, caratteri finali, caratteri cancellati",
+   "Confronto tra testi su cui il soggetto e' d'accordo o meno",
+   "Costruzione di un modello predittivo del livello di convinzione"
+  ],
+  "techniques": [
+   "keystroke logging",
+   "feature engineering"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "predictive model (unspecified)"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "statistical significance tests (unspecified)"
+  ],
+  "key_quant_results": [
+   "Soggetti digitano piu' veloce e fanno meno modifiche su temi condivisi"
+  ],
+  "novelty_claim": "Uso del processo di scrittura (keystroke) oltre al contenuto per stimare la convinzione",
+  "application": "Rilevatore di menzogne, verifica di minacce online",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0109",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "reading comprehension",
+   "older adults",
+   "reading modality",
+   "e-reading",
+   "education"
+  ],
+  "problem_one_line_it": "Capire quale modalita' di lettura (carta, elettronica, audio-elettronica) favorisce la comprensione negli over 60.",
+  "method_steps": [
+   "Reclutamento di adulti 60+ da comunita' e residenze",
+   "Somministrazione di 3 brani con domande, uno per modalita'",
+   "Sondaggio demografico",
+   "Confronto statistico dei punteggi"
+  ],
+  "techniques": [
+   "within-subject comprehension test",
+   "demographic survey"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "p<0.05"
+  ],
+  "key_quant_results": [
+   "Punteggio piu' alto con carta, poi elettronico, infine audio (p<0.05)",
+   "84.6% dei migliori in ERM con 4 anni di college e ancora al lavoro"
+  ],
+  "novelty_claim": "",
+  "application": "Educazione e tecnologia per anziani",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Studiare interventi per migliorare la plasticita' cerebrale negli anziani",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0120",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "stuttering",
+   "assistive device",
+   "pulse rate",
+   "vibration",
+   "speech therapy"
+  ],
+  "problem_one_line_it": "Trattare la balbuzie con un dispositivo che combina ripetizione, misura del polso e massaggio vibratorio.",
+  "method_steps": [
+   "Sondaggio sull'effetto della balbuzie sui pazienti",
+   "Progettazione del dispositivo EWS: misura del polso, testo digitato riprodotto in cuffia, ripetizione",
+   "Attivazione di sensori vibranti sui muscoli facciali se il polso e' alto",
+   "Sperimentazione clinica su 50 pazienti 16-20 anni sotto supervisione",
+   "Analisi di correlazione"
+  ],
+  "techniques": [
+   "pulse rate monitoring",
+   "text-to-speech repetition",
+   "vibration therapy"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "pulse sensor",
+   "vibration motors",
+   "headset"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "n=50 pazienti, 16-20 anni",
+  "statistics_used": [
+   "Pearson correlation (r=0.331, 0.75, 0.52)"
+  ],
+  "key_quant_results": [
+   "98% casi di successo",
+   "r=0.331 tra polso e gravita' della balbuzie",
+   "Tempo di pronuncia ridotto"
+  ],
+  "novelty_claim": "Dispositivo EWS che combina ripetizione e feedback vibratorio guidato dal polso",
+  "application": "Pazienti con balbuzie",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0143",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "implicit bias",
+   "Sikh",
+   "Implicit Association Test",
+   "discrimination",
+   "education intervention"
+  ],
+  "problem_one_line_it": "Misurare i bias espliciti e impliciti degli americani verso i Sikh e l'effetto della conoscenza.",
+  "method_steps": [
+   "Creazione di un Sikh Implicit Association Test e di un Choose Your Seat Test",
+   "Gruppo informato dopo serata in un tempio Sikh vs gruppo non informato (Grandview University)",
+   "Misura di scelta del posto e tempi di reazione"
+  ],
+  "techniques": [
+   "Implicit Association Test",
+   "seating preference test",
+   "reaction time measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "2 gruppi",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Soggetti informati scelgono il posto vicino a un Sikh 42.7% vs 25%",
+   "Non informati piu' veloci nelle associazioni negative/Sikh"
+  ],
+  "novelty_claim": "",
+  "application": "Riduzione dei crimini d'odio contro i Sikh americani",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0145",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "enclothed cognition",
+   "self-esteem",
+   "self-efficacy",
+   "adolescents",
+   "clothing"
+  ],
+  "problem_one_line_it": "Verificare se l'abbigliamento professionale aumenta autostima e autoefficacia negli adolescenti.",
+  "method_steps": [
+   "Assegnazione casuale di 120 partecipanti a abiti propri, casual o professionali",
+   "Somministrazione di Rosenberg Self-Esteem Scale, General Self-Efficacy Scale e domanda su candidatura a posizione superiore",
+   "Analisi statistica tra condizioni"
+  ],
+  "techniques": [
+   "randomized assignment",
+   "Rosenberg Self-Esteem Scale",
+   "General Self-Efficacy Scale"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "N=120",
+  "statistics_used": [
+   "p<.001"
+  ],
+  "key_quant_results": [
+   "Casual significativamente piu' basso di controllo e professionale (p<.001)",
+   "Professionale significativamente piu' alto di controllo e casual (p<.001)"
+  ],
+  "novelty_claim": "Primo studio a rivelare l'impatto dell'abbigliamento sull'autopercezione negli adolescenti",
+  "application": "Psicologia, performance e scelte di carriera",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0107",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "sundowning",
+   "dementia",
+   "medication interaction",
+   "medical records",
+   "neurotransmitters"
+  ],
+  "problem_one_line_it": "Identificare un trigger della sindrome del tramonto nei pazienti con demenza.",
+  "method_steps": [
+   "Revisione della letteratura su sundowning e neurotrasmettitori",
+   "Ipotesi: anti-demenza + antidepressivi aumentano il rischio",
+   "Raccolta di 50 cartelle cliniche anonimizzate",
+   "Calcolo di statistiche descrittive"
+  ],
+  "techniques": [
+   "retrospective medical record review"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "medical records of dementia patients (n=50)"
+  ],
+  "sample_size_or_scale": "50 cartelle cliniche",
+  "statistics_used": [
+   "descriptive statistics"
+  ],
+  "key_quant_results": [
+   "54% dei pazienti sundowner assumono entrambi i farmaci"
+  ],
+  "novelty_claim": "",
+  "application": "Istituti di cura per demenza",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2017-0116",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "mixed",
+  "domain_tags": [
+   "procrastination",
+   "smartphone usage",
+   "teenagers",
+   "survey",
+   "social network"
+  ],
+  "problem_one_line_it": "Verificare se la tecnologia moderna aggrava la procrastinazione negli adolescenti e se le app di monitoraggio aiutano.",
+  "method_steps": [
+   "Sondaggio a 132 adolescenti",
+   "Prova comportamentale di 3 giorni con 20 partecipanti usando app di tracciamento dell'uso del telefono",
+   "Analisi con t-test, chi quadro, correlazione e ANOVA",
+   "Creazione del sito teensagainstprocrastination.org"
+  ],
+  "techniques": [
+   "survey",
+   "behavioral trial",
+   "usage tracking apps"
+  ],
+  "software_tools": [
+   "smartphone usage tracking apps"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "132 intervistati, 20 nella prova",
+  "statistics_used": [
+   "t-test",
+   "chi-square",
+   "correlation",
+   "ANOVA"
+  ],
+  "key_quant_results": [
+   "Procrastinazione aumenta significativamente con uso social/intrattenimento",
+   "Relazione inversa tra sonno e uso social",
+   "App riducono significativamente l'uso nei heavy user"
+  ],
+  "novelty_claim": "Rete sociale anti-procrastinazione per adolescenti",
+  "application": "Adolescenti, educazione",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "statistics reported",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2017-0128",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "gender bias",
+   "NLP",
+   "movie reviews",
+   "neural network",
+   "Bayesian classification"
+  ],
+  "problem_one_line_it": "Rilevare bias di genere nei social media (recensioni di film) tramite algoritmi di IA e statistica.",
+  "method_steps": [
+   "Raccolta di recensioni di film online",
+   "Misura della distanza tra parole di genere e stereotipi di genere",
+   "Classificazione del genere della frase dal contesto con formule bayesiane e reti neurali",
+   "Analisi dell'adattamento del genere ad aggettivi stereotipici"
+  ],
+  "techniques": [
+   "word distance analysis",
+   "Bayesian probabilistic classification",
+   "text classification"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "neural network",
+   "naive Bayes / Bayesian classifier"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "online movie reviews"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Tipi femminili piu' vicini agli stereotipi femminili rispetto a quelli maschili"
+  ],
+  "novelty_claim": "Metodo estendibile a bias di eta'/razza/classe nei social media",
+  "application": "Studio dei bias algoritmici e sociali",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0132",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "mindfulness",
+   "PTSD",
+   "anxiety",
+   "depression",
+   "stress reduction program"
+  ],
+  "problem_one_line_it": "Creare un programma di mindfulness e riduzione dello stress che riduca i sintomi di PTSD, depressione e ansia.",
+  "method_steps": [
+   "Progettazione del programma con uno psicologo clinico",
+   "Reclutamento di 100 pazienti adulti diagnosticati (85 completano)",
+   "Sondaggio settimanale online: pressione, battito, qualita' di vita, stress, sintomi",
+   "Perceived Stress Scale all'inizio e alla fine",
+   "Compito quotidiano breve di mindfulness"
+  ],
+  "techniques": [
+   "Perceived Stress Scale",
+   "self-report survey",
+   "mindfulness intervention"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "100 reclutati, 85 completati, 18-54 anni",
+  "statistics_used": [],
+  "key_quant_results": [
+   "-12% gravita' dei sintomi",
+   "+11% qualita' di vita",
+   "Variazione minima di battito e pressione"
+  ],
+  "novelty_claim": "",
+  "application": "Persone con disturbi d'ansia e stress",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0139",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "Drosophila",
+   "aggression",
+   "dual neurotransmission",
+   "octopamine",
+   "glutamate",
+   "RNAi"
+  ],
+  "problem_one_line_it": "Capire se la co-trasmissione glutammato/octopamina nei neuroni regola l'aggressivita' e il corteggiamento maschile.",
+  "method_steps": [
+   "Marcatura con anticorpi e strumenti genetici per verificare co-espressione OA/glutammato",
+   "Riduzione del glutammato nei neuroni OA con RNA interference",
+   "Eliminazione tramite ricombinasi B3",
+   "Misura di latenza al combattimento e numero di affondi vs controlli"
+  ],
+  "techniques": [
+   "antibody labeling",
+   "RNA interference",
+   "B3 recombinase",
+   "behavioral aggression assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Diminuzione dell'aggressivita': latenza maggiore e meno affondi"
+  ],
+  "novelty_claim": "Primi risultati che dimostrano che il glutammato nei neuroni OA e' richiesto per comportamenti sesso-specifici",
+  "application": "Neuroscienze dei circuiti dell'aggressivita'",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0155",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "HIV stigma",
+   "children",
+   "public attitudes",
+   "qualitative study",
+   "Indonesia"
+  ],
+  "problem_one_line_it": "Determinare gli atteggiamenti pubblici verso i bambini con HIV/AIDS a Surakarta e i fattori che li formano.",
+  "method_steps": [
+   "Interviste, questionari, osservazione e revisione della letteratura in 6 sotto-distretti",
+   "Analisi qualitativa descrittiva supportata da dati quantitativi",
+   "Identificazione di fattori interni ed esterni"
+  ],
+  "techniques": [
+   "interviews",
+   "questionnaires",
+   "qualitative descriptive analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "6 sotto-distretti di Surakarta",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Tendenza ad atteggiamenti discriminatori: allontanamento, apatia, isolamento, molestie"
+  ],
+  "novelty_claim": "",
+  "application": "Politiche partecipative per ridurre lo stigma",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0163",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "deaf education",
+   "interactive robot",
+   "vocabulary learning",
+   "emotion recognition",
+   "assistive technology"
+  ],
+  "problem_one_line_it": "I bambini sordi hanno scarso accesso al curriculum; creare un sistema di vocabolario interattivo con robot e feedback visuo-spaziale.",
+  "method_steps": [
+   "Integrazione di un robot interattivo che si muove nello spazio con feedback visuo-spaziale",
+   "Test di aspetti edonici, motivazione, usabilita'",
+   "Monitoraggio delle espressioni facciali durante l'uso",
+   "Misura di livello di lettura e vocabolario dopo 4 settimane"
+  ],
+  "techniques": [
+   "facial expression monitoring",
+   "usability testing",
+   "pre/post reading assessment"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "interactive robot"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "4 settimane di uso",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Aumento significativo di livello di lettura e vocabolario dopo 4 settimane"
+  ],
+  "novelty_claim": "Sistema interattivo che integra la dimensione emotiva e un robot per l'alfabetizzazione dei sordi",
+  "application": "Bambini sordi e ipoudenti",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0104",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "para-athletes",
+   "self-image",
+   "disability",
+   "sport psychology",
+   "qualitative"
+  ],
+  "problem_one_line_it": "Capire se lo sport risignifica diversamente l'immagine di se' negli atleti con disabilita' congenita vs acquisita.",
+  "method_steps": [
+   "Interviste a professionisti (psicologia sportiva, neuroscienze, educazione fisica, terapia occupazionale)",
+   "Questionari a para-atleti",
+   "Revisione bibliografica",
+   "Confronto qualitativo e quantitativo tra i 2 gruppi"
+  ],
+  "techniques": [
+   "interviews",
+   "questionnaires",
+   "literature review"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Differenza significativa nel processo di risignificazione tra i 2 gruppi"
+  ],
+  "novelty_claim": "",
+  "application": "Inclusione sociale di persone con disabilita'",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0108",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "academic dishonesty",
+   "student stress",
+   "survey",
+   "correlation",
+   "education"
+  ],
+  "problem_one_line_it": "Determinare se esiste correlazione tra disonesta' accademica e fattori di stress comuni negli studenti.",
+  "method_steps": [
+   "Selezione di una scuola privata in Louisiana (classi 4-12)",
+   "Creazione di 2 sondaggi somministrati dagli insegnanti",
+   "Codifica di un 'cheat code' e 'stress code' per studente",
+   "Analisi statistica di correlazione"
+  ],
+  "techniques": [
+   "survey coding"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "correlation analysis"
+  ],
+  "key_quant_results": [
+   "Correlazione moderata tra stress e cheating",
+   "Cheating aumenta fino alla 12a classe"
+  ],
+  "novelty_claim": "",
+  "application": "Integrita' accademica nelle scuole",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "statistics reported"
+  ]
+ }
+]

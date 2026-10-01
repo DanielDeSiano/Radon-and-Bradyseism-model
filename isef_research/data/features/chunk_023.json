@@ -1,0 +1,2178 @@
+[
+ {
+  "pid": "2018-2490",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "third",
+  "research_type": "computational",
+  "domain_tags": [
+   "quark-gluon plasma",
+   "chiral magnetic effect",
+   "heavy-ion collisions",
+   "QCD",
+   "STAR"
+  ],
+  "problem_one_line_it": "Osservare e misurare la separazione di carica indotta dall'effetto magnetico chirale nel plasma di quark e gluoni in collisioni Au+Au",
+  "method_steps": [
+   "Analizzare dati STAR di collisioni Au+Au al RHIC",
+   "Applicare un nuovo correlatore in-evento sensibile alla carica",
+   "Distinguere la separazione di carica CME da quella di fondo non-CME",
+   "Misurare la distribuzione della separazione di carica rispetto al piano dell'evento",
+   "Studiare la dipendenza dell'ampiezza dalla centralita'"
+  ],
+  "techniques": [
+   "charge-sensitive in-event correlator",
+   "event-plane charge separation analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "STAR (RHIC) Au+Au collision data"
+  ],
+  "sample_size_or_scale": "STAR Au+Au collision dataset (events not quantified)",
+  "statistics_used": [],
+  "key_quant_results": [
+   "concave charge-separation distribution about the event plane observed",
+   "CME strength increased with centrality"
+  ],
+  "novelty_claim": "New charge-sensitive in-event correlator giving discernible responses for CME-driven vs background-driven charge separation",
+  "application": "Fundamental understanding of anomalous transport in QGP and QCD symmetry violations",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2018-2509",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "third",
+  "research_type": "computational",
+  "domain_tags": [
+   "N-body problem",
+   "chaotic dynamics",
+   "half-life formalism",
+   "binary-binary scattering",
+   "gravitational waves"
+  ],
+  "problem_one_line_it": "Prevedere statisticamente la disgregazione di sistemi gravitazionali caotici a pochi corpi senza integrazioni orbitali costose",
+  "method_steps": [
+   "Estrarre dati grezzi da 600.414 prove di scattering binaria-binaria",
+   "Tracciare le distribuzioni dei tempi di disgregazione",
+   "Adattare modelli matematici di decadimento a emivita",
+   "Estrarre emivite per ciascun sistema e calcolare i rapporti di diramazione",
+   "Valutare l'accordo tra modello e simulazioni"
+  ],
+  "techniques": [
+   "half-life decay modeling",
+   "branching ratio calculation",
+   "distribution fitting"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "600,414 scattering trials",
+  "statistics_used": [
+   "distribution fitting"
+  ],
+  "key_quant_results": [
+   "half-life models strongly agreed with simulated chaotic behavior",
+   "half-lives depend on disruption outcome type"
+  ],
+  "novelty_claim": "A half-life formalism borrowed from radioisotope decay to predict disruption of small-N body systems",
+  "application": "Predicting gravitational-wave detections; multiplicities of stars and black holes",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Framework to be adapted to gravitational-wave prediction and population multiplicities",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2444",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "exoplanet detection",
+   "CNN",
+   "time series",
+   "ARIMA",
+   "Kepler light curves"
+  ],
+  "problem_one_line_it": "Rilevare candidati esopianeti con telescopi terrestri nonostante rumore atmosferico e lacune osservative diurne",
+  "method_steps": [
+   "Generare curve di luce transito/non-transito da parametri stellari Kepler",
+   "Convertirle in descrittori immagine SIFT e addestrare una CNN",
+   "Eliminare segmenti di 12 ore per simulare le interruzioni diurne",
+   "Riempire le lacune con modelli Gaussian Local Level e ARIMA",
+   "Aggiungere rumore artificiale e rimuoverlo con simulazioni Durbin-Koopman",
+   "Classificare le curve trasformate e misurare l'accuratezza"
+  ],
+  "techniques": [
+   "SIFT image descriptors",
+   "Gaussian Local Level model",
+   "ARIMA",
+   "Durbin-Koopman simulation",
+   "noise injection"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "convolutional neural network"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "Kepler light curves"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "ARIMA",
+   "state-space models",
+   "classification accuracy"
+  ],
+  "key_quant_results": [
+   "88% classification accuracy under simulated earth-based conditions"
+  ],
+  "novelty_claim": "Three-tiered deep learning + time series + statistical noise-reduction pipeline enabling exoplanet search with a worldwide network of earth-based telescopes",
+  "application": "Accessible, lower-cost exoplanet candidate discovery with ground telescopes",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2018-2445",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "theoretical",
+  "domain_tags": [
+   "quantum optics",
+   "two-mode squeezing",
+   "photon-number-resolving detector",
+   "Fock states"
+  ],
+  "problem_one_line_it": "Verificare se il two-mode squeezing permette rivelatori di fotoni a risoluzione di numero a temperatura ambiente",
+  "method_steps": [
+   "Progettare un setup con squeezer a due modi e contatore di coincidenze",
+   "Usare in input uno stato di Fock e uno stato coerente",
+   "Calcolare in Mathematica conteggio medio ed errore delle coincidenze",
+   "Confrontare con l'input Fock-vuoto",
+   "Valutare la distinguibilita' dei segnali"
+  ],
+  "techniques": [
+   "two-mode squeezing",
+   "coincidence counting",
+   "quantum state calculation"
+  ],
+  "software_tools": [
+   "Mathematica"
+  ],
+  "programming_languages": [
+   "Wolfram Language"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "|n,alpha> input gives far more distinctive signals than |n,0> input"
+  ],
+  "novelty_claim": "Proposed TMS-based PNRD with Fock+coherent input that resolves photon number at room temperature",
+  "application": "Quantum optics / quantum information photon detection",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Future: two coherent states input, compare with superconducting-nanowire detectors, build experimental setup",
+  "quality_flags": [
+   "clear hypothesis",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2018-2452",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "ion trap",
+   "mass spectrometry",
+   "macroscopic particles",
+   "laser detection",
+   "instrumentation"
+  ],
+  "problem_one_line_it": "Separare e rilevare particelle macroscopiche con spettrometria a trappola ionica senza sistema a vuoto",
+  "method_steps": [
+   "Identificare i limiti della spettrometria di massa convenzionale per particelle macroscopiche",
+   "Progettare uno strumento basato su trappola ionica funzionante in atmosfera",
+   "Integrare rilevazione laser delle particelle",
+   "Sviluppare un prototipo",
+   "Testarlo sperimentalmente e con simulazione matematica"
+  ],
+  "techniques": [
+   "ion-trap mass spectrometry",
+   "laser-based particle detection",
+   "mathematical simulation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "ion trap",
+   "laser"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [],
+  "novelty_claim": "New simple instrument for separation and laser detection of macroscopic particles with ion-trap technology in the absence of a vacuum",
+  "application": "Inexpensive quantitative particle analysis in broad laboratory settings",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Prototype still to be developed and tested; stated as planned work",
+  "quality_flags": [
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2018-2478",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "meteors",
+   "Perseids",
+   "triangulation",
+   "multi-site observation",
+   "thermosphere"
+  ],
+  "problem_one_line_it": "Determinare traiettorie 3D, altitudine e velocita' delle meteore Perseidi 2016 con osservazioni da piu' siti",
+  "method_steps": [
+   "Raccogliere video e immagini da tre osservatori/istituti in Okayama per 4 notti (11-14 ago 2016)",
+   "Rilevare 546 meteore (443 Perseidi)",
+   "Selezionare 28 meteore con dati a due punti",
+   "Misurare altitudine e azimut di inizio/fine traiettoria",
+   "Calcolare posizione 3D con triangolazione",
+   "Ricavare velocita' geocentrica dai video e correlare con luminosita'"
+  ],
+  "techniques": [
+   "triangulation",
+   "two-station meteor astrometry",
+   "video velocimetry"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "video cameras",
+   "still cameras"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "546 meteors detected, 28 with two-point data, 4 nights",
+  "statistics_used": [],
+  "key_quant_results": [
+   "begin altitude 107 km, end 91 km (±2.2 km)",
+   "average path length ~22 km",
+   "geocentric velocity 57 ±11 km/s",
+   "brighter meteors have longer paths and lower end points"
+  ],
+  "novelty_claim": "Meteors as probes of lower-thermosphere gas density where satellites and balloons cannot operate",
+  "application": "Upper-atmosphere physics",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2483",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "laser surveillance",
+   "speech intelligibility",
+   "diffuse scattering coatings",
+   "nanoparticles",
+   "security"
+  ],
+  "problem_one_line_it": "Mascherare i segnali laser modulati dal suono usati per spionaggio mantenendo la trasparenza delle finestre",
+  "method_steps": [
+   "Modulare un laser con registrazione vocale e rifletterlo su vetrini trattati",
+   "Demodulare con ricevitore fotovoltaico",
+   "Valutare le parole riconosciute con software di riconoscimento vocale",
+   "Misurare la trasmissione spettrofotometrica a varie lunghezze d'onda",
+   "Misurare la chiarezza tramite luminosita' di pixel casuali attraverso i vetrini",
+   "Confrontare i trattamenti (silice-epossidica, PDMS, silice-DMS) con il controllo"
+  ],
+  "techniques": [
+   "laser modulation/demodulation",
+   "speech recognition testing",
+   "spectrophotometry",
+   "pixel luminosity analysis"
+  ],
+  "software_tools": [
+   "speech recognition software"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "laser",
+   "photovoltaic receiver",
+   "spectrophotometer",
+   "glass slides",
+   "silica nanoparticles"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "p<0.0001"
+  ],
+  "key_quant_results": [
+   "silica nanoparticle-epoxy: 47% words recognized vs 100% control",
+   "silica nanoparticle-DMS: 0% words recognized",
+   "PDMS pixel luminosity 77.2 lum (poor clarity)"
+  ],
+  "novelty_claim": "Irregular transparent nanoparticle-silicone treatments mask laser-detected speech while keeping transmission and clarity",
+  "application": "Countermeasure against laser microphone surveillance",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2018-2496",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "glare removal",
+   "cross polarization",
+   "Pockels cell",
+   "driving safety",
+   "optics"
+  ],
+  "problem_one_line_it": "Ridurre l'abbagliamento da particelle (neve, pioggia, nebbia) che ostacola la visione di guidatori e sensori",
+  "method_steps": [
+   "Analizzare il problema della 'cecita' da neve notturna'",
+   "Adattare la tecnica fotografica a filtri polarizzati incrociati",
+   "Usare LED moderni e una cella di Pockels al niobato di litio per evitare danni termici",
+   "Costruire un modello di laboratorio",
+   "Valutare il miglioramento della qualita' visiva sul problema test"
+  ],
+  "techniques": [
+   "cross polarization filtering",
+   "Pockels cell electro-optic switching"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "LEDs",
+   "Pockels cell (lithium niobate)",
+   "polarization filters"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "visual quality substantially improved (qualitative)"
+  ],
+  "novelty_claim": "Cross-polarization plus LED/Pockels cell to selectively remove particulate glare, now feasible without thermal damage",
+  "application": "Autonomous vehicles, aviation, submersibles, search and rescue, IR imaging",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Further development warranted; lab-scale only",
+  "quality_flags": [
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2018-2499",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "theoretical",
+  "domain_tags": [
+   "geometrical optics",
+   "secondary real images",
+   "lens equations",
+   "insect simple eye",
+   "matrix optics"
+  ],
+  "problem_one_line_it": "Determinare dove si formano le immagini reali secondarie in lenti piano-convesse e se gli insetti vedono attraverso di esse",
+  "method_steps": [
+   "Derivare equazioni per immagini reali secondarie con modello di lente spessa",
+   "Verificare con un nuovo calcolo matriciale",
+   "Estendere a lenti con raggi di curvatura diversi",
+   "Definire il 'fuoco secondario' ponendo la sorgente all'infinito",
+   "Applicare al cristallino dell'occhio semplice di un insetto"
+  ],
+  "techniques": [
+   "matrix ray tracing",
+   "thick lens model"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "secondary real images lie closer to the retina than primary real images in the simple eye"
+  ],
+  "novelty_claim": "New definition of secondary focal point and equations for plane-convex / asymmetric lenses; insects may see via secondary real images",
+  "application": "Insect vision, lens optics",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2018-2522",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "astrochemistry",
+   "IR spectroscopy",
+   "PAH",
+   "CNN",
+   "synthetic data"
+  ],
+  "problem_one_line_it": "Identificare automaticamente molecole organiche complesse e le loro concentrazioni da spettri IR astronomici",
+  "method_steps": [
+   "Prendere spettri teorici dal database NASA PAHdb v2/v3",
+   "Generare miscele casuali di 3.139 spettri PAH con rumore realistico come dati sintetici",
+   "Addestrare CNN (fino a ResNet5, ~200M parametri)",
+   "Testare su spettri empirici e su concentrazioni di miscele",
+   "Confrontare con modelli lineari standard"
+  ],
+  "techniques": [
+   "synthetic training data generation",
+   "spectral pattern recognition"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "convolutional neural network",
+   "ResNet",
+   "linear models (baseline)"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "NASA PAHdb v2",
+   "NASA PAHdb v3"
+  ],
+  "sample_size_or_scale": "3,139 theoretical PAH spectra; model ~200M parameters",
+  "statistics_used": [
+   "accuracy",
+   "weight vector correlation"
+  ],
+  "key_quant_results": [
+   "~73% accuracy identifying empirical molecules",
+   "~85% weight vector correlation for concentrations",
+   "largest constituent correct ~67%",
+   "outperforms linear models"
+  ],
+  "novelty_claim": "Novel method for creating synthetic training data to tune CNNs to specific astronomical environments",
+  "application": "Scaling analysis of astronomical IR spectra, origins of life research",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2018-2529",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "cosmic rays",
+   "extensive air showers",
+   "scintillation detector",
+   "Arduino",
+   "particle physics"
+  ],
+  "problem_one_line_it": "Costruire rivelatori portatili ed economici per registrare sciami atmosferici estesi di particelle",
+  "method_steps": [
+   "Progettare contatori a scintillazione con fotomoltiplicatore",
+   "Realizzare amplificatore-formatore che digitalizza e allunga il segnale a 10 us",
+   "Gestire lettura, elaborazione e trasmissione con Arduino Uno e modulo Wi-Fi",
+   "Alimentare con batteria 12 V",
+   "Assemblare un cluster di 4 contatori e testarlo"
+  ],
+  "techniques": [
+   "scintillation counting",
+   "coincidence detection",
+   "signal shaping"
+  ],
+  "software_tools": [
+   "Arduino IDE"
+  ],
+  "programming_languages": [
+   "C/C++ (Arduino)"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [
+   "scintillator",
+   "photomultiplier tube",
+   "Arduino Uno",
+   "Wi-Fi module",
+   "12 V battery",
+   "amplifier-shaper"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "cluster of 4 counters",
+  "statistics_used": [],
+  "key_quant_results": [
+   "average EAS recording frequency 3.4 per minute",
+   "pulse duration 10 microseconds"
+  ],
+  "novelty_claim": "Portable self-contained scintillation cluster needing no external equipment",
+  "application": "Cosmic ray / EAS monitoring in open areas and buildings",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2018-2460",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "petroleum",
+   "electromagnetic field",
+   "magnetic nanoparticles",
+   "EPR",
+   "viscosity"
+  ],
+  "problem_one_line_it": "Aumentare la produzione di petrolio modificandone le proprieta' fisico-chimiche con campi elettromagnetici esterni",
+  "method_steps": [
+   "Raccogliere campioni di petrolio da 15 giacimenti della penisola di Absheron",
+   "Rilevare nanoparticelle magnetiche con EPR",
+   "Determinare struttura e dimensione con TEM",
+   "Misurare viscosita' e spettri IR",
+   "Sviluppare basi per tecnologie di gestione delle proprieta' del petrolio"
+  ],
+  "techniques": [
+   "EPR spectroscopy",
+   "transmission electron microscopy",
+   "optical microscopy",
+   "viscosimetry",
+   "IR spectroscopy"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "EPR spectrometer",
+   "TEM",
+   "viscosimeter",
+   "IR spectrometer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "15 oil fields",
+  "statistics_used": [],
+  "key_quant_results": [
+   "iron oxide magnetic nanoparticles in 30% of samples",
+   "EPR signal g=2.3, ΔH≈320 Oe"
+  ],
+  "novelty_claim": "New method for increasing oil production by changing physical-chemical properties with external EM field",
+  "application": "Oil extraction and pipeline transport",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2481",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "glioblastoma",
+   "temozolomide resistance",
+   "dihydrotanshinone",
+   "MGMT",
+   "blood-brain barrier"
+  ],
+  "problem_one_line_it": "Invertire la resistenza del glioblastoma al temozolomide con un trattamento combinato con diidrotanshinone",
+  "method_steps": [
+   "Trattare linee cellulari MGMT-deficienti e MGMT-esprimenti con DHT+TMZ",
+   "Quantificare sinergia con Combination Index",
+   "Modellare il meccanismo ROS-dipendente con docking molecolare",
+   "Verificare la penetrazione della BBB in co-coltura in vitro (TEER, coloranti di permeabilita')",
+   "Misurare espressione MGMT e P-gp con microarray e ELISA",
+   "Valutare NfkB e AKT"
+  ],
+  "techniques": [
+   "cell viability assays",
+   "Combination Index synergy analysis",
+   "molecular docking",
+   "TEER",
+   "DNA microarray",
+   "ELISA",
+   "mRNA expression analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "in vitro BBB co-culture model"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "synergistic selective cytotoxicity in MGMT-deficient line",
+   "DHT penetrates blood-brain barrier in vitro",
+   "synergistic reduction of MGMT and P-glycoprotein"
+  ],
+  "novelty_claim": "DHT augments TMZ efficacy and crosses the BBB, a promising combination for glioblastoma",
+  "application": "Glioblastoma therapy",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Abstract text does not match the listed title (title concerns topological superconductors)",
+  "quality_flags": [
+   "controls described",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2018-2495",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "eccentric binaries",
+   "apsidal motion",
+   "stellar dynamics",
+   "variable stars",
+   "simulation software"
+  ],
+  "problem_one_line_it": "Modellare il moto apsidale e la dinamica di sistemi stellari multipli difficili da osservare direttamente",
+  "method_steps": [
+   "Osservare la stella variabile GSC 2.2 223013015 e identificarla come binaria eccentrica",
+   "Rilevare discrepanze nei minimi secondari suggerenti moto apsidale",
+   "Scrivere software di modellazione continua del moto di sistemi multipli",
+   "Produrre curve di velocita' radiale, diagrammi O-C e periodo apsidale",
+   "Stimare rotazione delle componenti e predire fasi dei minimi"
+  ],
+  "techniques": [
+   "orbital modeling",
+   "O-C diagram analysis",
+   "radial velocity curve synthesis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "GSC catalog star GSC 2.2 223013015 observations"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [],
+  "novelty_claim": "Software for unlimited-in-time continuous modeling of multiple stellar system motion reproducing apsidal motion",
+  "application": "Research on eccentric binaries, triples and circumbinary exoplanet search",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2018-2504",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "radiation shielding",
+   "Monte Carlo",
+   "SPENVIS",
+   "Geant4",
+   "space radiation"
+  ],
+  "problem_one_line_it": "Progettare schermature economiche ed efficaci contro fotoni ionizzanti ad alta energia per reattori e spazio profondo",
+  "method_steps": [
+   "Definire sei modelli di schermatura multistrato (acciaio, piombo, bismuto, idruro di litio)",
+   "Eseguire 280 esperimenti computazionali in SPENVIS con MULASSIS e GRAS",
+   "Testare raggi singoli e multipli con quattro distribuzioni angolari",
+   "Confrontare con lo standard ESA SHIELDOSE",
+   "Valutare costo, spessore e frazione di particelle bloccate"
+  ],
+  "techniques": [
+   "Monte Carlo transport modeling",
+   "multi-layered shielding simulation"
+  ],
+  "software_tools": [
+   "SPENVIS",
+   "MULASSIS",
+   "GRAS (Geant4)",
+   "SHIELDOSE"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "280 computational experiments, 6 shield models",
+  "statistics_used": [],
+  "key_quant_results": [
+   ">99% of particles blocked",
+   ">14,000% cheaper than SHIELDOSE",
+   "7x thinner",
+   "SHIELDOSE increased neutron dose by >700%"
+  ],
+  "novelty_claim": "Novel layered shielding with photon-specific algorithms outperforming ESA SHIELDOSE and metal foams",
+  "application": "Nuclear plants, deep-space exploration, radiation protection",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2018-2505",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "theoretical",
+  "domain_tags": [
+   "propulsion",
+   "alpha particles",
+   "nuclear rocket",
+   "low thrust",
+   "spacecraft"
+  ],
+  "problem_one_line_it": "Progettare un motore a reazione a bassa potenza ma alta efficienza basato su sorgente di particelle alfa",
+  "method_steps": [
+   "Confrontare velocita' di scarico chimica (~3 km/s) con particelle alfa (~10^4 km/s)",
+   "Proporre sorgente alfa sulla superficie del veicolo",
+   "Aggiungere specchio direzionale paraboloide per aumentare la spinta",
+   "Considerare il campo elettrostatico tra sorgente e specchio per riflettere piu' particelle",
+   "Stimare la spinta risultante"
+  ],
+  "techniques": [
+   "theoretical propulsion analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "thrust ~10^-4 N",
+   "alpha particle speed ~10^4 km/s vs ~3 km/s chemical exhaust"
+  ],
+  "novelty_claim": "Alpha-particle source plus paraboloid directing mirror as highly efficient low-power engine",
+  "application": "Low-power spacecraft propulsion",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Thrust is low; scalable by selecting radioactive mass",
+  "quality_flags": [
+   "clear hypothesis"
+  ]
+ },
+ {
+  "pid": "2018-2507",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "semiconductors",
+   "native oxide",
+   "wet etching",
+   "ion beam analysis",
+   "RBS"
+  ],
+  "problem_one_line_it": "Quantificare gli ossidi nativi su Si e GaAs e l'efficacia dell'etching chimico umido",
+  "method_steps": [
+   "Misurare ossidi nativi su wafer Si e GaAs con RBS, ion channeling e risonanza nucleare dell'ossigeno a MeV",
+   "Eseguire etching HF su Si e etching proprietario su GaAs",
+   "Rimisurare dopo etching",
+   "Adattare spettri Rotating Random IBA a simulazioni SIMNRA",
+   "Confrontare la riduzione di ossigeno"
+  ],
+  "techniques": [
+   "Rutherford backscattering spectrometry",
+   "ion channeling",
+   "oxygen nuclear resonance analysis",
+   "wet chemical etching"
+  ],
+  "software_tools": [
+   "SIMNRA"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "ion beam accelerator",
+   "Si(100) wafers",
+   "GaAs wafers"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Si native oxide 13.3 oxygen monolayers",
+   "HF etch reduced Si oxygen by 11.6 ±3%",
+   "GaAs native oxide 7.22 ML",
+   "proprietary etch reduced GaAs oxygen by 49.1 ±4%"
+  ],
+  "novelty_claim": "Quantifies etch effectiveness and native oxide thickness on both Si and GaAs, finding etching more effective for GaAs",
+  "application": "Semiconductor device fabrication, epitaxy, contact resistance",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2515",
+  "year": 2018,
+  "category": "Physics and Astronomy",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "exoplanets",
+   "radial velocity",
+   "Doppler spectroscopy",
+   "brown dwarfs",
+   "circumbinary planet"
+  ],
+  "problem_one_line_it": "Scoprire compagni stellari e sub-stellari non rilevati attorno a oltre 1.100 stelle FGK del survey MARVELS",
+  "method_steps": [
+   "Analizzare spettri di oltre 1.100 stelle FGK dal survey SDSS-III MARVELS",
+   "Misurare spostamenti Doppler delle righe spettrali",
+   "Identificare compagni e calcolare proprieta' orbitali",
+   "Derivare masse da periodo e ampiezza",
+   "Classificare pianeti giganti, nane brune e pianeta circumbinario"
+  ],
+  "techniques": [
+   "Doppler spectroscopy",
+   "radial velocity method",
+   "orbital fitting"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "SDSS-III MARVELS radial velocity survey"
+  ],
+  "sample_size_or_scale": ">1,100 FGK stars (mag 8-11), ~12 m/s precision",
+  "statistics_used": [],
+  "key_quant_results": [
+   "9 giant planet candidates",
+   "1 new brown dwarf in the Brown Dwarf Desert",
+   "first circumbinary planet found via Doppler spectroscopy"
+  ],
+  "novelty_claim": "First-ever circumbinary planet discovered using Doppler spectroscopy",
+  "application": "Planet formation/migration theory; refining RV precision toward habitable-zone rocky planets",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2546",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "best_of_category",
+  "research_type": "experimental",
+  "domain_tags": [
+   "social hierarchy",
+   "mice",
+   "behavioral neuroscience",
+   "AMPA receptor",
+   "RT-PCR"
+  ],
+  "problem_one_line_it": "Capire come si stabilisce e si regola la gerarchia sociale nei topi e i meccanismi cellulari sottostanti",
+  "method_steps": [
+   "Usare topi maschi C57BL/6 e valutare il rango con tube test",
+   "Osservare resistenza e comportamenti di indagine/attacco del dominante",
+   "Testare l'effetto del taglio delle vibrisse e del raggruppamento di topi di basso rango",
+   "Verificare l'effetto dell'esperienza di vittoria reinserendo il nuovo dominante",
+   "Eseguire elettrofisiologia e RT-PCR su AMPA/GluR4"
+  ],
+  "techniques": [
+   "tube test",
+   "whisker trimming",
+   "electrophysiology",
+   "RT-PCR"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "electrophysiology rig"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "male C57BL/6 mice (n not stated)",
+  "statistics_used": [],
+  "key_quant_results": [
+   "new hierarchy established within one week",
+   "dominance associated with AMPA-receptor response frequency and GluR4 expression"
+  ],
+  "novelty_claim": "Successful experience raises social rank; dominance linked to AMPA/GluR4",
+  "application": "New education theory insights",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Abstract text does not match the listed title (title concerns Amana edulis and liver cancer)",
+  "quality_flags": [
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2018-2579",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "first",
+  "research_type": "experimental",
+  "domain_tags": [
+   "biopesticide",
+   "Trichoderma harzianum",
+   "Armadillidium",
+   "choice chamber",
+   "fungicide tolerance"
+  ],
+  "problem_one_line_it": "Trovare un'alternativa naturale ai pesticidi sintetici usando il fungo Trichoderma harzianum",
+  "method_steps": [
+   "Esp. I: esporre Armadillidium a piante di mais in simbiosi con T. harzianum",
+   "Esp. II-III: camere di scelta con piante/piastre inoculate",
+   "Esp. IV: alimentare Armadillidium con T. harzianum",
+   "Fase II: esporre colture di T. harzianum a pesticidi a concentrazioni di campo",
+   "Analisi con t-test"
+  ],
+  "techniques": [
+   "choice chamber assay",
+   "survivorship assay",
+   "fungal culture on agar"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "t-test",
+   "t=2.75 > t.05=2.31",
+   "t=24 > t.01=3.36"
+  ],
+  "key_quant_results": [
+   "72% survival with T. harzianum vs 100% control",
+   "0% survival when fed T. harzianum vs 96% control",
+   "66.6% of time on control side vs 22% on Trichoderma side",
+   "only Patch Pro Fungicide significantly affected T. harzianum"
+  ],
+  "novelty_claim": "T. harzianum both kills and deters Armadillidium and survives field pesticide concentrations",
+  "application": "Natural pesticide alternative for agriculture",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2018-2542",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "second",
+  "research_type": "mixed",
+  "domain_tags": [
+   "pyrrolizidine alkaloids",
+   "honey contamination",
+   "Senecio jacobaea",
+   "mass spectrometry",
+   "plant mapping"
+  ],
+  "problem_one_line_it": "Verificare se gli alcaloidi pirrolizidinici del senecione contaminano il miele locale",
+  "method_steps": [
+   "Mappare Senecio jacobaea su 55 km2 (oltre 8.300 esemplari)",
+   "Dividere la citta' in settori per uso del suolo",
+   "Raccogliere e analizzare polline da apicoltori locali",
+   "Predire il tasso di contaminazione per posizione dell'alveare",
+   "Verificare con analisi spettrometrica di massa del miele"
+  ],
+  "techniques": [
+   "pollen analysis",
+   "mass spectrometry",
+   "field mapping",
+   "land-use sector analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "mass spectrometer",
+   "microscope"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "55 km2 mapped, >8,300 plants, honey samples from local beekeepers",
+  "statistics_used": [],
+  "key_quant_results": [
+   ">8,300 Senecio jacobaea specimens mapped",
+   "bees use S. jacobaea as food source under special circumstances"
+  ],
+  "novelty_claim": "Linking extensive local plant mapping with pollen and MS honey analysis to predict contamination",
+  "application": "Food safety for local honey; land-use management of toxic weed",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2565",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "second",
+  "research_type": "computational",
+  "domain_tags": [
+   "Eulerian video magnification",
+   "Laplacian pyramid",
+   "FIR filter",
+   "fiducial markers",
+   "computer vision"
+  ],
+  "problem_one_line_it": "Amplificare movimenti quasi invisibili in video dal vivo senza artefatti da oscillazione della camera",
+  "method_steps": [
+   "Catturare video con camera commerciale e convertire in array RGB",
+   "Costruire piramidi Laplaciane su sottosezioni definite dall'utente",
+   "Filtrare con FIR per selezionare le frequenze temporali",
+   "Amplificare i movimenti con moltiplicazione di array",
+   "Usare marker fiduciali per compensare jitter della camera"
+  ],
+  "techniques": [
+   "Eulerian video magnification",
+   "Laplacian image pyramids",
+   "FIR filtering",
+   "fiducial marker tracking"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "commercial video camera"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "successful visual amplification of almost unobservable motions in live video"
+  ],
+  "novelty_claim": "Use of fiducial markers with Eulerian video magnification to avoid camera jitter/sway artifacts",
+  "application": "Motion detection in live video",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Abstract text does not match the listed title (title concerns trihelix genes in Arabidopsis)",
+  "quality_flags": []
+ },
+ {
+  "pid": "2018-2576",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "second",
+  "research_type": "experimental",
+  "domain_tags": [
+   "strigolactones",
+   "parasitic weeds",
+   "suicidal germination",
+   "plant hormones",
+   "rice"
+  ],
+  "problem_one_line_it": "Sviluppare analoghi di strigolattoni economici e stabili per combattere le infestanti parassite",
+  "method_steps": [
+   "Progettare e sintetizzare due nuovi analoghi SL (C-13 e C-26)",
+   "Testare regolazione dell'accestimento del riso, lunghezza ipocotile e densita' radici laterali in Arabidopsis",
+   "Misurare trascrizione dei geni d27 e d53 nel riso",
+   "Valutare induzione della germinazione di semi parassiti vs GR24 e AR-8",
+   "Misurare stabilita' in acqua per 8 giorni"
+  ],
+  "techniques": [
+   "organic synthesis",
+   "bioassays on rice tillering",
+   "hypocotyl assay",
+   "gene transcription analysis",
+   "germination assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "8-day stability test",
+  "statistics_used": [],
+  "key_quant_results": [
+   "C-26 showed promising response in all assays",
+   "minimal daily degradation over 8 days"
+  ],
+  "novelty_claim": "Two novel structurally simple SL analogs (C-13, C-26) as cheap alternative to GR24",
+  "application": "Agriculture: suicidal germination of parasitic weed seeds",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "compares to state of the art",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2018-2582",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "second",
+  "research_type": "mixed",
+  "domain_tags": [
+   "mycorrhizal network",
+   "orchid conservation",
+   "Ceratobasidium",
+   "stable isotopes",
+   "PCR"
+  ],
+  "problem_one_line_it": "Stabilire se i funghi Ceratobasidium dell'orchidea G. spectabilis sono anche ectomicorrizici con gli alberi",
+  "method_steps": [
+   "Raccogliere foglie dell'orchidea e radici degli alberi circostanti",
+   "Analisi isotopica 15N e 13C delle foglie",
+   "Amplificare DNA delle radici con primer specifici per i funghi dell'orchidea",
+   "Sequenziare i prodotti e confrontare i ceppi",
+   "Valutare significativita' statistica"
+  ],
+  "techniques": [
+   "stable isotope analysis (15N, 13C)",
+   "PCR with specific primers",
+   "DNA sequencing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "p<0.001",
+   "p=0.04"
+  ],
+  "key_quant_results": [
+   "significantly higher 15N (p<0.001) and 13C (p=0.04) in orchid"
+  ],
+  "novelty_claim": "Confirms an ECM association between this Ceratobasidium strain and trees",
+  "application": "Orchid conservation and forest ecosystem understanding",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "statistics reported",
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2534",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "Mg-air battery",
+   "disaster preparedness",
+   "cellulose separator",
+   "Mg-Ca alloy",
+   "electrochemistry"
+  ],
+  "problem_one_line_it": "Sviluppare una batteria magnesio-aria pratica e performante per emergenze dopo disastri",
+  "method_steps": [
+   "Identificare la resistenza elettrica causata dal verderame sulla rete di rame",
+   "Sostituire il separatore con una bustina di te' in cellulosa",
+   "Ottimizzare l'elettrolita (NH4Cl saturo)",
+   "Usare leghe Mg-Ca per evitare film di Mg(OH)2",
+   "Valutare prestazioni e confrontare con Mgbox commerciale"
+  ],
+  "techniques": [
+   "electrochemical cell design",
+   "electrolyte optimization"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "Mg anode",
+   "Mg-Ca alloy",
+   "cellulose teabag separator"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   ">20x electric power of commercial Mgbox",
+   "enough capacity to recharge a smartphone",
+   "all parts except Mg anode recyclable"
+  ],
+  "novelty_claim": "The Teabag Model Mg-air battery with cellulose separator and Mg-Ca alloy anode",
+  "application": "Emergency power after disasters",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Abstract text does not match the listed title (title concerns plant telomere bioinformatics)",
+  "quality_flags": [
+   "quantified results",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2018-2536",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "antimicrobial",
+   "tree bark extracts",
+   "Pseudomonas syringae",
+   "bleeding canker",
+   "NMR"
+  ],
+  "problem_one_line_it": "Trovare estratti di corteccia che inibiscano i batteri, in particolare Pseudomonas syringae pv. aesculi del cancro sanguinante",
+  "method_steps": [
+   "Estrarre corteccia di 5 specie con acqua, etanolo e acetone",
+   "Testare con diffusione su disco (Kirby-Bauer) contro E. coli, P. fluorescens, B. subtilis",
+   "Infettare rami di ippocastano con Pae e trattare con estratto di Picea",
+   "Confermare il patogeno con PCR e piastre",
+   "Caratterizzare i composti attivi (stabilita' termica, polarita', NMR)"
+  ],
+  "techniques": [
+   "solvent extraction",
+   "Kirby-Bauer disk diffusion",
+   "PCR",
+   "plate assays",
+   "NMR spectroscopy"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "NMR spectrometer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "5 tree species, 3 solvents, 3+ bacteria",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Sitka spruce most effective inhibitor",
+   "active component heat stable, non-polar; likely resin acids and stilbenes"
+  ],
+  "novelty_claim": "Picea sitchensis bark extract as inhibitor of Pae bleeding canker infection",
+  "application": "Plant pathogen control in horse chestnut trees",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2018-2562",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "riparian buffer",
+   "erosion",
+   "agricultural runoff",
+   "Belize",
+   "ecological restoration"
+  ],
+  "problem_one_line_it": "Scegliere la combinazione di fascia ripariale piu' efficace per ridurre l'erosione e l'inquinamento del Monkey River",
+  "method_steps": [
+   "Testare tre combinazioni di piante ripariali in serra con irrigazione a goccia simulando il deflusso",
+   "Misurare elementi nei tessuti fogliari",
+   "Misurare volume ed elementi nell'effluente",
+   "Selezionare la combinazione migliore",
+   "Progettare un piano di vivai comunitari per il Monkey River"
+  ],
+  "techniques": [
+   "greenhouse runoff simulation",
+   "leaf tissue elemental analysis",
+   "effluent analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "3 riparian combinations",
+  "statistics_used": [],
+  "key_quant_results": [
+   "grass + trees combination most successful"
+  ],
+  "novelty_claim": "Community-grown nursery plan for riparian strips tailored to Monkey River",
+  "application": "Belize community land conservation and water remediation",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2018-2596",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "eutrophication",
+   "fertilizer leaching",
+   "agricultural waste barrier",
+   "bagasse",
+   "R statistics"
+  ],
+  "problem_one_line_it": "Impedire a basso costo che gli ioni NPK dei fertilizzanti contaminino suoli e acque di comunita' agricole biologiche",
+  "method_steps": [
+   "Preparare 16 vaschette con 45 g di suolo per lato e 5 g di fertilizzante su un lato",
+   "Inserire infusori con carbone attivo, bagassa, fieno, te', lolla di riso e combinazioni",
+   "Piantare 10 semi di Vigna radiata",
+   "Misurare nitrato, cloro, umidita', pH e altezza",
+   "Analizzare con tre test statistici in R",
+   "Creare una miscela polimerica cellulosa-amido come barriera"
+  ],
+  "techniques": [
+   "ion barrier screening",
+   "nitrate measurement",
+   "polymer blend fabrication"
+  ],
+  "software_tools": [
+   "R"
+  ],
+  "programming_languages": [
+   "R"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "16 fields, 10 seeds each",
+  "statistics_used": [
+   "three statistical tests (unspecified)"
+  ],
+  "key_quant_results": [
+   "bagasse + rice hulls best: 2.4505 ppm nitrate"
+  ],
+  "novelty_claim": "Novel cellulose/starch polymer blend barrier from bagasse and rice hulls",
+  "application": "Organic farming communities, water protection",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "cost stated",
+   "patent/publication mentioned"
+  ]
+ },
+ {
+  "pid": "2018-2597",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "biofertilizer",
+   "cyanobacteria",
+   "sustainable agriculture",
+   "CO2 reduction",
+   "chi-squared"
+  ],
+  "problem_one_line_it": "Trovare un fertilizzante sostenibile ed economico che non degradi suolo e acqua e riduca la CO2",
+  "method_steps": [
+   "Coltivare una ceppo di cianobatteri non tossico come biofertilizzante",
+   "Confrontare con fertilizzanti chimici e organici con diversi metodi di applicazione",
+   "Raccogliere oltre 2.000 punti dati su crescita, suolo, acqua e CO2",
+   "Analizzare con test chi-quadrato"
+  ],
+  "techniques": [
+   "cyanobacteria culture",
+   "fertilizer comparison trial",
+   "CO2 measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": ">2,000 data points",
+  "statistics_used": [
+   "chi-squared test"
+  ],
+  "key_quant_results": [
+   "biofertilizer biologically equivalent to chemical fertilizer",
+   "atmospheric CO2 reduced by 142 ppm vs +287 ppm baseline"
+  ],
+  "novelty_claim": "Cyanofertilization: photosynthetic biofertilizer with best environmental impact",
+  "application": "Low-cost biodegradable fertilizer for farmers",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2018-2554",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "morning glory",
+   "flower blooming",
+   "stomata",
+   "water absorption",
+   "plant physiology"
+  ],
+  "problem_one_line_it": "Chiarire il ruolo delle strie dei petali di Pharbitis nil nell'assorbimento d'acqua e nella fioritura",
+  "method_steps": [
+   "Rimuovere le 10 strie e osservare la fioritura, con e senza immersione in acqua",
+   "Osservare al microscopio vasi e stomi nelle strie",
+   "Tappare le strie con inchiostro e verificare l'inibizione",
+   "Incubare boccioli a 25-28 C al buio e alla luce",
+   "Contare stomi aperti e fioriture"
+  ],
+  "techniques": [
+   "tissue peeling",
+   "microscopy",
+   "ink plugging assay",
+   "light/dark incubation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "microscope"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "dark: all buds bloomed, ~90% stomata open",
+   "light: blooming inhibited, >60% stomata closed"
+  ],
+  "novelty_claim": "Streaks' stomata open at night to channel water for blooming",
+  "application": "Plant physiology of flowering",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2018-2558",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "phototropism",
+   "auxin",
+   "Brassica rapa",
+   "crop yield",
+   "regression"
+  ],
+  "problem_one_line_it": "Quantificare la perdita energetica dovuta alla crescita asimmetrica da fototropismo in Brassica rapa",
+  "method_steps": [
+   "Coltivare B. rapa sotto luce unidirezionale su piattaforma fissa (controllo)",
+   "Coltivare il gruppo trattato su un piatto girevole fotosensibile che inibisce il fototropismo",
+   "Misurare lunghezza cellule staminali e angoli dei fusti",
+   "Confrontare sviluppo di foglie, fiori e resa",
+   "Costruire piani di regressione multivariabile"
+  ],
+  "techniques": [
+   "bioassay of stem cell length",
+   "turntable phototropism inhibition"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "light-sensitive turntable"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "multivariable regression"
+  ],
+  "key_quant_results": [
+   "58.171% to 90.492% greater yields with turntable"
+  ],
+  "novelty_claim": "Photosensitive turntable to inhibit phototropism and reveal energy cost of asymmetric growth",
+  "application": "Genetic manipulation of phototropism to raise crop yields under intercrop shading",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2018-2568",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "gravitropism",
+   "starch statolith",
+   "Arabidopsis",
+   "light starvation",
+   "root curvature"
+  ],
+  "problem_one_line_it": "Testare se l'amido degli statoliti e' necessario per la risposta gravitropica di Arabidopsis",
+  "method_steps": [
+   "Coltivare piantine fino a radici di 2-4 cm",
+   "Deprivare di luce in scatole e colorare con Lugol per determinare i giorni di esaurimento dell'amido (3 giorni)",
+   "Dividere in gruppi con/senza luce per 3 giorni",
+   "Ruotare le piastre di 135 gradi",
+   "Registrare la curvatura radicale ogni 30 minuti"
+  ],
+  "techniques": [
+   "Lugol iodine starch staining",
+   "light starvation",
+   "gravistimulation by rotation",
+   "microscopy"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "microscope"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "starch depleted after 3 days of darkness",
+   "dark-grown seedlings showed significantly reduced gravitropic response"
+  ],
+  "novelty_claim": "Starch presence is necessary for a full gravitropic response in wild type Arabidopsis",
+  "application": "Plant gravity sensing",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2018-2571",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "tissue culture",
+   "organic plant extracts",
+   "willow",
+   "aloe vera",
+   "micropropagation"
+  ],
+  "problem_one_line_it": "Sostituire i costosi mezzi di coltura tissutale e fertilizzanti con estratti vegetali organici",
+  "method_steps": [
+   "Preparare mezzi da cinque estratti vegetali",
+   "Applicare a coltura tissutale e a semi in suolo di mais e soia",
+   "Confrontare con MS media, fertilizzante N e fertilizzante PK",
+   "Esporre 5 di 15 prove ad aria non sterile",
+   "Misurare plantule, raccolto, danni da parassiti e costo"
+  ],
+  "techniques": [
+   "micropropagation",
+   "tissue culture",
+   "comparative growth trial"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "15 tissue culture trials",
+  "statistics_used": [],
+  "key_quant_results": [
+   "4.6x more corn and 4.3x more soybean plantlets than MS media",
+   "6.5x corn and 5.6x soybean harvest vs fertilizer",
+   "98% cheaper than MS media",
+   "no contamination in non-sterile air"
+  ],
+  "novelty_claim": "First time in vitro techniques performed in non-sterile environments using willow + aloe media",
+  "application": "Farmers and tissue culture scientists worldwide",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "cost stated",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2018-2584",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "seed dispersal",
+   "Oxalis corniculata",
+   "capsule dehiscence",
+   "biomechanics",
+   "elastic energy"
+  ],
+  "problem_one_line_it": "Comprendere il meccanismo di deiscenza esplosiva della capsula dell'acetosella",
+  "method_steps": [
+   "Classificare capsule in immature, mature e vuote",
+   "Studiare pattern di deiscenza, lunghezza del frutto e posizione/intensita' della forza",
+   "Misurare il coefficiente di restituzione dei semi con arillo",
+   "Misurare la dispersione tra semi e arilli",
+   "Costruire un modello della deiscenza"
+  ],
+  "techniques": [
+   "biomechanical measurement",
+   "coefficient of restitution measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "turgid aril stores elastic potential energy and drives ejection",
+   "capsule wall thins with maturity"
+  ],
+  "novelty_claim": "Model of capsule dehiscence identifying the aril as primary energy source",
+  "application": "Plant biomechanics",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2018-2590",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "lettuce breeding",
+   "genotyping",
+   "RT-qPCR",
+   "high-resolution melt",
+   "anthocyanin"
+  ],
+  "problem_one_line_it": "Selezionare geneticamente plantule di lattuga in modo rapido e non distruttivo tramite PCR real-time",
+  "method_steps": [
+   "Sviluppare una micropiastra annidata per campionare cellule della cuffia radicale",
+   "Misurare trascritto LsANS con RT-qPCR in cultivar rosse e verdi",
+   "Incrociare cultivar (solo 1% produce semi)",
+   "Germinare sotto LED a 16 h per 91.6% germinazione in 6 giorni",
+   "Genotipizzare con PCR real-time + HRM e verificare inibitori",
+   "Controllare lo shedding cellulare con microscopia a fluorescenza"
+  ],
+  "techniques": [
+   "RT-qPCR",
+   "high-resolution melt analysis",
+   "crossbreeding",
+   "fluorescence microscopy"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "nested microplate",
+   "LED grow light",
+   "real-time PCR instrument",
+   "fluorescence microscope"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "91.6% germination in 6 days",
+   "only 43.9% of known genotypes correctly identified",
+   "only 1% of crossbred cultivars produced seeds"
+  ],
+  "novelty_claim": "Novel nested microplate for non-destructive root-cap-cell DNA sampling for high-throughput genotyping",
+  "application": "Streamlined commercial lettuce breeding",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Insufficient root cap cell shedding; current work on increasing accessible DNA",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2595",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "cryopreservation",
+   "droplet vitrification",
+   "pawpaw",
+   "ex situ conservation",
+   "tissue culture"
+  ],
+  "problem_one_line_it": "Verificare se la vitrificazione a goccia conserva meglio specie eccezionali di pawpaw rispetto all'incapsulamento",
+  "method_steps": [
+   "Dissezionare apici e nodi (n=10) di tre specie",
+   "Crioconservare 1 ora con droplet vitrification",
+   "Recuperare su piastre gel per 6 settimane",
+   "Trasferire in provette e monitorare 12 settimane",
+   "Subcoltivare i migliori e monitorare 18 settimane"
+  ],
+  "techniques": [
+   "droplet vitrification",
+   "encapsulation vitrification",
+   "shoot tip culture"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "n=10 per tissue group, 3 species, 18+18 weeks",
+  "statistics_used": [],
+  "key_quant_results": [
+   "54% A. tetramera shoot tips grew at 18 weeks",
+   "30% D. rugelii",
+   "9% D. pulchellus"
+  ],
+  "novelty_claim": "DV as viable cryopreservation for Deeringothamnus and Asimina species",
+  "application": "Conservation of exceptional species that cannot be seed-banked",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Further testing required",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2018-2600",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "fourth",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "plant disease detection",
+   "CNN",
+   "mobile app",
+   "cloud platform",
+   "disease forecasting"
+  ],
+  "problem_one_line_it": "Dare agli agricoltori indiani una diagnosi rapida delle malattie delle piante senza accesso a esperti",
+  "method_steps": [
+   "Raccogliere immagini di malattie da molte fattorie per 7 mesi",
+   "Addestrare CNN per diagnosi su cloud",
+   "Sviluppare app mobile per fotografare e diagnosticare",
+   "Creare mappe di densita' e previsioni di diffusione da immagini geo-taggate e dati microclimatici",
+   "Interfaccia web per analisi degli esperti",
+   "Verificare le diagnosi con fitopatologi"
+  ],
+  "techniques": [
+   "image classification",
+   "geospatial density mapping",
+   "continuous learning from user uploads"
+  ],
+  "software_tools": [
+   "cloud image processing platform",
+   "mobile app",
+   "web interface"
+  ],
+  "programming_languages": [],
+  "ml_models": [
+   "convolutional neural network"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "7 months of self-collected farm images",
+  "statistics_used": [],
+  "key_quant_results": [
+   ">95% disease identification accuracy",
+   "35% of Indian crop production lost to pathogens (context)"
+  ],
+  "novelty_claim": "First integrated collaborative platform for automated disease diagnosis, tracking and forecasting",
+  "application": "Farmers and agricultural experts in India",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2018-2539",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "transgenic plants",
+   "AVP1",
+   "PP2A-C5",
+   "drought stress",
+   "salt stress"
+  ],
+  "problem_one_line_it": "Verificare se la co-sovraespressione di AVP1 e PP2A-C5 aumenta la tolleranza a stress combinati di siccita' e sale",
+  "method_steps": [
+   "Coltivare piante wild-type, AVP1, PP2A-C5 e co-sovraesprimenti per 3 settimane",
+   "Sospendere l'irrigazione per simulare siccita'",
+   "Trattare con 100 mM e 200 mM NaCl, poi reidratare",
+   "Analizzare trascritti con RT-qPCR",
+   "Misurare sopravvivenza e biomassa a 20 giorni"
+  ],
+  "techniques": [
+   "real-time quantitative PCR",
+   "stress survival assay",
+   "biomass measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "200 mM NaCl + drought survival: co-overexpressing 63%, AVP1 38%, PP2A-C5 19%, WT 0%",
+   "100 mM NaCl: no differences, 100% survival"
+  ],
+  "novelty_claim": "Co-overexpression of AVP1 and PP2A-C5 increases tolerance to multiple stresses",
+  "application": "Stress-tolerant crops",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described",
+   "patent/publication mentioned"
+  ]
+ },
+ {
+  "pid": "2018-2548",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "hydroponics",
+   "IoT",
+   "solar energy",
+   "remote monitoring",
+   "sensors"
+  ],
+  "problem_one_line_it": "Realizzare un sistema idroponico domestico economico, a energia solare e controllabile da remoto",
+  "method_steps": [
+   "Progettare sistema idroponico su piccola scala alimentato da solare",
+   "Installare sensori di umidita', livello acqua, concentrazione minerali, temperatura e una camera",
+   "Sviluppare un'app mobile per monitoraggio e controllo remoto"
+  ],
+  "techniques": [
+   "sensor-based monitoring",
+   "remote control"
+  ],
+  "software_tools": [
+   "mobile application"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "humidity sensor",
+   "water level sensor",
+   "mineral concentration sensor",
+   "temperature sensor",
+   "camera",
+   "solar panel"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [],
+  "novelty_claim": "First small-scale hydroponic system with a mobile app for remote control by the home owner (to author's knowledge)",
+  "application": "Home hydroponic gardening",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2018-2567",
+  "year": 2018,
+  "category": "Plant Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "simulated microgravity",
+   "clinostat",
+   "antioxidants",
+   "wheat",
+   "space biology"
+  ],
+  "problem_one_line_it": "Studiare l'effetto della microgravita' simulata sull'attivita' antiossidante del germoglio di grano",
+  "method_steps": [
+   "Germinare semi di T. aestivum per 7 giorni su clinostato 3D a 4 rpm e in controllo",
+   "Estrarre con metanolo",
+   "Misurare attivita' di scavenging di H2O2 e NO",
+   "Quantificare flavonoidi, fenoli e vitamina C per spettrofotometria",
+   "Confrontare lunghezza radici e contenuti con il controllo"
+  ],
+  "techniques": [
+   "3D clinostat simulation",
+   "methanol extraction",
+   "H2O2 scavenging assay",
+   "nitric oxide scavenging assay",
+   "spectrophotometry"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "3D clinostat",
+   "spectrophotometer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "7-day germination",
+  "statistics_used": [],
+  "key_quant_results": [
+   "roots elongated under microgravity",
+   "antioxidant metabolites and activity significantly increased"
+  ],
+  "novelty_claim": "Simulated microgravity raises antioxidant content and root growth in germinated wheat",
+  "application": "Space agriculture; drought-tolerant root systems",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Starting point for genetic studies under microgravity",
+  "quality_flags": [
+   "controls described"
+  ]
+ }
+]

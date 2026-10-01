@@ -1,0 +1,2157 @@
+[
+ {
+  "pid": "2017-0111",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "creativity",
+   "mathematics education",
+   "psychometrics",
+   "TTCT"
+  ],
+  "problem_one_line_it": "Esiste una correlazione tra creativita e competenza matematica negli studenti liceali?",
+  "method_steps": [
+   "Reclutati studenti liceali",
+   "Somministrato test di matematica a 20 domande a scelta multipla",
+   "Somministrato Torrance Test of Creative Thinking figurale (TTCT)",
+   "Punteggio TTCT su scala 20 (10 originalita, 5 flessibilita, 5 elaborazione)",
+   "Calcolata correlazione tra punteggi e t-test sui trend per eta"
+  ],
+  "techniques": [
+   "Torrance Test of Creative Thinking",
+   "multiple-choice math test"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "high school students (n not stated)",
+  "statistics_used": [
+   "correlation coefficient",
+   "t-test"
+  ],
+  "key_quant_results": [
+   "correlation coefficient r=0.2 (no significant correlation)",
+   "age trends not significant by t-test"
+  ],
+  "novelty_claim": "Determine a correlation between creativity and mathematical proficiency in high school students",
+  "application": "Education policy / nurturing creativity in students",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0113",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "EEG",
+   "handedness",
+   "language processing",
+   "Fitts law",
+   "ERP"
+  ],
+  "problem_one_line_it": "Come la manualita (sinistrorsa/forzata) influenza elaborazione linguistica e abilita motorie misurate con EEG",
+  "method_steps": [
+   "Registrato EEG con amplificatore BrainMaster Discovery 24E durante compito psicomotorio e compito di comprensione linguistica",
+   "Modellato movimento della mano con legge di Fitts; registrati bandwidth (bit/s) e tempo medio di risposta",
+   "Presentati compiti di priming con coppie di parole e frasi",
+   "Misurate componenti ERP time-locked N200, N400, P300, P600",
+   "Registrati tempo di reazione e accuratezza e confrontati per gruppo di manualita"
+  ],
+  "techniques": [
+   "EEG",
+   "event-related potentials (N200, N400, P300, P600)",
+   "Fitts Law",
+   "semantic priming"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "BrainMaster Discovery 24E EEG amplifier"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "handedness significantly affected reaction time, accuracy and ERP components"
+  ],
+  "novelty_claim": "Novel idea of analyzing subjects' motor skills using Fitts Law as a concise model for hand movement combined with ERP language tasks",
+  "application": "Psychological/physiological handedness benchmarks for global reference",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0115",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "typography",
+   "road signs",
+   "readability",
+   "online survey"
+  ],
+  "problem_one_line_it": "Quali font per segnaletica stradale restano leggibili in condizioni di sfocatura?",
+  "method_steps": [
+   "Costruito strumento di sondaggio online personalizzato",
+   "Presentate ai partecipanti immagini di testo sfocato in diversi font per segnaletica",
+   "Raccolti dati demografici dei partecipanti",
+   "Confrontata accuratezza di lettura tra font"
+  ],
+  "techniques": [
+   "online survey",
+   "image blurring"
+  ],
+  "software_tools": [
+   "custom-built online survey tool"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "fonts with more glyph spacing and negative space were far more readable under blur"
+  ],
+  "novelty_claim": "Custom online tool as cheaper, less biased alternative to in-person road-sign readability experiments",
+  "application": "Governments / FHWA choosing fonts for public road signs",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0119",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "chronotype",
+   "circadian rhythm",
+   "moral decision-making",
+   "psychology"
+  ],
+  "problem_one_line_it": "La moralita nelle decisioni segue un ritmo circadiano legato al cronotipo?",
+  "method_steps": [
+   "Reclutati 48 partecipanti che sceglievano sessione mattutina o serale",
+   "Questionario per definire il cronotipo (mattutino/serale)",
+   "Compito computerizzato con scelta morale/immorale",
+   "Confrontato livello di moralita per cronotipo e ora del giorno"
+  ],
+  "techniques": [
+   "chronotype questionnaire",
+   "computerized moral decision task"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "n=48 participants",
+  "statistics_used": [
+   "significance testing (not specified)"
+  ],
+  "key_quant_results": [
+   "evening types significantly less moral in the morning than morning types",
+   "evening types less moral in morning than in evening",
+   "no morning/evening difference within morning types"
+  ],
+  "novelty_claim": "Support the hypothesis of a daily rhythm in morality based on the circadian clock",
+  "application": "Understanding ethical behavior timing",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0121",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "grapes",
+   "polyphenols",
+   "anthocyanins",
+   "oenology"
+  ],
+  "problem_one_line_it": "Quantificare polifenoli e antociani in otto varieta di uva georgiana (nota: abstract non coerente col titolo)",
+  "method_steps": [
+   "Campionate otto varieta di uva georgiana dalla stessa collezione",
+   "Misurati parametri carpologici e biochimici (polifenoli, antociani)",
+   "Considerati maturita, condizioni ambientali e pratiche agrotecniche",
+   "Confrontate differenze tra varieta"
+  ],
+  "techniques": [
+   "polyphenol quantification",
+   "anthocyanin quantification"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "8 grape varieties",
+  "statistics_used": [],
+  "key_quant_results": [
+   "striking differences in anthocyanin/polyphenol content between varieties attributed to genetics"
+  ],
+  "novelty_claim": "First systematic study of polyphenols/anthocyanins in Georgian grape varieties",
+  "application": "Wine technology / use of less widespread grape varieties",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Abstract does not match title (title concerns HIV chronic pain)",
+  "quality_flags": [
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0126",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "bionic leg brace",
+   "KAFO",
+   "gait analysis",
+   "assistive device",
+   "voice control"
+  ],
+  "problem_one_line_it": "Il ginocchio bloccato dei tutori KAFO causa andatura anomala; serve un tutore bionico economico che ripristini l'andatura naturale (abstract non coerente col titolo VR)",
+  "method_steps": [
+   "Riprogettato hardware e meccanica retrofit per massimizzare forza, velocita e range di movimento",
+   "Integrato controllo vocale tramite app smartwatch/smartphone",
+   "Sviluppati algoritmi per sedersi/alzarsi, scale/rampe, entrata/uscita veicoli e adattamento alla velocita del passo",
+   "Raccolti dati di andatura da 8 sensori sul corpo",
+   "Analisi e modellazione statistica dei dati (data mining) su 8 caratteristiche dell'andatura",
+   "Confronto costi con KAFO commerciali"
+  ],
+  "techniques": [
+   "gait analysis",
+   "data mining",
+   "statistical modeling",
+   "retrofit mechanics"
+  ],
+  "software_tools": [
+   "smartwatch/smartphone app"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "8 body-worn sensors",
+   "actuated knee brace"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "8 sensors across body, multiple mobility scenarios",
+  "statistics_used": [
+   "statistical modeling"
+  ],
+  "key_quant_results": [
+   "all 8 gait characteristics normalized across scenarios",
+   "cost 2.6% of most expensive KAFO",
+   "100M+ potential patients"
+  ],
+  "novelty_claim": "Versatile smart bionic leg brace restoring natural gait across everyday mobility scenarios",
+  "application": "Patients with MS, stroke, polio needing leg braces",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Abstract does not match title (title concerns VR effectiveness)",
+  "quality_flags": [
+   "quantified results",
+   "cost stated",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0127",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "stereotypes",
+   "diversity education",
+   "survey experiment",
+   "accent perception"
+  ],
+  "problem_one_line_it": "A che eta e piu efficace educare contro gli stereotipi: bambini o adulti?",
+  "method_steps": [
+   "Partecipanti assegnati casualmente a uno di 4 sondaggi",
+   "Lettura di prompt di controllo o sperimentale (educativo)",
+   "Visione video con foto di ragazza caucasica o asiatica, stessa voce di madrelingua inglese",
+   "Valutazione dell'accento del parlante",
+   "Confronto medie dei punteggi tra bambini e adulti"
+  ],
+  "techniques": [
+   "randomized survey experiment",
+   "control vs experimental prompt"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "4 survey conditions (n not stated)",
+  "statistics_used": [
+   "comparison of means"
+  ],
+  "key_quant_results": [
+   "treatment did not reduce accent stereotyping",
+   "children not more receptive than adults"
+  ],
+  "novelty_claim": "Determine the best age to implement anti-stereotype programs",
+  "application": "Design of diversity education programs",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Possible response bias; experimental prompt may have been ineffective",
+  "quality_flags": [
+   "clear hypothesis",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0129",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "carbon tax",
+   "agricultural economics",
+   "spatial equilibrium model",
+   "linear programming",
+   "climate policy"
+  ],
+  "problem_one_line_it": "Quali impatti ambientali ed economici avrebbe una carbon tax (CPJA) sul mercato agricolo globale 2012-2050?",
+  "method_steps": [
+   "Costruito modello spaziale di equilibrio parziale su 11 commodity e 17 paesi/regioni",
+   "Definiti tre scenari: Status Quo, CPJA Developed, CPJA World",
+   "Ottimizzazione del benessere sociale totale con programmazione lineare/quadratica sotto vincoli",
+   "Implementazione con solver interior point BPMPD e VBA",
+   "Fase statica: analisi comparativa; fase dinamica: proiezioni iterative",
+   "Validazione con dati storici"
+  ],
+  "techniques": [
+   "spatial partial equilibrium modeling",
+   "linear programming",
+   "interior point convex quadratic optimization",
+   "scenario analysis"
+  ],
+  "software_tools": [
+   "BPMPD solver",
+   "Microsoft Visual Basic for Applications"
+  ],
+  "programming_languages": [
+   "VBA"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [
+   "historical agricultural market data"
+  ],
+  "sample_size_or_scale": "11 commodities, 17 countries/regions, 2012-2050",
+  "statistics_used": [
+   "validation accuracy"
+  ],
+  "key_quant_results": [
+   "validated with historical data up to 83% accuracy",
+   "CPJA Developed: 5.5 billion tons carbon reduced",
+   "CPJA World: 15.5 billion tons carbon reduced"
+  ],
+  "novelty_claim": "Customizable spatial equilibrium model projecting carbon tax impacts with free/home software",
+  "application": "Climate policy makers, agricultural trade analysis",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2017-0130",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "observational/field",
+  "domain_tags": [
+   "parental goals",
+   "academic motivation",
+   "survey",
+   "self-efficacy"
+  ],
+  "problem_one_line_it": "Come gli obiettivi genitoriali percepiti (mastery vs performance) si legano a motivazione, GPA e autoefficacia degli studenti?",
+  "method_steps": [
+   "Sondaggio su 97 studenti di un liceo di Long Island",
+   "Quattro scale: orientamento obiettivi genitoriali, motivazione intrinseca, GPA, autoefficacia accademica, piu dati demografici",
+   "Confronto tra gruppi mastery vs performance e tra gruppi demografici"
+  ],
+  "techniques": [
+   "survey with validated scales"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "n=97 high school students",
+  "statistics_used": [
+   "significance testing (not specified)"
+  ],
+  "key_quant_results": [
+   "mastery-goal perception: higher intrinsic motivation but lower GPA and self-efficacy",
+   "Asian American students perceived higher parental performance goals than White American students"
+  ],
+  "novelty_claim": "Examine relationship between perceived parental goals and academic factors across demographics",
+  "application": "Parents and educators communicating goals to children",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0140",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "traumatic brain injury",
+   "Drosophila",
+   "metformin",
+   "learning",
+   "T-maze"
+  ],
+  "problem_one_line_it": "La metformina migliora l'apprendimento in Drosophila dopo trauma cranico?",
+  "method_steps": [
+   "Drosophila affamate per 16 ore e trattate con acqua (controllo) o metformina in acqua",
+   "Lesione cerebrale indotta con gyro-mini e vortex mixer",
+   "Condizionamento olfattivo con due odori sgradevoli, uno associato a saccarosio",
+   "Test in T-maze per misurare l'apprendimento",
+   "Analisi statistica (p<0.05)"
+  ],
+  "techniques": [
+   "olfactory conditioning",
+   "T-maze assay",
+   "TBI induction by vortex"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "vortex mixer",
+   "gyro-mini",
+   "T-maze"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "p<0.05"
+  ],
+  "key_quant_results": [
+   "TBI significantly decreased learning (p<0.05)",
+   "metformin further decreased correct choices"
+  ],
+  "novelty_claim": "Test whether metformin-induced neurogenesis rescues learning after TBI in a fly model",
+  "application": "TBI rehabilitation drug screening",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Examine different metformin dosages in future",
+  "quality_flags": [
+   "clear hypothesis",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0142",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "psychological flexibility",
+   "suggested memory",
+   "ACT",
+   "clinical trial",
+   "AAQ2"
+  ],
+  "problem_one_line_it": "Una nuova terapia di memoria suggerita (SMT) riduce l'inflessibilita psicologica piu dell'ACT?",
+  "method_steps": [
+   "Fase 1: 344 soggetti in 5 gruppi, trattamento specifico e AAQ2 pre/post",
+   "Fase 2: 410 soggetti randomizzati in gruppo sperimentale (suggestioni positive) o controllo (neutre)",
+   "Fase 3: 13 soggetti con trattamento completo per 3 sessioni e follow-up settimanale per 3 settimane",
+   "Confronto miglioramento AAQ2 con ACT da letteratura"
+  ],
+  "techniques": [
+   "Acceptance and Action Questionnaire (AAQ2)",
+   "randomized controlled design",
+   "pre/post measurement"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "344 + 410 + 13 subjects",
+  "statistics_used": [
+   "pre/post percentage change"
+  ],
+  "key_quant_results": [
+   "experimental 9.44% vs control 2.64% AAQ2 improvement",
+   "24% improvement at week 4 in clinical phase",
+   "ACT literature benchmark 17%"
+  ],
+  "novelty_claim": "Suggested Memory Therapy, a novel approach created by the student researcher",
+  "application": "Alternative/adjunct therapy for psychological inflexibility",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0144",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "autism",
+   "rs-fMRI",
+   "functional connectivity",
+   "meta-analysis",
+   "neuroimaging"
+  ],
+  "problem_one_line_it": "Le anomalie di connettivita rs-fMRI nell'autismo sono valide biomarcatori nonostante la letteratura discordante?",
+  "method_steps": [
+   "Acquisiti dati soggetti anonimi da ABIDE",
+   "Analisi delle componenti indipendenti a doppia regressione per identificare anomalie di connettivita",
+   "Fingerprinting funzionale delle regioni anomale tramite database BrainMap",
+   "Creati profili di dominio comportamentale delle regioni iperconnesse",
+   "Confronto con criteri diagnostici"
+  ],
+  "techniques": [
+   "dual-regression independent component analysis",
+   "functional fingerprinting",
+   "meta-analysis",
+   "rs-fMRI"
+  ],
+  "software_tools": [
+   "BrainMap"
+  ],
+  "programming_languages": [],
+  "ml_models": [
+   "independent component analysis"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "Autism Brain Imaging Data Exchange (ABIDE)",
+   "BrainMap database"
+  ],
+  "sample_size_or_scale": "thousands of task-based neuroimaging studies; ABIDE subjects",
+  "statistics_used": [
+   "meta-analytic significance"
+  ],
+  "key_quant_results": [
+   "hyperconnected regions in adult autistic males significantly involved in social, executive, speech domains"
+  ],
+  "novelty_claim": "First clinical neuroimaging application of functional fingerprinting; first findings validated by meta-analytic methods",
+  "application": "Neuroimaging biomarkers for autism and other neurological disorders",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "compares to state of the art",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0146",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "distracted driving",
+   "reaction time",
+   "teen drivers",
+   "driving simulator"
+  ],
+  "problem_one_line_it": "Quanto chiamare e scrivere messaggi peggiorano tempi di reazione e consapevolezza dei giovani guidatori?",
+  "method_steps": [
+   "Costruito simulatore con auto ferma, video autostradale proiettato e tavola oscillante come ostacolo",
+   "Misurata tensione del fusibile del freno per rilevare la frenata",
+   "Sensore di luce per rilevare l'ingresso della tavola; differenza temporale = tempo di reazione",
+   "30 partecipanti: una prova di controllo e due sperimentali (chiamata, SMS)",
+   "Domande sull'ambiente per misurare la consapevolezza",
+   "t-test appaiato sui 270 dati"
+  ],
+  "techniques": [
+   "custom driving simulator",
+   "reaction time measurement",
+   "brake fuse voltage sensing"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "light sensor",
+   "projector",
+   "voltage measurement on brake fuse"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "n=30 participants, 270 data points",
+  "statistics_used": [
+   "paired two-sample t-test",
+   "p-values"
+  ],
+  "key_quant_results": [
+   "p=0.0024 calling, p=0.000017 texting",
+   "awareness 53% control, 30% calling, 7% texting"
+  ],
+  "novelty_claim": "Quantify and compare calling vs texting effects on teen driving",
+  "application": "Road safety / teen driver education",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0153",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "autism diagnosis",
+   "deep learning",
+   "genomics",
+   "SNP",
+   "ADOS"
+  ],
+  "problem_one_line_it": "La diagnosi di autismo e lenta e solo comportamentale; combinare dati genomici e fenotipici con deep learning puo accelerarla?",
+  "method_steps": [
+   "Acquisiti dataset genomici (SNP) e fenotipici (punteggi ADOS) da AGRE e NDAR",
+   "Costruito framework di deep learning 'deep diagnosis' che combina i due domini",
+   "Addestrato e valutato il modello su accuratezza, specificita, sensibilita"
+  ],
+  "techniques": [
+   "deep learning",
+   "multimodal data fusion"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "deep neural network"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [
+   "Autism Genetic Resource Exchange (AGRE)",
+   "National Database for Autism Research (NDAR)"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "accuracy",
+   "specificity",
+   "sensitivity"
+  ],
+  "key_quant_results": [
+   "accuracy 99.6%",
+   "specificity 83.3%",
+   "sensitivity 100%"
+  ],
+  "novelty_claim": "First proof of concept combining genomic and phenotypic domains and first deep learning framework for autism diagnosis",
+  "application": "Low-cost clinician second-opinion tool for earlier autism diagnosis",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0154",
+  "year": 2017,
+  "category": "Behavioral and Social Sciences",
+  "tier": "special_only",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "neural competition",
+   "perception",
+   "Scratch",
+   "Raspberry Pi",
+   "attention"
+  ],
+  "problem_one_line_it": "Creare programmi per testare la competizione neurale unimodale e bimodale tra stimoli",
+  "method_steps": [
+   "Acquistato Raspberry Pi per eseguire i programmi",
+   "Scritti programmi in Scratch (linguaggio a icone)",
+   "Creati 3 programmi unimodali (distrattori visivi, attenzione, memoria)",
+   "Creati 2 programmi bimodali (uditivo con distrattori visivi, percezione di velocita)",
+   "Selezionato un programma per ulteriore sviluppo"
+  ],
+  "techniques": [],
+  "software_tools": [
+   "Scratch"
+  ],
+  "programming_languages": [
+   "Scratch"
+  ],
+  "ml_models": [],
+  "hardware_instruments": [
+   "Raspberry Pi"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "5 programs",
+  "statistics_used": [],
+  "key_quant_results": [
+   "5 programs built (3 unimodal, 2 bimodal)"
+  ],
+  "novelty_claim": "Icon-based programs on Raspberry Pi to test multimodal neural competition",
+  "application": "Perception/attention research testing",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "One program selected for further development",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0067",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "best_of_category",
+  "research_type": "experimental",
+  "domain_tags": [
+   "RAD51",
+   "DNA repair",
+   "cancer",
+   "replication fork protection",
+   "homologous recombination"
+  ],
+  "problem_one_line_it": "Come la mutazione RAD51 S121Y (carcinosarcoma uterino) contribuisce alla tumorigenesi?",
+  "method_steps": [
+   "Caratterizzazione biochimica della proteina RAD51 S121Y",
+   "Saggi di legame al DNA e stabilita del filamento",
+   "Analisi del ciclo catalitico ATPasico",
+   "Saggio di ricombinasi",
+   "Ricostituzione della protezione della forca con substrati di DNA sintetici e nucleasi MRE11"
+  ],
+  "techniques": [
+   "biochemical characterization of recombinant protein",
+   "DNA binding assay",
+   "ATPase assay",
+   "strand exchange / recombinase assay",
+   "fork protection reconstitution with MRE11 exonuclease"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "S121Y does not impair DNA binding but forms unstable filament",
+   "S121Y retains recombinase activity but fails to prevent MRE11-mediated degradation"
+  ],
+  "novelty_claim": "RAD51 mutations may promote tumorigenesis via defective fork protection rather than DNA repair defect",
+  "application": "Reassessing therapeutic strategies for RAD51-mutant tumors",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Raises concern on previously considered therapeutic approaches",
+  "quality_flags": [
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0081",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "second",
+  "research_type": "experimental",
+  "domain_tags": [
+   "type 1 diabetes",
+   "islet transplantation",
+   "3D bioprinting",
+   "vascularization",
+   "tissue engineering"
+  ],
+  "problem_one_line_it": "Le isole pancreatiche isolate muoiono dopo trapianto per mancanza di vasi; si possono pre-vascolarizzare in coltura?",
+  "method_steps": [
+   "Isolate isole umane da pancreas di donatori (n=18)",
+   "Preparati sferoidi di isole con bio-stampa 3D",
+   "Coltura 14 giorni in gel collagene-I con ECGS per stimolare le cellule endoteliali intra-isola",
+   "Microscopia confocale e marcatura UEA-1/CD31 per valutare i vasi peri-isola",
+   "Impianto sottocutaneo in topi nudi diabetici per testare la reversione del diabete"
+  ],
+  "techniques": [
+   "3D bioprinting",
+   "3D collagen-I gel culture",
+   "confocal microscopy",
+   "immunostaining (UEA-1, CD31)",
+   "in vivo transplantation in nude mice",
+   "insulin secretion assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "confocal microscope",
+   "3D bioprinter"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "n=18 donor pancreases; mouse model",
+  "statistics_used": [],
+  "key_quant_results": [
+   ">90% cell viability",
+   "BEI reversed diabetes in mice",
+   "high insulin secretion vs control islets"
+  ],
+  "novelty_claim": "Creating bioengineered islets with peri-islet vessels is a novel approach for treating type-1 diabetes",
+  "application": "Type 1 diabetes patients receiving islet transplants",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "controls described"
+  ]
+ },
+ {
+  "pid": "2017-0091",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "insecticide residues",
+   "biosensor",
+   "dot blot",
+   "carboxylesterase",
+   "food safety"
+  ],
+  "problem_one_line_it": "Non esiste un test rapido per rilevare residui di insetticidi (organofosfati, carbammati, piretroidi) negli alimenti",
+  "method_steps": [
+   "Derivati iso-enzimi carbossilesterasi da insetti resistenti agli insetticidi",
+   "Immobilizzati gli iso-enzimi su membrane di nitrocellulosa",
+   "Sviluppato test strip dot blot di 30 minuti basato su inibizione enzimatica",
+   "Verificata stabilita a temperatura ambiente per almeno un mese",
+   "Confrontato con limiti di tolleranza WHO"
+  ],
+  "techniques": [
+   "enzyme inhibition assay",
+   "dot blot",
+   "enzyme immobilization on nitrocellulose"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "nitrocellulose membrane strips"
+  ],
+  "data_sources": [
+   "WHO maximum tolerance limits"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "30-minute test",
+   "stable at least one month at room temperature"
+  ],
+  "novelty_claim": "Iso-enzyme based single strip test detecting multiple insecticide groups rapidly",
+  "application": "Farmers, consumers, food/water safety in India",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2017-0075",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "fusarochromanone",
+   "triple negative breast cancer",
+   "organic synthesis",
+   "structure-activity"
+  ],
+  "problem_one_line_it": "La struttura chetone-ammina alternata della fusarocromanone e essenziale per l'attivita anti-TNBC?",
+  "method_steps": [
+   "Sintetizzato analogo para (FC101p) della fusarocromanone spostando la catena carboniosa da orto a para",
+   "Test di inibizione della crescita di cellule TNBC eseguiti da laboratorio esterno",
+   "Confronto IC50 tra composto parentale e analogo"
+  ],
+  "techniques": [
+   "organic synthesis",
+   "cell growth inhibition assay",
+   "IC50 determination"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "IC50"
+  ],
+  "key_quant_results": [
+   "IC50 FC101a ~1 uM",
+   "IC50 FC101p ~20 uM"
+  ],
+  "novelty_claim": "Disrupting the alternating ketone-amine functionality abolishes anticancer activity",
+  "application": "TNBC drug design",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Testing done by a separate laboratory",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0079",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "honey purity",
+   "pollen analysis",
+   "food adulteration"
+  ],
+  "problem_one_line_it": "Il miele venduto al dettaglio e puro o ultrafiltrato rispetto al miele locale? (abstract non coerente col titolo)",
+  "method_steps": [
+   "Valutati tre mieli da tre fonti per texture, gusto, presenza di materiale organico",
+   "Test di purezza bruciando il miele e dispersione in acqua",
+   "Diluizione in etanolo, centrifugazione e acetolisi per recuperare il polline",
+   "Conteggio del polline per grammo"
+  ],
+  "techniques": [
+   "acetolysis",
+   "centrifugation",
+   "pollen counting"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "centrifuge"
+  ],
+  "data_sources": [
+   "USDA honey production statistics"
+  ],
+  "sample_size_or_scale": "3 honey samples",
+  "statistics_used": [],
+  "key_quant_results": [
+   "retail honey: no pollen (ultrafiltered)",
+   "Robeson County 19,800 pollen/g; Raleigh 92,000 pollen/g"
+  ],
+  "novelty_claim": "Pollen content and physical tests distinguish pure local honey from ultrafiltered retail honey",
+  "application": "Consumers / honey quality",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Identify specific pollen taxa; abstract does not match title (buffalo vs beef lipids)",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0094",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "third",
+  "research_type": "experimental",
+  "domain_tags": [
+   "hypertension",
+   "ACE inhibition",
+   "betanin",
+   "natural compounds",
+   "enzyme kinetics"
+  ],
+  "problem_one_line_it": "I farmaci ACE-inibitori sintetici hanno effetti collaterali; la betanina della barbabietola inibisce l'ACE?",
+  "method_steps": [
+   "Ricerca strutturale di composti naturali simili al captopril; individuata betanina",
+   "Saggio spettrofotometrico con substrato HHL ed estrazione con solvente dell'acido ippurico",
+   "Secondo saggio con degradazione di FAPGG a diverse concentrazioni di betanina e captopril",
+   "Calcolo IC50"
+  ],
+  "techniques": [
+   "spectrophotometric enzyme assay",
+   "HHL assay",
+   "FAPGG assay",
+   "solvent extraction",
+   "IC50 determination"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "spectrophotometer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "IC50",
+   "concentration-response"
+  ],
+  "key_quant_results": [
+   "IC50 betanin 640 uM",
+   "IC50 captopril 0.0052 uM"
+  ],
+  "novelty_claim": "Betanin significantly inhibits ACE in a concentration-dependent manner - novel information",
+  "application": "Cost-effective natural hypertension treatment",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Improve inhibition efficiency by breaking betanin down; explore related plant products",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0065",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "fourth",
+  "research_type": "mixed",
+  "domain_tags": [
+   "biofilm",
+   "Dispersin B",
+   "enzyme kinetics",
+   "molecular dynamics",
+   "Staphylococcus aureus"
+  ],
+  "problem_one_line_it": "Comprendere la dinamica enzimatica di Dispersin B per progettare inibitori di biofilm batterici",
+  "method_steps": [
+   "Saggi di Dispersin B su biofilm di S. aureus",
+   "Ottimizzata concentrazione di glucosio (8 mg/L) per la formazione del biofilm",
+   "Saggi a temperatura controllata a varie concentrazioni di substrato per costanti cinetiche",
+   "Calcolo parametri termodinamici con equazioni di Arrhenius ed Eyring",
+   "Disegno e ottimizzazione del substrato analogo in Avogadro, docking nel sito attivo",
+   "Simulazione di dinamica molecolare di 1 ns per prevedere lo stato di transizione"
+  ],
+  "techniques": [
+   "enzyme kinetics",
+   "Arrhenius equation",
+   "Eyring equation",
+   "molecular docking",
+   "molecular dynamics simulation"
+  ],
+  "software_tools": [
+   "Avogadro"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Gibbs free energy of activation 62.9 kJ/mol at 37 C",
+   "1 ns MD simulation revealed transition state"
+  ],
+  "novelty_claim": "Combined thermodynamic and MD approach to predict Dispersin B transition state for inhibitor design",
+  "application": "Antibiotic strategies against biofilm infections",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0068",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "Candida parapsilosis",
+   "carbonic anhydrase",
+   "protein expression",
+   "enzyme inhibitors"
+  ],
+  "problem_one_line_it": "Il gene NCE103 di C. parapsilosis codifica davvero una anidrasi carbonica?",
+  "method_steps": [
+   "Espresso NCE103 in Escherichia coli",
+   "Ottimizzate procedure cromatografiche per purificare la proteina dal lisato",
+   "Dimostrata attivita di anidrasi carbonica di Nce103p",
+   "Misurate costanti di inibizione per diversi inibitori",
+   "Tentativi di cristallizzazione per analisi strutturale"
+  ],
+  "techniques": [
+   "heterologous expression in E. coli",
+   "chromatographic purification",
+   "enzyme activity assay",
+   "inhibition constant measurement",
+   "protein crystallization"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "Nce103p displays carbonic anhydrase activity",
+   "inhibition constants measured for several inhibitors"
+  ],
+  "novelty_claim": "First proof that NCE103 gene product of C. parapsilosis is a carbonic anhydrase",
+  "application": "Antifungal drug targets for immunocompromised patients",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Obtain crystals for structural analysis; search more inhibitors",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0074",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "fourth",
+  "research_type": "experimental",
+  "domain_tags": [
+   "aptamers",
+   "CD47",
+   "SIRPa",
+   "cancer immunotherapy",
+   "SPR"
+  ],
+  "problem_one_line_it": "Gli anticorpi anti-CD47 sono costosi e instabili; si possono sviluppare aptameri che interrompono CD47-SIRPa?",
+  "method_steps": [
+   "Generati diversi aptameri contro CD47 e SIRPa",
+   "Caratterizzazione con risonanza plasmonica di superficie",
+   "Saggi di pulldown per verificare l'affinita"
+  ],
+  "techniques": [
+   "aptamer selection",
+   "surface plasmon resonance",
+   "pulldown assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "SPR instrument"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "certain sequences displayed significant affinity to targets"
+  ],
+  "novelty_claim": "Aptamers as cheaper, more stable alternative to monoclonal antibodies for CD47-SIRPa blockade",
+  "application": "Cancer immunotherapy",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Studies ongoing to measure ability to disrupt CD47-SIRPa interaction",
+  "quality_flags": [
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0093",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "fourth",
+  "research_type": "computational",
+  "domain_tags": [
+   "exosomes",
+   "deterministic lateral displacement",
+   "aptamers",
+   "microfluidics",
+   "cancer diagnosis"
+  ],
+  "problem_one_line_it": "Le tecniche attuali di isolamento degli esosomi tumorali sono inefficaci; un array DLD con aptameri puo migliorarle?",
+  "method_steps": [
+   "Progettato array DLD modificato con aptameri specifici per proteine derivate da immunosignature",
+   "Simulazione fluidodinamica Lattice-Boltzmann",
+   "Confronto affinita di legame tra tecniche attuali e array modificato"
+  ],
+  "techniques": [
+   "Deterministic Lateral Displacement",
+   "Lattice-Boltzmann fluid simulation",
+   "immunosignature peptide libraries"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "modified DLD array most significantly improved aptamer binding affinity in simulation"
+  ],
+  "novelty_claim": "Combinative immunosignature + DLD array approach as novel, cost-effective, minimally invasive pre-symptomatic diagnosis",
+  "application": "Pre-symptomatic cancer diagnosis / targeted treatment",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0063",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "bacterial detection",
+   "luminol",
+   "chemiluminescence",
+   "cell lysis"
+  ],
+  "problem_one_line_it": "Serve un sensore batterico rapido ed economico: la chemiluminescenza del luminolo con metalloproteine batteriche funziona?",
+  "method_steps": [
+   "Standardizzata soluzione di luminolo con ferricianuro di potassio (0.06 M)",
+   "Isolati batteri e preparate diluizioni standard; conteggio CFU in coltura",
+   "Testata chemiluminescenza dopo nessuna lisi, lisi per competenza indotta, omogeneizzazione e freeze-thaw",
+   "Regressione logaritmica luminescenza vs CFU/mL"
+  ],
+  "techniques": [
+   "chemiluminescence assay",
+   "freeze-thaw lysis",
+   "homogenization",
+   "CFU plating"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "logarithmic regression"
+  ],
+  "key_quant_results": [
+   "luminescence increased with CFU/mL for all lysis methods",
+   "freeze-thaw lysis most effective",
+   "luminol concentration 0.06 M"
+  ],
+  "novelty_claim": "Whole-cell bacterial sensor using luminol-metalloprotein chemiluminescence",
+  "application": "Point-of-care and field bacterial testing",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Weaker light emission than luminol-ferricyanide peak",
+  "quality_flags": [
+   "controls described",
+   "statistics reported",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2017-0070",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "Alzheimer's disease",
+   "N-APP",
+   "DR6",
+   "protein-protein interaction",
+   "metal ions"
+  ],
+  "problem_one_line_it": "Come N-APP interagisce con il recettore DR6 e come Cu/Zn modulano l'apoptosi neuronale nell'Alzheimer?",
+  "method_steps": [
+   "Clonati, espressi e purificati frammenti troncati di N-APP e DR6",
+   "Studiata l'interazione in presenza e assenza di ioni rame e zinco",
+   "Studi termodinamici del legame",
+   "Valutata l'apoptosi neuronale indotta dal legame"
+  ],
+  "techniques": [
+   "cloning",
+   "protein expression and purification",
+   "thermodynamic binding studies",
+   "apoptosis assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "N-APP286 binds DR6 more strongly than N-APP126 via hydrophobic interactions",
+   "Cu/Zn promote N-APP-DR6 binding and apoptosis"
+  ],
+  "novelty_claim": "Binding mechanism of N-APP(18-286) and DR6(41-218) supports structure-based antagonist design",
+  "application": "Alzheimer's drug design",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0071",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "silver nanoparticles",
+   "Chlorella vulgaris",
+   "ecotoxicology",
+   "algae"
+  ],
+  "problem_one_line_it": "Le nanoparticelle d'argento nell'ambiente danneggiano la crescita dell'alga Chlorella vulgaris?",
+  "method_steps": [
+   "Chlorella in terreno di crescita con 0-5 gocce di nanoparticelle d'argento",
+   "Misurata assorbanza con spettrofotometro nel tempo",
+   "Confronto con gruppo di controllo"
+  ],
+  "techniques": [
+   "spectrophotometry",
+   "algal growth assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "spectrophotometer"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "dose series 1-5 drops",
+  "statistics_used": [],
+  "key_quant_results": [
+   "absorbance 0.437 (1 drop) vs 0.120 (2 drops)",
+   "1 drop no significant effect"
+  ],
+  "novelty_claim": "Silver nanoparticles harm algae at larger amounts",
+  "application": "Aquatic ecosystem protection",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "controls described",
+   "quantified results"
+  ]
+ },
+ {
+  "pid": "2017-0072",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "special_only",
+  "research_type": "experimental",
+  "domain_tags": [
+   "Zika virus",
+   "EGCg",
+   "glycosylation",
+   "ELISA",
+   "antiviral"
+  ],
+  "problem_one_line_it": "L'EGCg e troppo debole contro Zika; combinarlo con inibizione della glicosilazione migliora l'efficacia?",
+  "method_steps": [
+   "Esposti antigeni ZIKV a simulazioni alcaline di glicosilazione N-/O-linked (serina/asparagina) calcolate con Henderson-Hasselbalch, combinate con EGCg a diluizioni seriali",
+   "Test CLint per stimare biodisponibilita in vivo",
+   "ELISA per analizzare l'identita antigenica",
+   "Analisi dose-risposta, ANOVA e Tukey",
+   "Misura dell'emivita dei proto-farmaci"
+  ],
+  "techniques": [
+   "ELISA",
+   "Henderson-Hasselbalch calculation",
+   "serial dilution",
+   "CLint intrinsic clearance test",
+   "dose-response analysis"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "ANOVA",
+   "Tukey test",
+   "dose-response analysis",
+   "F=0.42 at p=0.05"
+  ],
+  "key_quant_results": [
+   "epitope hiding improved by at least 71%, Serine/O-linked 89%",
+   "half-life increased by 1.9 hours",
+   "pH range 4.98-9.15"
+  ],
+  "novelty_claim": "Two-front hemifusion-and-glycosylation inhibitor as naturally-derived Zika treatment",
+  "application": "Safe Zika treatment for expectant mothers",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "clear hypothesis",
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0087",
+  "year": 2017,
+  "category": "Biochemistry",
+  "tier": "special_only",
+  "research_type": "computational",
+  "domain_tags": [
+   "Alzheimer's disease",
+   "tau protein",
+   "molecular dynamics",
+   "lipid bilayer",
+   "POPG"
+  ],
+  "problem_one_line_it": "Elementi intracellulari naturali come un doppio strato lipidico possono innescare l'aggregazione di Tau?",
+  "method_steps": [
+   "Simulazione di dinamica molecolare del dominio di assemblaggio microtubulare di Tau (Lys-267 a Pro-312)",
+   "Interazione con bilayer lipidico anionico POPG fino a 12 ns",
+   "Analisi di compattezza, entropia conformazionale e cambiamenti strutturali"
+  ],
+  "techniques": [
+   "molecular dynamics simulation"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "12 ns simulation",
+  "statistics_used": [],
+  "key_quant_results": [
+   "bilayer induces more compact form and lower conformational entropy consistent with aggregation"
+  ],
+  "novelty_claim": "Novel simulation study of a natural lipid bilayer causing Tau aggregation",
+  "application": "New targets for Alzheimer's drugs",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": []
+ },
+ {
+  "pid": "2017-0706",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "best_of_category",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "concussion",
+   "helmet design",
+   "shear thickening fluids",
+   "magnetorheological",
+   "impact testing"
+  ],
+  "problem_one_line_it": "Ridurre l'accelerazione lineare e rotazionale del capo nei caschi da hockey per diminuire il rischio di commozione",
+  "method_steps": [
+   "Replicato pendolo di 4 metri per mappare gli interventi sui dati d'impatto reali (modello STAR Virginia Tech)",
+   "Progettati interventi: molle a compressione filettate, serbatoi magnetoreologici, fluidi dilatanti (CaCO3/acqua, silice fumata/PEG, silice colloidale/PEG, PEG)",
+   "Esplorata posizione interna/esterna dei fluidi dilatanti",
+   "Misurata accelerazione media di picco lineare e rotazionale con accelerometri high-G",
+   "Confronto statistico con caschi di controllo"
+  ],
+  "techniques": [
+   "pendulum impact testing",
+   "STAR concussion risk equation",
+   "shear thickening fluids",
+   "magnetorheological damping"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "4 m pendulum",
+   "high-G accelerometers",
+   "hockey helmets"
+  ],
+  "data_sources": [
+   "Virginia Tech STAR impact data"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [
+   "p<0.01"
+  ],
+  "key_quant_results": [
+   "all interventions significantly outperform neat helmet (p<0.01)",
+   "STF location internal/external confirmed important"
+  ],
+  "novelty_claim": "Tuned magnetorheological reservoirs, compression systems and STFs significantly reduce peak head acceleration",
+  "application": "Helmet safety for athletes and military",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0688",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "first",
+  "research_type": "experimental",
+  "domain_tags": [
+   "C. elegans",
+   "exercise",
+   "longevity",
+   "aging",
+   "electrotaxis"
+  ],
+  "problem_one_line_it": "L'esercizio in diverse fasi della vita influenza la longevita di C. elegans? (abstract non coerente col titolo)",
+  "method_steps": [
+   "Camera a flusso elettrotattica (worm treadmill) per esercizio giornaliero",
+   "Tre gruppi sperimentali (esercizio precoce, tardivo, tutta la vita) e controllo",
+   "Conteggio giornaliero dei vermi vivi",
+   "Analisi statistica delle differenze di sopravvivenza"
+  ],
+  "techniques": [
+   "electrotactic flow chamber",
+   "lifespan assay"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "electrotactic flow chamber (worm treadmill)"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "4 groups",
+  "statistics_used": [
+   "p<0.01",
+   "p<0.05"
+  ],
+  "key_quant_results": [
+   "Whole Life and Late Exercise groups lived longer than control (p<0.01)",
+   "Early Exercise lived shorter than control (p<0.05)"
+  ],
+  "novelty_claim": "Exercise at different life stages has distinct effects on longevity in C. elegans",
+  "application": "Understanding exercise and human aging",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": false,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "Investigate mechanisms preventing degeneration; abstract does not match title (microelectrode insertion guide)",
+  "quality_flags": [
+   "clear hypothesis",
+   "controls described",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0676",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "glucose monitoring",
+   "diabetes",
+   "PVA-boric acid",
+   "capillary viscometer",
+   "PDMS"
+  ],
+  "problem_one_line_it": "I glucometri sono costosi e inaccessibili nei paesi in via di sviluppo; serve un dispositivo economico",
+  "method_steps": [
+   "Fluido sensibile al glucosio (GrF): PVA reticolato con acido borico, viscosita diminuisce con il glucosio",
+   "Progettato dispositivo con tubi capillari incorporati in PDMS",
+   "Distanza percorsa per capillarita correlata alla viscosita e quindi al glucosio",
+   "Testate concentrazioni su tutte le gamme glicemiche",
+   "Analisi dei costi"
+  ],
+  "techniques": [
+   "boric acid-PVA crosslinking",
+   "capillary action viscometry",
+   "PDMS device fabrication"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "capillary tubes",
+   "PDMS"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "all blood-glucose ranges tested",
+  "statistics_used": [],
+  "key_quant_results": [
+   "cost per test less than 1 cent",
+   "unique distance readouts for each glucose concentration",
+   "selectivity vs lactate, sucrose, blood"
+  ],
+  "novelty_claim": "Inexpensive capillary device measuring viscosity of a glucose-responsive fluid",
+  "application": "Diabetics in developing countries",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2017-0719",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "brain-computer interface",
+   "EEG",
+   "locked-in syndrome",
+   "coma",
+   "classification"
+  ],
+  "problem_one_line_it": "Pazienti completely locked-in vengono erroneamente classificati vegetativi: un BCI basato su EEG puo rilevare la coscienza?",
+  "method_steps": [
+   "Progettato BCI a ciclo chiuso basato su registrazioni EEG in tempo reale",
+   "Creazione automatica di classificatori di modulazioni motorie e sensoriali",
+   "Risposte si/no con feedback tattile o propriocettivo",
+   "Spelling di parole tramite ricerca su albero binario mentale con stimoli uditivi",
+   "Sistema integrato in una valigetta portatile con unita di elaborazione, EEG e feedback"
+  ],
+  "techniques": [
+   "EEG",
+   "closed-loop BCI",
+   "automatic classifier training",
+   "binary tree search spelling"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "classifiers (unspecified)"
+  ],
+  "hardware_instruments": [
+   "EEG device",
+   "feedback devices",
+   "portable briefcase system"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "healthy volunteers",
+  "statistics_used": [
+   "accuracy"
+  ],
+  "key_quant_results": [
+   "80% accuracy on yes/no questions"
+  ],
+  "novelty_claim": "Closed-loop EEG-only BCI that auto-generates classifiers per TBI type to detect awareness",
+  "application": "Communication for comatose/vegetative-classified patients",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Future tests on patients classified as comatose or vegetative",
+  "quality_flags": [
+   "quantified results",
+   "real-world deployment"
+  ]
+ },
+ {
+  "pid": "2017-0723",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "biosensor",
+   "hemolytic bacteria",
+   "cyclic voltammetry",
+   "lipid membrane",
+   "electrochemistry"
+  ],
+  "problem_one_line_it": "La coltura ematica richiede 72 ore; un biosensore elettrochimico puo rilevare batteri emolitici in 1 ora?",
+  "method_steps": [
+   "Elettrodo d'oro rivestito con membrana lipidica",
+   "Tre trattamenti superficiali: nessun plasma, ossidazione al plasma, mercaptoesanolo (MCH)",
+   "Voltammetria ciclica con molecola redox per rilevare rotture della membrana",
+   "Test con e senza surfattante SDS 0.1% come fattore disruptivo",
+   "Confronto uniformita e falsi positivi"
+  ],
+  "techniques": [
+   "cyclic voltammetry",
+   "self-assembled monolayer (MCH)",
+   "plasma oxidation",
+   "lipid membrane electrode"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "gold electrode",
+   "potentiostat (implied)"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "no-plasma: 43% false positives",
+   "plasma-treated: 100% uniform membranes",
+   "detection within 1 hour vs 72 h culture"
+  ],
+  "novelty_claim": "Novel membrane-based electrochemical biosensor; no previous electrochemical studies for hemolytic bacteria",
+  "application": "Rapid bacterial pathogen detection in health care",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": true,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "controls described",
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0734",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "second",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "vein imaging",
+   "image processing",
+   "smartphone",
+   "CLAHE",
+   "Android"
+  ],
+  "problem_one_line_it": "I sistemi di imaging venoso NIR sono costosi; si puo fare con la fotocamera di uno smartphone?",
+  "method_steps": [
+   "Testate tecniche di elaborazione (thresholding, Fourier) e scelto RGB channel mixing",
+   "Testate fonti di luce; il flash integrato e adeguato",
+   "Sviluppato software: blend lineare dei canali colore seguito da CLAHE",
+   "App Android per immagini singole e video in tempo reale"
+  ],
+  "techniques": [
+   "RGB channel mixing",
+   "linear blend",
+   "CLAHE",
+   "Fourier transform",
+   "thresholding"
+  ],
+  "software_tools": [
+   "Android app"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "smartphone camera"
+  ],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "real-time processing of camera video stream"
+  ],
+  "novelty_claim": "SAMIS: low-cost smartphone vein imaging using only a standard camera",
+  "application": "Accessible vein visualization for common people",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0666",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "concussion",
+   "EEG",
+   "wearable",
+   "ROC curve",
+   "sports medicine"
+  ],
+  "problem_one_line_it": "Oltre il 50% delle commozioni negli atleti non viene diagnosticato; serve uno strumento immediato sul campo",
+  "method_steps": [
+   "Sensore EEG e algoritmo diagnostico integrati nel casco",
+   "Algoritmo rileva pattern: spike epilettico seguito da periodo isoelettrico; LED si accendono",
+   "Iterazione 1: valutazione con database EEG modificato, AUC 1.0 ma campionamento lento",
+   "Iterazione 2: nuovo sensore EEG a 16 MHz, test su soggetti di eta/sesso diversi durante esercizi",
+   "Valutazione con curva ROC"
+  ],
+  "techniques": [
+   "EEG",
+   "ROC curve analysis",
+   "pattern detection algorithm"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "custom EEG sensor",
+   "LEDs",
+   "helmet"
+  ],
+  "data_sources": [
+   "EEG database (modified)"
+  ],
+  "sample_size_or_scale": "subjects in different age/gender groups",
+  "statistics_used": [
+   "ROC curve",
+   "AUC"
+  ],
+  "key_quant_results": [
+   "AUC 1.0 iteration 1",
+   "AUC 0.99 iteration 2",
+   "sampling rate 16 MHz"
+  ],
+  "novelty_claim": "Point-of-care helmet-embedded EEG concussion diagnostic",
+  "application": "Student athletes / football",
+  "has_field_work": true,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "Iteration 1: slow sampling rate, no movement or demographic testing",
+  "quality_flags": [
+   "quantified results",
+   "statistics reported"
+  ]
+ },
+ {
+  "pid": "2017-0689",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "tissue scaffold",
+   "gelatin",
+   "hyaluronic acid",
+   "hip labrum",
+   "3D printing"
+  ],
+  "problem_one_line_it": "Le riparazioni del labbro acetabolare impediscono la guarigione naturale; serve uno scaffold economico e paziente-specifico",
+  "method_steps": [
+   "Gel di gelatina bovina 2% con acido ialuronico 0.5%",
+   "Sei gel reticolati con glutaraldeide e D-L gliceraldeide a 0.1%, 1%, 10%",
+   "Modulo di Young misurato con apparato a sfera, ImageJ ed equazione Ju & Liu",
+   "Scelto gel piu vicino a 41.21 MPa del labbro reale",
+   "Interfaccia bistrato con gelatina 10% per adesione ossea",
+   "Stampa 3D dell'anca da dati CT, scaffold modellato in acetabolo; congelamento/liofilizzazione"
+  ],
+  "techniques": [
+   "chemical crosslinking",
+   "Young's modulus measurement",
+   "3D printing from CT",
+   "lyophilization"
+  ],
+  "software_tools": [
+   "ImageJ"
+  ],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "3D printer",
+   "ball bearing apparatus",
+   "CT scan data"
+  ],
+  "data_sources": [
+   "CT scan of human hip"
+  ],
+  "sample_size_or_scale": "6 gels",
+  "statistics_used": [],
+  "key_quant_results": [
+   "candidate gel matches labrum E 41.21 MPa (target 42-44 MPa)",
+   "cost $22 per unit"
+  ],
+  "novelty_claim": "Gelatin-based rather than collagen scaffold for the hip labrum, patient-specific and cost-effective",
+  "application": "Patients with acetabular labral tears",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": false,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "quantified results",
+   "cost stated"
+  ]
+ },
+ {
+  "pid": "2017-0701",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "third",
+  "research_type": "computational",
+  "domain_tags": [
+   "macular degeneration",
+   "retinal fundus images",
+   "computer vision",
+   "bag of visual words"
+  ],
+  "problem_one_line_it": "La rilevazione manuale della degenerazione maculare e lenta e i metodi automatici poco accurati",
+  "method_steps": [
+   "Estratti keypoint dalle immagini di training",
+   "Clustering dei keypoint in classi malato/normale",
+   "Creata linea di decisione tra i cluster",
+   "Predizione della classe sulle immagini di test"
+  ],
+  "techniques": [
+   "Bag of Visual Words",
+   "keypoint extraction",
+   "clustering"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [
+   "Bag of Visual Words classifier"
+  ],
+  "hardware_instruments": [],
+  "data_sources": [],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "faster than manual and more accurate than existing automated methods (no numbers)"
+  ],
+  "novelty_claim": "First application of Bag of Visual Words to macular degeneration detection",
+  "application": "Ophthalmologists, elderly patients",
+  "has_field_work": false,
+  "has_simulation_or_model": true,
+  "has_physical_prototype": false,
+  "has_code_component": true,
+  "has_validation_against_real_data": false,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "compares to state of the art"
+  ]
+ },
+ {
+  "pid": "2017-0704",
+  "year": 2017,
+  "category": "Biomedical Engineering",
+  "tier": "third",
+  "research_type": "engineering-design",
+  "domain_tags": [
+   "Parkinson's disease",
+   "wearable",
+   "tremor detection",
+   "gait",
+   "sensor algorithms"
+  ],
+  "problem_one_line_it": "La diagnosi del Parkinson e soggettiva e tardiva; un wearable puo quantificare i sintomi precoci?",
+  "method_steps": [
+   "Progettata fascia da braccio indossabile con sensori integrati",
+   "Sviluppati algoritmi per rilevare tremori, disturbi dell'andatura, bradicinesia, rigidita",
+   "Sintomi definiti in base a letteratura e scale (UPDRS)",
+   "Dati memorizzati per monitoraggio di medici e utenti",
+   "Test con dati simulati e di pazienti, poi messa a punto e riverifica"
+  ],
+  "techniques": [
+   "sensor signal processing",
+   "Unified Parkinson's Disease Rating Scale"
+  ],
+  "software_tools": [],
+  "programming_languages": [],
+  "ml_models": [],
+  "hardware_instruments": [
+   "wearable armband with sensors"
+  ],
+  "data_sources": [
+   "Parkinson's patients' data"
+  ],
+  "sample_size_or_scale": "",
+  "statistics_used": [],
+  "key_quant_results": [
+   "tested on simulated and real patient data (no numbers)"
+  ],
+  "novelty_claim": "MyHealth transforms subjective Parkinson's testing into quantifiable wearable monitoring",
+  "application": "Early detection and monitoring of Parkinson's patients",
+  "has_field_work": false,
+  "has_simulation_or_model": false,
+  "has_physical_prototype": true,
+  "has_code_component": true,
+  "has_validation_against_real_data": true,
+  "mentor_or_lab_signal": false,
+  "limitations_or_future_work": "",
+  "quality_flags": [
+   "real-world deployment"
+  ]
+ }
+]

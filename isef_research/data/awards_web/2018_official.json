@@ -1,0 +1,1357 @@
+{
+ "year": 2018,
+ "top_awards": [
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Nicholls, Oliver",
+   "title": "Autonomous Window Cleaning Robot for Commercial High Rise Buildings",
+   "school": "Barker College",
+   "location": "Sydney, New South Wales, Australia",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15452",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+    "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+   ],
+   "award": "Gordon E. Moore Award",
+   "prize_usd": "75,000"
+  },
+  {
+   "category": "Chemistry",
+   "names": "Bollimpalli, Meghana",
+   "title": "Green Synthesis of Phosphorous, Nitrogen Co-Doped Carbon Materials from Renewable Resources for Supercapacitor Applications via Microwave Assisted Technique",
+   "school": "Little Rock Central High School",
+   "location": "Little Rock, Arkansas, USA",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15584",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+    "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+   ],
+   "award": "Intel Foundation Young Scientist Award",
+   "prize_usd": "50,000"
+  },
+  {
+   "category": "Energy: Chemical",
+   "names": "Parikh, Dhruvik",
+   "title": "A Novel Sol-Gel Derived SPEEK/Silicon Dioxide Composite Membrane for the Vanadium Redox Flow Battery",
+   "school": "Henry M. Jackson High School",
+   "location": "Bothell, Washington, USA",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16184",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+    "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+   ],
+   "award": "Intel Foundation Young Scientist Award",
+   "prize_usd": "50,000"
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Quryshi, Nabeel",
+   "title": "Role of Telomerase in Vascular Function and Exploration of Mitochondrial Dynamics: A Novel Approach to Treatment of Vascular Dysfunction",
+   "school": "University School of Milwaukee",
+   "location": "Wisconsin, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15444",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ],
+   "award": "Dudley R. Herschbach SIYSS Award",
+   "prize_usd": "all-expense-paid trip to the Stockholm International Youth Science Seminar / Nobel Prize ceremonies"
+  },
+  {
+   "category": "Mathematics",
+   "names": "Abdulla, Muhammad",
+   "title": "A Fine Classification of Second Minimal Odd Orbits",
+   "school": "West Shore Junior/Senior High School",
+   "location": "Florida, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15252",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ],
+   "award": "Dudley R. Herschbach SIYSS Award",
+   "prize_usd": "all-expense-paid trip to the Stockholm International Youth Science Seminar / Nobel Prize ceremonies"
+  },
+  {
+   "category": "Biochemistry",
+   "names": "Malhotra, Rhea",
+   "title": "The Biochemical Interactions of Cardiac Ion-Blocking Agents and Optical Coherence Tomography in vivo for Cardiovascular Diseases",
+   "school": "Moravian Academy",
+   "location": "Pennsylvania, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16620",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ],
+   "award": "European Union Contest for Young Scientists Award",
+   "prize_usd": "all-expense-paid trip to EUCYS 2018 (Dublin, Ireland)"
+  },
+  {
+   "category": "Materials Science",
+   "names": "Kang, Daniel",
+   "title": "Novel Graphene Nanoplatelet Embedded Pigmentless Emulsions for Low Cost Paintable Capacitive Sensors and Supercapacitors",
+   "school": "John F. Kennedy High School",
+   "location": "Guam (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16731",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ],
+   "award": "European Union Contest for Young Scientists Award",
+   "prize_usd": "all-expense-paid trip to EUCYS 2018 (Dublin, Ireland)"
+  }
+ ],
+ "best_of_category": [
+  {
+   "category": "Animal Sciences",
+   "names": "Isahaku, Ayman; Spektor, Anna",
+   "title": "Metformin as a Novel Neurogenic Method of Methylmercury Neurotoxicity Symptom Mitigation in Danio rerio as a Model for Human Fetuses",
+   "school": "Nicolet High School",
+   "location": "Wisconsin, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15402",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Behavioral and Social Sciences",
+   "names": "Shteyman, Amy",
+   "title": "The Language of Facial Expressions: A Neuroimaging Study on How a Smile Is Generated and Perceived by Another Person",
+   "school": "John L. Miller Great Neck North High School",
+   "location": "New York, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15702",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biochemistry",
+   "names": "Malhotra, Rhea",
+   "title": "The Biochemical Interactions of Cardiac Ion-Blocking Agents and Optical Coherence Tomography in vivo for Cardiovascular Diseases",
+   "school": "Moravian Academy",
+   "location": "Pennsylvania, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16620",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Roy, Ronak",
+   "title": "Smartphone-Controlled Portable Phoropter Powered by Variable Focal Length Liquid Lens",
+   "school": "Canyon Crest Academy",
+   "location": "California, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15747",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Quryshi, Nabeel",
+   "title": "Role of Telomerase in Vascular Function and Exploration of Mitochondrial Dynamics: A Novel Approach to Treatment of Vascular Dysfunction",
+   "school": "University School of Milwaukee",
+   "location": "Wisconsin, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15444",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Cellular and Molecular Biology",
+   "names": "Feiner, Ella",
+   "title": "Exploring Posterior Growth in D. rerio Using a Live Cell Cycle Biosensor",
+   "school": "Horace Mann School",
+   "location": "New York, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16294",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Bollimpalli, Meghana",
+   "title": "Green Synthesis of Phosphorous, Nitrogen Co-Doped Carbon Materials from Renewable Resources for Supercapacitor Applications via Microwave Assisted Technique",
+   "school": "Little Rock Central High School",
+   "location": "Little Rock, Arkansas, USA",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15584",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+    "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+   ]
+  },
+  {
+   "category": "Computational Biology and Bioinformatics",
+   "names": "Sumathipala, Marissa",
+   "title": "MiRNet: A Novel in silico Network-Based Approach to miRNA Drug Target Identification for Next Generation Drug Discovery",
+   "school": "Broad Run High School",
+   "location": "Virginia, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16152",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Tremsin, Vasily",
+   "title": "Stop the Flame in Its Infancy! Multivariable Early-Warning System for Low-Cost Prevention of Wildfire Proliferation",
+   "school": "Campolindo High School",
+   "location": "California, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15978",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Embedded Systems",
+   "names": "Shah, Malav; Balsara, Burzin",
+   "title": "EyeMove: Using Electrooculography to Provide Mobility for the Disabled",
+   "school": "Plano Senior High School",
+   "location": "Texas, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16195",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Energy: Chemical",
+   "names": "Parikh, Dhruvik",
+   "title": "A Novel Sol-Gel Derived SPEEK/Silicon Dioxide Composite Membrane for the Vanadium Redox Flow Battery",
+   "school": "Henry M. Jackson High School",
+   "location": "Bothell, Washington, USA",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16184",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+    "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+   ]
+  },
+  {
+   "category": "Energy: Physical",
+   "names": "Edamadaka, Sathya",
+   "title": "RPAL: A Novel Low-Cost High-Efficiency Photovoltaic System Using Tunable Plasmonic Nanostructures",
+   "school": "High Technology High School",
+   "location": "Pennsylvania, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16744",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Engineering Mechanics",
+   "names": "Dunschen, Frederik",
+   "title": "Designing and Building a Continuously Spinning but Controllable Flying Object",
+   "school": "Friedensschule Munster",
+   "location": "Germany (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15148",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Jain, Raina",
+   "title": "Magnetically Induced, Visual Detection of Trace Arsenic Contaminants in Water Using Fe3O4 Photonic Crystal Structures",
+   "school": "Greenwich High School",
+   "location": "Connecticut, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15749",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Mathematics",
+   "names": "Abdulla, Muhammad",
+   "title": "A Fine Classification of Second Minimal Odd Orbits",
+   "school": "West Shore Junior/Senior High School",
+   "location": "Florida, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15252",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Dunkenberger, Logan",
+   "title": "Novel Use of Phenolic Compounds for Epstein-Barr Virus Lytic Induction",
+   "school": "Roanoke Valley Governor's School for Science and Technology",
+   "location": "Virginia, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16042",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Humphrey, Ana",
+   "title": "Finding Exoplanets by Assessing the Dynamical Packing of Kepler Three- and Four-Candidate Systems",
+   "school": "T.C. Williams High School",
+   "location": "Virginia, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15773",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Fan, Yueyang",
+   "title": "Crude Extraction of Amana edulis Induces Liver Cancer Apoptosis",
+   "school": "No. 2 High School of East China Normal University",
+   "location": "China (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15417",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Nicholls, Oliver",
+   "title": "Autonomous Window Cleaning Robot for Commercial High Rise Buildings",
+   "school": "Barker College",
+   "location": "Sydney, New South Wales, Australia",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15452",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+    "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+    "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+   ]
+  },
+  {
+   "category": "Systems Software",
+   "names": "Chou, Ruihua",
+   "title": "Seeing Clearly and Farther: Augmented Perception for Safe Driving in Adverse Weather and Reduced Visibility Conditions",
+   "school": "The High School Affiliated to Renmin University of China",
+   "location": "China (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15266",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Translational Medical Science",
+   "names": "Bodoni, Edwin",
+   "title": "Bruxism: A Novel Diagnostic Approach",
+   "school": "Cherry Creek High School",
+   "location": "Colorado, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15119",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  }
+ ],
+ "first_awards": [
+  {
+   "category": "Animal Sciences",
+   "names": "Adamo, Sarah",
+   "title": "Acetylcholine and Nicotine Potentiate Currents in Cells Isolated from Sea Anemone Nematostella vectensis",
+   "school": "Smithtown High School West",
+   "location": "New York, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15812",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Animal Sciences",
+   "names": "Isahaku, Ayman; Spektor, Anna",
+   "title": "Metformin as a Novel Neurogenic Method of Methylmercury Neurotoxicity Symptom Mitigation in Danio rerio as a Model for Human Fetuses",
+   "school": "Nicolet High School",
+   "location": "Wisconsin, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15402",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Behavioral and Social Sciences",
+   "names": "Shteyman, Amy",
+   "title": "The Language of Facial Expressions: A Neuroimaging Study on How a Smile Is Generated and Perceived by Another Person",
+   "school": "John L. Miller Great Neck North High School",
+   "location": "New York, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15702",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Behavioral and Social Sciences",
+   "names": "Smith, Erin",
+   "title": "FacePrint: A Novel, Differential Diagnostic and Monitoring Tool for Parkinson’s Disease, Essential Tremor, and Atypical Parkinsonism Using Facial Behavioral Biomarkers and Dynamic Video Footage Tracking with Machine Learning",
+   "school": "Shawnee Mission West High School",
+   "location": "Missouri, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16717",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biochemistry",
+   "names": "Malhotra, Rhea",
+   "title": "The Biochemical Interactions of Cardiac Ion-Blocking Agents and Optical Coherence Tomography in vivo for Cardiovascular Diseases",
+   "school": "Moravian Academy",
+   "location": "Pennsylvania, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16620",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Kroll, Everett",
+   "title": "3D Printable Prosthetic Foot",
+   "school": "Stillwater Area High School",
+   "location": "Minnesota, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15501",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Roy, Ronak",
+   "title": "Smartphone-Controlled Portable Phoropter Powered by Variable Focal Length Liquid Lens",
+   "school": "Canyon Crest Academy",
+   "location": "California, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15747",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Clements, Nia",
+   "title": "East Indian Sandalwood Oil (EISO) as a Therapeutic Target for Disease: A Study of TRPM7 Ion Channels (Year IV)",
+   "school": "Keystone School",
+   "location": "Texas, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15308",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Quryshi, Nabeel",
+   "title": "Role of Telomerase in Vascular Function and Exploration of Mitochondrial Dynamics: A Novel Approach to Treatment of Vascular Dysfunction",
+   "school": "University School of Milwaukee",
+   "location": "Wisconsin, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15444",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Cellular and Molecular Biology",
+   "names": "Feiner, Ella",
+   "title": "Exploring Posterior Growth in D. rerio Using a Live Cell Cycle Biosensor",
+   "school": "Horace Mann School",
+   "location": "New York, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16294",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Bollimpalli, Meghana",
+   "title": "Green Synthesis of Phosphorous, Nitrogen Co-Doped Carbon Materials from Renewable Resources for Supercapacitor Applications via Microwave Assisted Technique",
+   "school": "Little Rock Central High School",
+   "location": "Arkansas, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15584",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Lim, Bryan; Lim, Shawn; Yap, Dominic Wei Ting",
+   "title": "Use of Electrochemical Advanced Oxidation Processes for Novel Treatment of Sludge and Wastewater",
+   "school": "Hwa Chong Institution",
+   "location": "Singapore (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15671",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Computational Biology and Bioinformatics",
+   "names": "Sumathipala, Marissa",
+   "title": "MiRNet: A Novel in silico Network-Based Approach to miRNA Drug Target Identification for Next Generation Drug Discovery",
+   "school": "Broad Run High School",
+   "location": "Virginia, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16152",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Petersen, Lillian",
+   "title": "Predicting Food Shortages in Africa from Satellite Imagery",
+   "school": "Los Alamos High School",
+   "location": "New Mexico, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16374",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Tremsin, Vasily",
+   "title": "Stop the Flame in Its Infancy! Multivariable Early-Warning System for Low-Cost Prevention of Wildfire Proliferation",
+   "school": "Campolindo High School",
+   "location": "California, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15978",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Embedded Systems",
+   "names": "Hannon, Aaron",
+   "title": "Developing a Facial Shaving Device for People with Limited Hand Dexterity",
+   "school": "St. Muredach's College",
+   "location": "Ireland (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14828",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Embedded Systems",
+   "names": "Shah, Malav; Balsara, Burzin",
+   "title": "EyeMove: Using Electrooculography to Provide Mobility for the Disabled",
+   "school": "Plano Senior High School",
+   "location": "Texas, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16195",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Energy: Physical",
+   "names": "Edamadaka, Sathya",
+   "title": "RPAL: A Novel Low-Cost High-Efficiency Photovoltaic System Using Tunable Plasmonic Nanostructures",
+   "school": "High Technology High School",
+   "location": "Pennsylvania, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16744",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Engineering Mechanics",
+   "names": "Dunschen, Frederik",
+   "title": "Designing and Building a Continuously Spinning but Controllable Flying Object",
+   "school": "Friedensschule Munster",
+   "location": "Germany (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15148",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Engineering Mechanics",
+   "names": "Ramesh, Krithik",
+   "title": "Suppression of Aeroelastic Instabilities in High Ratio Wing Structures Using Principal Component Analysis",
+   "school": "Cherry Creek High School",
+   "location": "Colorado, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15175",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Jain, Raina",
+   "title": "Magnetically Induced, Visual Detection of Trace Arsenic Contaminants in Water Using Fe3O4 Photonic Crystal Structures",
+   "school": "Greenwich High School",
+   "location": "Connecticut, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15749",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Kollipara, Veenadhari",
+   "title": "Transforming Agriculture to Feed the World Sustainably: A State-of-the-Art, Drone-Enabled Precision Agriculture End-to-End Solution",
+   "school": "Interlake High School",
+   "location": "Washington, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15822",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Mathematics",
+   "names": "Abdulla, Muhammad",
+   "title": "A Fine Classification of Second Minimal Odd Orbits",
+   "school": "West Shore Junior/Senior High School",
+   "location": "Florida, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15252",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Dunkenberger, Logan",
+   "title": "Novel Use of Phenolic Compounds for Epstein-Barr Virus Lytic Induction",
+   "school": "Roanoke Valley Governor's School for Science and Technology",
+   "location": "Virginia, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16042",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Long, Luke",
+   "title": "Green Watts: Investigating Power Generation of Spartina patens Compared to Chlorophytum comosum by Utilizing a Mixed Shewanella oneidensis MR-1 Community in a Plant Microbial Fuel Cell (A Novel Fourth Year Study)",
+   "school": "Canterbury School",
+   "location": "Florida, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14737",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Humphrey, Ana",
+   "title": "Finding Exoplanets by Assessing the Dynamical Packing of Kepler Three- and Four-Candidate Systems",
+   "school": "T.C. Williams High School",
+   "location": "Virginia, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15773",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Jou, Parker",
+   "title": "The Impact of Rotational Damping on the Collective Motion Exhibited by Systems of Self-Propelled Particles",
+   "school": "Carmel High School",
+   "location": "Indiana, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16548",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Fan, Yueyang",
+   "title": "Crude Extraction of Amana edulis Induces Liver Cancer Apoptosis",
+   "school": "No. 2 High School of East China Normal University",
+   "location": "China (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15417",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Wilson, Amanda",
+   "title": "Analyzing the Pesticidal Properties of Trichoderma harzianum",
+   "school": "Northwestern High School",
+   "location": "Indiana, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16244",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Nicholls, Oliver",
+   "title": "Autonomous Window Cleaning Robot for Commercial High Rise Buildings",
+   "school": "Barker College",
+   "location": "Australia (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15452",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Payra, Syamantak",
+   "title": "A Sensor-Enhanced Digital Stethoscope (SEDS): Design and Development of an Intelligent Sensor-Enhanced Digital Stethoscope for Patient-Friendly Remote Auscultation",
+   "school": "Clear Brook High School",
+   "location": "Texas, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15366",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Systems Software",
+   "names": "Amirtharaj, Divya",
+   "title": "Utilizing Blockchain to Revolutionize Privacy and Security of Medical Records",
+   "school": "Westview High School",
+   "location": "Oregon, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16770",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Systems Software",
+   "names": "Chou, Ruihua",
+   "title": "Seeing Clearly and Farther: Augmented Perception for Safe Driving in Adverse Weather and Reduced Visibility Conditions",
+   "school": "The High School Affiliated to Renmin University of China",
+   "location": "China (city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15266",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Translational Medical Science",
+   "names": "Bodoni, Edwin",
+   "title": "Bruxism: A Novel Diagnostic Approach",
+   "school": "Cherry Creek High School",
+   "location": "Colorado, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15119",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Translational Medical Science",
+   "names": "Tomov, Sofia",
+   "title": "Heart Smart: A Novel Deep Learning Approach to Improving Heart Disease Diagnosis",
+   "school": "Homeschool",
+   "location": "Tennessee, USA (affiliated fair state; city not in source)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16318",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  }
+ ],
+ "second_awards": [
+  {
+   "category": "Animal Sciences",
+   "names": "Jacobson, Natalia",
+   "title": "A Novel Approach to Increase Honey Bee Immune Response: \nThe Effect of Amino Acid Supplementation on the Longevity of Nosema Infected Honeybees",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16488",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Animal Sciences",
+   "names": "Tsuchida, Kota; Sakai, Yusuke; Tsuzuku, Yuka",
+   "title": "A Method Combining Geographic Information Systems and Environmental DNA Reveals Hidden Populations of the Endangered Japanese Clouded Salamander, Hynobius nebulosus",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15317",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Animal Sciences",
+   "names": "Wamsley, Elizabeth",
+   "title": "Saving the Honey Bee from Varroa destructor Using RNA-Interference",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16178",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Animal Sciences",
+   "names": "Zhang, Jingru; Gu, Xieran; Zhang, Yuhui",
+   "title": "Who Is the Mice's King? Key Factors for Regulation of Social Hierarchy on C57BL/6 Mice",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15416",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Behavioral and Social Sciences",
+   "names": "Cantwell, Megan",
+   "title": "Social Skills in Adolescents Who Use Cochlear Implants",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15305",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Behavioral and Social Sciences",
+   "names": "McDonald-Boyer, Ainsley",
+   "title": "Diagnostic Test for Dyslexia, Year Three",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15025",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Behavioral and Social Sciences",
+   "names": "Oyetunji, Ephraim",
+   "title": "Treating Parkinsonian Neurodegeneration in Diabetic, Paraquat-exposed Drosophila by Increasing Caffeine Intake",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16536",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biochemistry",
+   "names": "Naidu, Nandini",
+   "title": "Allosteric Inhibition of the Carbonic Anhydrase IX for Anticancer Applications",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16768",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biochemistry",
+   "names": "Vasikaran, Sangita",
+   "title": "Effective Evasion of Chemotherapeutic Resistance by Functionalized Viral Capsid QB",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15115",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Broas, Sarah",
+   "title": "Development of Decellularized Peppermint Leaf Functionalized Biomimetic Scaffolds for Cardiac Tissue Engineering: An Investigation of Physico-Chemical and Mechanical Properties",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16002",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Keirn, Alyssa",
+   "title": "Solar Powered Decontaminator Design and Testing",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15028",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Mahmood, Danish",
+   "title": "W.I.N.I.T.S. (Wireless Interconnected Non-Invasive Triage System)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16051",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical Engineering",
+   "names": "Quinlan, Anna",
+   "title": "A Low Cost, Closed Loop Insulin Pump for Better Management of Types 1 and 2 Diabetes Mellitus",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16791",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Hansen-Estruch, Philippe",
+   "title": "A Microbiome Approach to Treat Galactosemia, a Life-Threatening Disorder",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15746",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Martynova, Alice",
+   "title": "An Affordable, Autonomous, AI-Enhanced Microscope to Enable Efficient Diagnosis of Parasitic Infection in Developing Countries",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15704",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Saji, Aleena; Kuwehan, Atiya",
+   "title": "Using C# Programming Language to Create a Ready to Use Therapeutic Food (Rutf) Aimed at Addressing the Nutritional Needs of the Undernourished in Kenya",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15098",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Biomedical and Health Sciences",
+   "names": "Tang, Lien",
+   "title": "Optimization of Lipid-Coated Mesoporous Silica Nanoparticles for Cancer Immunotherapy",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16118",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Cellular and Molecular Biology",
+   "names": "Li, Lauren",
+   "title": "Characterization of Assembly-Activating Protein in Adeno-Associated Virus Capsid Assembly",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15182",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Cellular and Molecular Biology",
+   "names": "Sneve, Madison",
+   "title": "TrkC Identifies a Putative Mechanoreceptor that Specifically Innervates Taste Papillae",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15636",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Belousova, Irina",
+   "title": "Synthesis and Antiproliferative Properties of Tryptamine Derivatives",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15275",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Das, Arnob",
+   "title": "A New Route to Next-Generation Spin Based Devices for Quantum Information Processing: Optically Active Fully Organic Room Temperature Ferromagnetic Semiconductors",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16757",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Ferreira, Fionn",
+   "title": "An Investigation into the Removal of Microplastics from Water Using Ferrofluids",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14829",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Chemistry",
+   "names": "Maslova, Yulia; Andrianova, Anastasiia",
+   "title": "New Approach to the Synthesis of the Functionalized Fluoroalkenes – New Perspective Types of Medicines",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15279",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Computational Biology and Bioinformatics",
+   "names": "Puri, Isha",
+   "title": "A Scalable and Freely Accessible Machine Learning Based Application for the Early Detection of Dyslexia",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15922",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Computational Biology and Bioinformatics",
+   "names": "Tandon, Utkarsh",
+   "title": "Early-Onset Schizophrenia Detection via Novel Diffusion Tensor Machine Learning of Cingulate-Orbitofrontal Tractography",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16196",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Grimmett, Glenn",
+   "title": "Carbon Capture Using Solid Sorbents. Amine-tethered Polystyrene and Ppolyacrylic Polymers for CO2 Adsorption",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16400",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Jain, Ronit",
+   "title": "Next Generation Morphological and Molecular Analysis of the Toxicity of Pharmaceutical-Derived Aquatic Contaminants (PPCPs)",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15474",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Nair, Anushka",
+   "title": "Radiochemistry and AI: Development of a Targeted Emergency Response and Recovery System Using ML Algorithms for Use After a Nuclear Event",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15742",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Earth and Environmental Sciences",
+   "names": "Shikarpur, Pranav; Viswanath, Siddharth",
+   "title": "\"FloBot\": A Mobile Portable and Floating Real Time Data Acquisition Device for Lake Water Quality Monitoring and Mapping",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14751",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Embedded Systems",
+   "names": "Arora, Rohan; Krishnan, Venkat; Tolwani, Anil",
+   "title": "LabTrak: A Micro-Telemetry Device for Modeling Mice Behavior",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16363",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Embedded Systems",
+   "names": "Bhattacharyya, Swagat",
+   "title": "DIMOS: A Novel Low-Power, Fast Response Logic Gate Architecture",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16677",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Embedded Systems",
+   "names": "Nullmeier, Lukas",
+   "title": "Infrared-Laser Computer Control",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14998",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Energy: Physical",
+   "names": "Lossef, Samuel",
+   "title": "Investigation of Novel and Unconventional Microwave Antenna Designs Using in silico Modeling",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16271",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Energy: Physical",
+   "names": "Manzanero, Joscel Kent; Cadores, Keith Russel; Rivera, Eugene",
+   "title": "Design and Development of Solar-Tracking Arduino-Rooted PV Panels",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16734",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Engineering Mechanics",
+   "names": "Bennett, Andrew",
+   "title": "Simulation, Optimization, and Validation of a Closed Wing Airplane",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16000",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Engineering Mechanics",
+   "names": "Jacob, Joshua",
+   "title": "Development of a Hybrid Direct Write 3D Printer: A Novel One-Step Approach to Fabricating Multi-Layer Functional Devices and Flexible Electronics Through Reactive Inkjet Printing",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15631",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Engineering Mechanics",
+   "names": "Lee, Shang-Jung; Yen, Po-Hsun",
+   "title": "A Spherical Induction Motor with Hexahedron Stator for Attitude Control",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15674",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Chadha, Annika",
+   "title": "Development of a Fully Automated 3D-Printed IoT Sensor for Arsenic Detection in Groundwater",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15588",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Chandar, Yatin",
+   "title": "Development of a Highly Efficient Low-Cost Filter for Effective Dissolved Heavy-Metal and Organic Contaminant Removal",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15661",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Dhawan, Ankush",
+   "title": "An Improved Method for Trace Level Arsenic Quantification in Water",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16443",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Tripathii, Eeshan",
+   "title": "The Air We Breathe- Reducing Health Risks by Improving IAQ: An Innovative, Smart, and Responsive Ductless System Optimized by Stochastic Simulation and Machine Learning",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16324",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Environmental Engineering",
+   "names": "Yue, David",
+   "title": "A New Air Pollution Filter for Effective Gas Separation and Purification: High-Performance Polymer-Blended Mixed-Matrix Membranes with Triad Compatibilizers - Small Organic Molecules, Metal Organic Frameworks, and Carbon Nanotubes",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15526",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Mathematics",
+   "names": "Santiago-Reyes, Omar; Santiago-Reyes, Gustavo",
+   "title": "Mathematics of Gene Regulation: Control Theory for Ternary Monomial Dynamical Systems",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15879",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Mathematics",
+   "names": "Savelyeva, Anna",
+   "title": "On the Maximum Number of Non-Intersecting Diagonals in Unit Squares Filling an n*n Grid",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15255",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Mathematics",
+   "names": "Yegnesh, Karthik",
+   "title": "Braid Groups on Triangulated Surfaces and Singular Homology",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16710",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Keeler, Emma",
+   "title": "Bioprospecting for Benthic Fungi and Their Bactericidal Antibiotics",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15568",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Leyendecker, Peyton",
+   "title": "Optimizing the Ratios of Manuka Honey to Adhesive in an Antibacterial Surgical Adhesive",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15170",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Lohe, Nikhil",
+   "title": "Addressing Arsenic Contamination: Creating a \"Super\" Bioremediator with Sub-Lethal Pretreatment",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15818",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Microbiology",
+   "names": "Silva, Gabriel; Nogueira, Eduardo; Martins, Francisca",
+   "title": "ShealS - Sea Heals Soil",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15524",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Hotter, Raphael",
+   "title": "An MRI Approach to the Quantification in vivo of Cerebral Blood Volume at High Resolution",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16454",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Jouve, Mary Alice",
+   "title": "Kepler-Keck Double Check: Confirming Exoplanet Candidates Using Keck Radial Velocity Data",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16046",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Meade, Evan",
+   "title": "Designing a Practical Quantum Network Using Standard Basis Rotation and Blockchain Verification",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15330",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Muntz, Benjamin",
+   "title": "Why Are We 3D: Modelling the N-Dimensional Electron Orbitals",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14693",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Physics and Astronomy",
+   "names": "Resch, Lennart; Kubetzko, Tim",
+   "title": "Galileo's Ladder Problem: Rope Ladders Falling Faster than Gravity",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15006",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Aldossary, Faisal",
+   "title": "Creating Two Novel Strigolactone (SL) Analogs (C-13 and C-26) for the Benefits of Combatting Parasitic Seed Infestation",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16280",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Evans, Simone",
+   "title": "The Web of Mycorrhizal Fungi: Identifying Associations Between Orchids, Ceratobasidium Fungi, and Trees",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15569",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Kirchner, Jessica; Boukamp, Jonas",
+   "title": "Risk Analysis: Pyrrolizidine Alkaloids in Honey and the\nDistribution of Senecio jacobaea",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15044",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Plant Sciences",
+   "names": "Muthukumar, Pragati",
+   "title": "Phylogenetic Analysis to Provide Insight on the Trihelix Gene Function in Arabidopsis thaliana",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15792",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Boyea, Samantha",
+   "title": "Agricultural Drones: The Development of an Unmanned Aerial System for Use in Semi-Autonomous Silo Inspection",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16085",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Chirita, Sandu",
+   "title": "A Novel Approach to Call Quality Assessment Using Deep Neural Networks",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15245",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Mukherjee, Anwesha",
+   "title": "A Novel Approach to Recognize Emotion from Speech Using Machine Learning Algorithms to Aid Social Interaction of Kids with Autism",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15242",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Robotics and Intelligent Machines",
+   "names": "Srinivasan, Savitha",
+   "title": "Development of Semi-Supervised Machine Learning Models to Predict Enhancer Regions in Polygenic Developmental Diseases",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16317",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Systems Software",
+   "names": "Hussain, Suha",
+   "title": "A New Method for the Exploitation of Speech Recognition Systems",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16532",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Systems Software",
+   "names": "Paszkowski, Michal",
+   "title": "Pearfect - A Modern Interpreted Programming Language Which Efficiently Unites Functional and Object-Oriented Programming",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=14831",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Systems Software",
+   "names": "Patel, Mihir",
+   "title": "Optimizing Reinforcement Learning Through Dynamic Environment Manipulation",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15794",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Translational Medical Science",
+   "names": "Ahmed, Saadh",
+   "title": "Development of a Drug-Likeness Rule for Natural Products",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16172",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Translational Medical Science",
+   "names": "Chinya Salimpasha, Mohammed Suhail; Padma, Swasthik",
+   "title": "Ultralow-Cost Pre-Symptomatic Diagnostic Paper Tool for Protein-Energy Malnutrition",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16786",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  },
+  {
+   "category": "Translational Medical Science",
+   "names": "Saygin, Beril",
+   "title": "Methylene Blue May Mitigate Symptoms of Traumatic Brain Injury",
+   "source_urls": [
+    "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16396",
+    "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv"
+   ]
+  }
+ ],
+ "notes": "EVENT: Intel ISEF 2018, Pittsburgh, Pennsylvania, USA (host city confirmed by the Wikipedia ISEF article mirror on GitHub: 'ISEF 2018 (Pittsburgh, Pennsylvania)'). From memory and NOT re-verified in this session: held May 13-18, 2018 at the David L. Lawrence Convention Center, awards ceremony Friday May 18; Society press materials said approximately 1,800 finalists from 81 countries, regions and territories, ~US$5 million in awards. Observed in the local master CSV (export of the Society for Science abstracts database): 1,390 project rows for 2018 (projects, not finalists -- team projects are one row) from 82 distinct 'Fair Country' values, which include territories/regions (Guam, Puerto Rico, American Samoa, Northern Mariana Islands, US Virgin Islands, Hong Kong SAR, Macao SAR, Chinese Taipei, Northern Ireland, Palestine). METHOD/LIMITS: the session's WebSearch budget was already exhausted (200/200) before this task started, and the egress proxy blocks societyforscience.org, abstracts.societyforscience.org, sspcdn.blob.core.windows.net, wikipedia.org, web.archive.org and news sites; only github.com/raw.githubusercontent.com were reachable. Every record therefore comes from (a) /home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv, whose ProjectId column maps to https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=N and whose 'Awards Won' field reproduces the official award strings (e.g. 'Intel ISEF Best of Category Award of $5,000', 'First Award of $5,000', 'Gordon E. Moore Award', 'Intel Foundation Young Scientist Award', 'Dudley R. Herschbach SIYSS Award', 'European Union Contest for Young Scientists Award'), and (b) the GitHub mirror of the Wikipedia ISEF article (top-award names with hometowns). The official Society press releases ('Intel ISEF 2018 Grand Awards' / 'Special Awards', May 18 2018, cited by Wikipedia as 'Intel ISEF 2018', Society for Science & the Public, May 18, 2018) could not be fetched. TOP AWARDS: Gordon E. Moore Award US$75,000 -> Oliver Nicholls (Barker College, Sydney, Australia; Robotics and Intelligent Machines; also Best of Category + First Award + INCOSE honorable mention, IEEE Foundation 2nd $600, NASA 2nd $750). Two Intel Foundation Young Scientist Awards US$50,000 each -> Meghana Bollimpalli (Little Rock Central High School, Little Rock, AR; Chemistry; also Best of Category + First Award + ACS honorable mention) and Dhruvik Parikh (Henry M. Jackson High School, Bothell, WA; Energy: Chemical). Wikipedia mirror and CSV agree on all three names. Prize amounts ($75,000 / $50,000) are the standard 2018 amounts given in the task brief; the CSV award strings carry no dollar figure for these two awards. No Craig R. Barrett (2019+), Horvitz (2021+), Peggy Scripps (2022+), Yancopoulos (2023+) or Mary Sue Coleman awards existed in 2018. GRAND AWARD AMOUNTS 2018 (from the award strings): First $5,000, Second $2,000, Third $1,000, Fourth $500 (raised from 2017's $3,000/$1,500/$1,000/$500); Best of Category $5,000. CSV counts: 35 First, 68 Second, 102 Third, 136 Fourth, 166 special-awards-only, 882 no award. Every Best of Category winner also holds a First Award of $5,000 in the same category. BEST OF CATEGORY: 20 of the 22 categories are documented by an explicit 'Intel ISEF Best of Category Award of $5,000' string. The 21st entry, Energy: Chemical -> Dhruvik Parikh, is INFERRED, not read from a source: his CSV award string shows only 'Intel Foundation Young Scientist Award', but the Society selects the Moore and Young Scientist awards from among the Best of Category winners, and the export is systematically incomplete for exactly this category -- none of the 41 Energy: Chemical rows and none of the 58 Materials Science rows carries ANY grand-award string (First-Fourth), whereas every other category shows 1-2 First awards and 2-5 Second awards. Treat the Parikh BoC entry as highly probable but unverified. NOT FOUND: Materials Science Best of Category 2018 (and all Materials Science / Energy: Chemical First-Fourth grand awards). Daniel Kang (John F. Kennedy High School, Guam; Materials Science; 'Novel Graphene Nanoplatelet Embedded Pigmentless Emulsions for Low Cost Paintable Capacitive Sensors and Supercapacitors') won the EUCYS trip award, which usually goes to top-placing finalists, so he is a plausible candidate for the Materials Science BoC, but this is NOT asserted. SIYSS / EUCYS: two Dudley R. Herschbach SIYSS Award winners found -- Nabeel Quryshi (Biomedical and Health Sciences BoC) and Muhammad Abdulla (Mathematics BoC); the Society normally names 2-3 per year, so a third winner from the two gap categories cannot be excluded. Two European Union Contest for Young Scientists Award winners found -- Rhea Malhotra (Biochemistry BoC) and Daniel Kang (Materials Science). EUCYS 2018 took place in Dublin, Ireland (Sept 2018) -- from memory. OTHER NOTABLE FIRST AWARDS 2018: Krithik Ramesh (Cherry Creek HS, CO; Engineering Mechanics) who went on to win the 2019 Gordon E. Moore Award; Erin Smith (FacePrint, Behavioral and Social Sciences); Syamantak Payra (Robotics); Lillian Petersen (Earth and Environmental Sciences, food-shortage prediction from satellite imagery); Hwa Chong Institution team (Singapore, Chemistry); Aaron Hannon (Ireland, Embedded Systems). FIELD CONVENTIONS: 'names' are 'Last, First' as in the Society database, team members separated by '; '. 'school' comes from the database; 'location' gives the affiliated-fair state/country (the database does not carry home city) except for the three top winners whose hometown comes from the Wikipedia mirror. Minor normalisations: 'Lim , Bryan' -> 'Lim, Bryan', trailing spaces trimmed ('Wilson, Amanda', 'Tomov, Sofia'); 'Friedensschule Munster' kept without umlaut as in source. first_awards = all 35 First Award rows in the CSV (including the 20 explicit BoC winners); second_awards = all 68 Second Award rows. DISAGREEMENTS: none found between the two sources used. CATEGORIES 2018 (22): Animal Sciences; Behavioral and Social Sciences; Biochemistry; Biomedical and Health Sciences; Biomedical Engineering; Cellular and Molecular Biology; Chemistry; Computational Biology and Bioinformatics; Earth and Environmental Sciences; Embedded Systems; Energy: Chemical; Energy: Physical; Engineering Mechanics; Environmental Engineering; Materials Science; Mathematics; Microbiology; Physics and Astronomy; Plant Sciences; Robotics and Intelligent Machines; Systems Software; Translational Medical Science (no Technology Enhances the Arts yet).",
+ "sources_used": [
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15452",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15584",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16184",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15444",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=15252",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16620",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=16731",
+  "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=<ProjectId> (one URL per record, listed in each record's source_urls)",
+  "file:///home/user/Radon-and-Bradyseism-model/isef_research/data/isef_master_2017_2026.csv",
+  "https://raw.githubusercontent.com/rahuls321/Information-Retrieval-System/main/english-corpora/S00316.txt",
+  "https://github.com/rahuls321/Information-Retrieval-System/blob/main/english-corpora/S00316.txt",
+  "https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair"
+ ]
+}
